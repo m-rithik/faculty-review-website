@@ -106,5 +106,5 @@ if matches:
             # Submit button to save the review
             if st.button("Submit Review"):
                 st.success("Review submitted successfully!")
-        else:
-            st.write("No teachers found.")
+else:
+    st.write("No teachers found.")
