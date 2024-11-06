@@ -149,7 +149,7 @@ else:
 st.markdown(
     """
     <hr style="margin-top: 3rem;">
-    <div style="text-align: center; color: grey; font-size: 0.9rem;">
+    <div style="text-align: center; color: grey; font-size: 7.0rem;">
         Please contribute with reviews
     </div>
     """,
