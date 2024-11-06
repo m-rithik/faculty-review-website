@@ -1,46 +1,63 @@
 import streamlit as st
 import pandas as pd
 import re
+import os
 
 # Function to read teacher names and image URLs from the text file
 def load_teachers(file):
     teachers = []
     with open(file, 'r') as f:
         lines = f.readlines()
-        teacher_name = None
-        image_url = None
         for line in lines:
-            if line.startswith("Name:"):
-                teacher_name = line.strip().replace("Name: ", "")
-            elif line.startswith("Image:"):
-                image_url = line.strip().replace("Image: ", "")
-                if teacher_name and image_url:
-                    teachers.append((teacher_name, image_url))
-                    teacher_name, image_url = None, None  # Reset for the next entry
+            # Assuming the format is: Name: [name] URL: [image_url]
+            parts = line.strip().split(' URL: ')
+            if len(parts) == 2:
+                teachers.append((parts[0].replace('Name: ', ''), parts[1]))
     return teachers
 
 # Clean teacher names for search comparison
 def clean_name(name):
     return re.sub(r'^(dr|mr|ms)\s+', '', name.strip().lower())
 
-# Function to load ratings from the CSV file
+# Function to load ratings from CSV file (from GitHub URL)
 def load_ratings():
-    try:
-        ratings_df = pd.read_csv('ratings.csv', index_col=0)
-    except FileNotFoundError:
-        # If file doesn't exist, create an empty DataFrame
-        ratings_df = pd.DataFrame(columns=['leniency_rating', 'teaching_rating', 'correction_rating', 'da_quiz_rating', 'overall_rating'])
-    return ratings_df
+    file_path = 'ratings.csv'
 
-# Function to save ratings to the CSV file
+    # Check if the file exists
+    if not os.path.exists(file_path):
+        # If file doesn't exist, create an empty DataFrame with headers
+        ratings_df = pd.DataFrame(columns=[
+            'teacher_name', 'leniency_rating', 'teaching_rating', 'correction_rating', 'da_quiz_rating', 'overall_rating'
+        ])
+        ratings_df.to_csv(file_path, index=False)  # Create an empty file with headers
+        return ratings_df
+
+    # If file exists, try to load it
+    try:
+        ratings_df = pd.read_csv(file_path, index_col=0)
+        if ratings_df.empty:  # If the file is empty
+            ratings_df = pd.DataFrame(columns=[
+                'teacher_name', 'leniency_rating', 'teaching_rating', 'correction_rating', 'da_quiz_rating', 'overall_rating'
+            ])
+            ratings_df.to_csv(file_path, index=False)  # Ensure the empty file has headers
+        return ratings_df
+    except pd.errors.EmptyDataError:
+        # Handle the case when CSV is empty
+        ratings_df = pd.DataFrame(columns=[
+            'teacher_name', 'leniency_rating', 'teaching_rating', 'correction_rating', 'da_quiz_rating', 'overall_rating'
+        ])
+        ratings_df.to_csv(file_path, index=False)  # Create an empty file with headers
+        return ratings_df
+
+# Function to save ratings back to CSV (after update)
 def save_ratings(ratings_df):
-    ratings_df.to_csv('ratings.csv')
+    ratings_df.to_csv('ratings.csv', index=False)
 
 # Load teachers data
 teachers = load_teachers('SCOPE.txt')
 teachers_cleaned = [clean_name(teacher[0]) for teacher in teachers]
 
-# Load ratings data
+# Load ratings from the CSV file
 ratings_df = load_ratings()
 
 # Set up Streamlit UI
@@ -64,42 +81,66 @@ if matches:
         col1, col2 = st.columns([2, 1])  # Create two columns: one for the name, one for the image
 
         with col1:
-            st.subheader(f"Teacher: {teacher}")
+            st.subheader(f"Leave a review for {teacher}:")
 
-            # Rating sliders for leniency, teaching, correction, DA/Quiz
-            leniency_rating = st.slider(f"Leniency Rating for {teacher}", 1, 10, 5)
-            teaching_rating = st.slider(f"Teaching Rating for {teacher}", 1, 10, 5)
-            correction_rating = st.slider(f"Correction Rating for {teacher}", 1, 10, 5)
-            da_quiz_rating = st.slider(f"DA/Quiz Rating for {teacher}", 1, 10, 5)
+            # Get past ratings for the teacher (if available)
+            teacher_rating_data = ratings_df[ratings_df['teacher_name'] == teacher].iloc[0] if teacher in ratings_df['teacher_name'].values else None
+            teaching_rating = teacher_rating_data['teaching_rating'] if teacher_rating_data is not None else 5
+            leniency_rating = teacher_rating_data['leniency_rating'] if teacher_rating_data is not None else 5
+            correction_rating = teacher_rating_data['correction_rating'] if teacher_rating_data is not None else 5
+            da_quiz_rating = teacher_rating_data['da_quiz_rating'] if teacher_rating_data is not None else 5
+            overall_rating = teacher_rating_data['overall_rating'] if teacher_rating_data is not None else 3
 
-            # Calculate the overall rating as the average of the four ratings
-            overall_rating = (leniency_rating + teaching_rating + correction_rating + da_quiz_rating) / 4
-            overall_star_rating = (overall_rating / 2)  # Convert to a 0-5 scale for the stars
+            # Rating sliders for teaching, leniency, correction, and DA/Quiz (Range: 1-10)
+            teaching_rating = st.slider(f"Rating for Teaching for {teacher}", 1, 10, teaching_rating)
+            leniency_rating = st.slider(f"Rating for Leniency for {teacher}", 1, 10, leniency_rating)
+            correction_rating = st.slider(f"Rating for Correction for {teacher}", 1, 10, correction_rating)
+            da_quiz_rating = st.slider(f"Rating for DA/Quiz for {teacher}", 1, 10, da_quiz_rating)
 
-            # Update ratings in the dataframe
-            if teacher not in ratings_df.index:
-                ratings_df.loc[teacher] = [0, 0, 0, 0, 0]  # Initialize ratings if teacher not in DataFrame
+            # Calculate overall rating as an average of all individual ratings
+            overall_rating = (teaching_rating + leniency_rating + correction_rating + da_quiz_rating) / 4
+            overall_rating = round(overall_rating, 2)
 
-            # Save the ratings to the dataframe
-            ratings_df.at[teacher, 'leniency_rating'] = leniency_rating
-            ratings_df.at[teacher, 'teaching_rating'] = teaching_rating
-            ratings_df.at[teacher, 'correction_rating'] = correction_rating
-            ratings_df.at[teacher, 'da_quiz_rating'] = da_quiz_rating
-            ratings_df.at[teacher, 'overall_rating'] = overall_rating
+            # Update the ratings in the dataframe
+            if teacher not in ratings_df['teacher_name'].values:
+                ratings_df = ratings_df.append({
+                    'teacher_name': teacher,
+                    'leniency_rating': leniency_rating,
+                    'teaching_rating': teaching_rating,
+                    'correction_rating': correction_rating,
+                    'da_quiz_rating': da_quiz_rating,
+                    'overall_rating': overall_rating
+                }, ignore_index=True)
+            else:
+                ratings_df.loc[ratings_df['teacher_name'] == teacher, [
+                    'leniency_rating', 'teaching_rating', 'correction_rating', 'da_quiz_rating', 'overall_rating']] = [
+                    leniency_rating, teaching_rating, correction_rating, da_quiz_rating, overall_rating]
 
-            # Save the ratings back to the CSV
+            # Save the updated ratings to CSV
             save_ratings(ratings_df)
 
-            # Display the overall star rating with color coding
-            color = "red" if overall_star_rating <= 1 else "orange" if overall_star_rating <= 2 else "yellow" if overall_star_rating <= 3 else "lightgreen" if overall_star_rating <= 4 else "green"
-            st.markdown(f'<h3 style="color:{color}">Overall Rating: {overall_star_rating} / 5 ⭐</h3>', unsafe_allow_html=True)
+            # Display the updated ratings
+            st.write(f"Current Ratings (Out of 10):")
+            st.write(f"Teaching: {teaching_rating}")
+            st.write(f"Leniency: {leniency_rating}")
+            st.write(f"Correction: {correction_rating}")
+            st.write(f"DA/Quiz: {da_quiz_rating}")
+
+            # Display overall rating as a colored star
+            st.markdown(f"Overall Rating: {overall_rating} / 5")
+            st.progress(overall_rating / 5)  # Display as progress bar (scaled to 5)
 
         with col2:
             # Display the teacher's image
-            try:
-                st.image(image_url, caption=f"{teacher}'s Picture", use_column_width=True)
-            except Exception as e:
-                st.error(f"Error displaying image: {e}")
+            st.image(image_url, caption=f"{teacher}'s Picture", use_column_width=True)
 
+# Display reviews and ratings (if there are any reviews in the session state)
+if 'reviews' in st.session_state:
+    st.header("Current Reviews")
+    for teacher, review_data in st.session_state.reviews.items():
+        st.write(f"Reviews for {teacher}:")
+        st.write(f"Teaching: {review_data['teaching_review']} (Rating: {review_data['teaching_rating']}/10)")
+        st.write(f"Leniency: {review_data['leniency_review']} (Rating: {review_data['leniency_rating']}/10)")
+        st.write(f"Correction: {review_data['correction_review']} (Rating: {review_data['correction_rating']}/10)")
 else:
-    st.write("No teachers found.")
+    st.write("No reviews yet.")
