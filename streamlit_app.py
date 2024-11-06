@@ -13,7 +13,7 @@ def clean_name(name):
     return re.sub(r'^(dr|mr|ms)\s+', '', name.strip().lower())
 
 # Load teachers data from the correct file path
-teachers = load_teachers('/workspaces/facrev-app/scope.txt/hehe.txt')
+teachers = load_teachers('SCOPE.txt')
 teachers_cleaned = [clean_name(teacher) for teacher in teachers]
 
 # Set up Streamlit UI
