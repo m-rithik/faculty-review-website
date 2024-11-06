@@ -43,7 +43,6 @@ else:
 # Create a session state to store the reviews and votes
 if 'reviews' not in st.session_state:
     st.session_state.reviews = {}
-    st.session_state.total_reviews = {}
 
 # Display the search results
 if matches:
