@@ -40,9 +40,10 @@ if search_query:
 else:
     matches = []
 
-# Create a session state to store the reviews
+# Create a session state to store the reviews and votes
 if 'reviews' not in st.session_state:
     st.session_state.reviews = {}
+    st.session_state.votes = {}
 
 # Display the search results
 if matches:
@@ -66,18 +67,57 @@ if matches:
             # Submit button for saving reviews
             if st.button(f"Submit Review for {teacher}"):
                 # Save the ratings in session state
-                st.session_state.reviews[teacher] = {
-                    'teaching': teaching_rating,
-                    'leniency': leniency_rating,
-                    'correction': correction_rating,
-                    'da_quiz': da_quiz_rating,
-                    'overall': overall_rating
-                }
+                if teacher not in st.session_state.reviews:
+                    st.session_state.reviews[teacher] = {
+                        'teaching': 0,
+                        'leniency': 0,
+                        'correction': 0,
+                        'da_quiz': 0,
+                        'overall': 0
+                    }
+                    st.session_state.votes[teacher] = {
+                        'teaching': 0,
+                        'leniency': 0,
+                        'correction': 0,
+                        'da_quiz': 0
+                    }
+                
+                # Update the review ratings and increment votes
+                st.session_state.reviews[teacher]['teaching'] += teaching_rating
+                st.session_state.reviews[teacher]['leniency'] += leniency_rating
+                st.session_state.reviews[teacher]['correction'] += correction_rating
+                st.session_state.reviews[teacher]['da_quiz'] += da_quiz_rating
+
+                # Increment the vote counts
+                st.session_state.votes[teacher]['teaching'] += 1
+                st.session_state.votes[teacher]['leniency'] += 1
+                st.session_state.votes[teacher]['correction'] += 1
+                st.session_state.votes[teacher]['da_quiz'] += 1
+
+                # Update the overall rating
+                st.session_state.reviews[teacher]['overall'] = (
+                    (st.session_state.reviews[teacher]['teaching'] +
+                     st.session_state.reviews[teacher]['leniency'] +
+                     st.session_state.reviews[teacher]['correction'] +
+                     st.session_state.reviews[teacher]['da_quiz']) /
+                    (st.session_state.votes[teacher]['teaching'] +
+                     st.session_state.votes[teacher]['leniency'] +
+                     st.session_state.votes[teacher]['correction'] +
+                     st.session_state.votes[teacher]['da_quiz'])
+                )
+                st.session_state.reviews[teacher]['overall'] = round(st.session_state.reviews[teacher]['overall'], 2)
+                
                 st.success(f"Review for {teacher} submitted successfully!")
 
             # Display the overall rating as a progress bar
-            st.markdown(f"Overall Rating: {overall_rating} / 10")
-            st.progress(overall_rating / 10)  # Display as progress bar (scaled to 10)
+            st.markdown(f"Overall Rating: {st.session_state.reviews[teacher]['overall']} / 10")
+            st.progress(st.session_state.reviews[teacher]['overall'] / 10)  # Display as progress bar (scaled to 10)
+
+            # Display the number of votes
+            st.write(f"Votes for Teaching: {st.session_state.votes[teacher]['teaching']}")
+            st.write(f"Votes for Leniency: {st.session_state.votes[teacher]['leniency']}")
+            st.write(f"Votes for Correction: {st.session_state.votes[teacher]['correction']}")
+            st.write(f"Votes for DA/Quiz: {st.session_state.votes[teacher]['da_quiz']}")
 
         with col2:
             # Display the teacher's image
@@ -90,11 +130,11 @@ if matches:
         if teacher in st.session_state.reviews:
             review = st.session_state.reviews[teacher]
             st.write(f"Previous Review for {teacher}:")
-            st.write(f"Teaching: {review['teaching']} / 10")
-            st.write(f"Leniency: {review['leniency']} / 10")
-            st.write(f"Correction: {review['correction']} / 10")
-            st.write(f"DA/Quiz: {review['da_quiz']} / 10")
-            st.write(f"Overall: {review['overall']} / 10")
+            st.write(f"Teaching: {review['teaching']} / {st.session_state.votes[teacher]['teaching']} votes")
+            st.write(f"Leniency: {review['leniency']} / {st.session_state.votes[teacher]['leniency']} votes")
+            st.write(f"Correction: {review['correction']} / {st.session_state.votes[teacher]['correction']} votes")
+            st.write(f"DA/Quiz: {review['da_quiz']} / {st.session_state.votes[teacher]['da_quiz']} votes")
+            st.write(f"Overall: {review['overall']} / 10 (based on {sum(st.session_state.votes[teacher].values())} votes)")
 
 else:
     st.write("No teachers found.")
