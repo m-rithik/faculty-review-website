@@ -83,20 +83,34 @@ if matches:
             submit_button = st.button("Submit Review")
             
             if submit_button:
-                # Update the reviews only when the button is clicked
-                st.session_state.reviews[teacher]['teaching'] = teaching
-                st.session_state.reviews[teacher]['leniency'] = leniency
-                st.session_state.reviews[teacher]['correction'] = correction
-                st.session_state.reviews[teacher]['da_quiz'] = da_quiz
-                
+                # Combine new ratings with old data and calculate the new overall score
+
+                # Retrieve previous reviews
+                old_teaching = st.session_state.reviews[teacher]['teaching']
+                old_leniency = st.session_state.reviews[teacher]['leniency']
+                old_correction = st.session_state.reviews[teacher]['correction']
+                old_da_quiz = st.session_state.reviews[teacher]['da_quiz']
+
+                # Calculate the average of old and new ratings (normalize to out of 10)
+                combined_teaching = (old_teaching + teaching) / 2
+                combined_leniency = (old_leniency + leniency) / 2
+                combined_correction = (old_correction + correction) / 2
+                combined_da_quiz = (old_da_quiz + da_quiz) / 2
+
+                # Update the reviews in session state
+                st.session_state.reviews[teacher]['teaching'] = combined_teaching
+                st.session_state.reviews[teacher]['leniency'] = combined_leniency
+                st.session_state.reviews[teacher]['correction'] = combined_correction
+                st.session_state.reviews[teacher]['da_quiz'] = combined_da_quiz
+
                 # Update total reviews and rating points
                 st.session_state.reviews[teacher]['user_reviews'] += 1
-                st.session_state.reviews[teacher]['total_reviews'] += teaching + leniency + correction + da_quiz
-                
+                st.session_state.reviews[teacher]['total_reviews'] += combined_teaching + combined_leniency + combined_correction + combined_da_quiz
+
                 # Calculate the overall rating
-                overall_rating = (teaching + leniency + correction + da_quiz) / 4
+                overall_rating = (combined_teaching + combined_leniency + combined_correction + combined_da_quiz) / 4
                 st.session_state.reviews[teacher]['overall'] = overall_rating
-                
+
                 # Display success message
                 st.success("Review submitted successfully!")
 
