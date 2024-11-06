@@ -6,11 +6,16 @@ def load_teachers(file):
     teachers = []
     with open(file, 'r') as f:
         lines = f.readlines()
+        teacher_name = None
+        image_url = None
         for line in lines:
-            # Assuming the format is: Name: [name] Image: [image_url]
-            parts = line.strip().split(' Image: ')
-            if len(parts) == 2:
-                teachers.append((parts[0].replace('Name: ', ''), parts[1]))
+            if line.startswith("Name:"):
+                teacher_name = line.strip().replace("Name: ", "")
+            elif line.startswith("Image:"):
+                image_url = line.strip().replace("Image: ", "")
+                if teacher_name and image_url:
+                    teachers.append((teacher_name, image_url))
+                    teacher_name, image_url = None, None  # Reset for the next entry
     return teachers
 
 # Clean teacher names for search comparison
@@ -23,7 +28,7 @@ teachers_cleaned = [clean_name(teacher[0]) for teacher in teachers]
 
 # Set up Streamlit UI
 st.title("Teacher Review System")
-st.header("Leave a Review for Teaching, Leniency, Correction, and DA/Quiz (Out of 10)")
+st.header("Search for a Teacher")
 
 # Search bar (case insensitive and ignore titles like Dr, Mr, Ms)
 search_query = st.text_input("Search for a teacher:")
@@ -33,7 +38,11 @@ if search_query:
     search_query_cleaned = clean_name(search_query)
     matches = [teachers[i] for i in range(len(teachers_cleaned)) if search_query_cleaned in teachers_cleaned[i]]
 else:
-    matches = teachers  # If no search, show all teachers
+    matches = []
+
+# Create a session state to store the reviews
+if 'reviews' not in st.session_state:
+    st.session_state.reviews = {}
 
 # Display the search results
 if matches:
@@ -42,32 +51,50 @@ if matches:
         col1, col2 = st.columns([2, 1])  # Create two columns: one for the name, one for the image
 
         with col1:
-            st.subheader(f"Leave a review for {teacher}:")
+            st.subheader(f"Teacher: {teacher}")
 
-            # Rating sliders for teaching, leniency, correction, and DA/Quiz (Range: 1-10)
-            teaching_rating = st.slider(f"Rating for Teaching for {teacher}", 1, 10, 5)
-            leniency_rating = st.slider(f"Rating for Leniency for {teacher}", 1, 10, 5)
-            correction_rating = st.slider(f"Rating for Correction for {teacher}", 1, 10, 5)
-            da_quiz_rating = st.slider(f"Rating for DA/Quiz for {teacher}", 1, 10, 5)
+            # Review inputs for ratings (Teaching, Leniency, Correction, DA/Quiz)
+            teaching_rating = st.slider(f"Teaching Rating for {teacher}", 1, 10, 5)
+            leniency_rating = st.slider(f"Leniency Rating for {teacher}", 1, 10, 5)
+            correction_rating = st.slider(f"Correction Rating for {teacher}", 1, 10, 5)
+            da_quiz_rating = st.slider(f"DA/Quiz Rating for {teacher}", 1, 10, 5)
 
-            # Calculate overall rating as an average of all individual ratings
+            # Overall rating calculation (average of all ratings)
             overall_rating = (teaching_rating + leniency_rating + correction_rating + da_quiz_rating) / 4
             overall_rating = round(overall_rating, 2)
 
-            # Display the updated ratings
-            st.write(f"Current Ratings (Out of 10):")
-            st.write(f"Teaching: {teaching_rating}")
-            st.write(f"Leniency: {leniency_rating}")
-            st.write(f"Correction: {correction_rating}")
-            st.write(f"DA/Quiz: {da_quiz_rating}")
+            # Submit button for saving reviews
+            if st.button(f"Submit Review for {teacher}"):
+                # Save the ratings in session state
+                st.session_state.reviews[teacher] = {
+                    'teaching': teaching_rating,
+                    'leniency': leniency_rating,
+                    'correction': correction_rating,
+                    'da_quiz': da_quiz_rating,
+                    'overall': overall_rating
+                }
+                st.success(f"Review for {teacher} submitted successfully!")
 
-            # Display overall rating as a colored star
-            st.markdown(f"Overall Rating: {overall_rating} / 5")
-            st.progress(overall_rating / 5)  # Display as progress bar (scaled to 5)
+            # Display the overall rating as a progress bar
+            st.markdown(f"Overall Rating: {overall_rating} / 10")
+            st.progress(overall_rating / 10)  # Display as progress bar (scaled to 10)
 
         with col2:
             # Display the teacher's image
-            st.image(image_url, caption=f"{teacher}'s Picture", use_column_width=True)
+            try:
+                st.image(image_url, caption=f"{teacher}'s Picture", use_column_width=True)
+            except Exception as e:
+                st.error(f"Error displaying image: {e}")
+
+        # Show the stored reviews for this teacher if already reviewed
+        if teacher in st.session_state.reviews:
+            review = st.session_state.reviews[teacher]
+            st.write(f"Previous Review for {teacher}:")
+            st.write(f"Teaching: {review['teaching']} / 10")
+            st.write(f"Leniency: {review['leniency']} / 10")
+            st.write(f"Correction: {review['correction']} / 10")
+            st.write(f"DA/Quiz: {review['da_quiz']} / 10")
+            st.write(f"Overall: {review['overall']} / 10")
 
 else:
-    st.write("No teachers found or no matching results.")
+    st.write("No teachers found.")
