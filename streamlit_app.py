@@ -6,13 +6,17 @@ import os
 # Function to read teacher names and image URLs from the text file
 def load_teachers(file):
     teachers = []
-    with open(file, 'r') as f:
-        lines = f.readlines()
-        for line in lines:
-            # Assuming the format is: Name: [name] URL: [image_url]
-            parts = line.strip().split(' Image: ')
-            if len(parts) == 2:
-                teachers.append((parts[0].replace('Name: ', ''), parts[1]))  # Removing 'Name: ' and keeping name
+    try:
+        with open(file, 'r') as f:
+            lines = f.readlines()
+            for line in lines:
+                # Assuming the format is: Name: [name] Image: [image_url]
+                parts = line.strip().split(' Image: ')
+                if len(parts) == 2:
+                    teachers.append((parts[0].replace('Name: ', ''), parts[1]))  # Removing 'Name: ' and keeping name
+        print(f"Teachers loaded: {teachers}")  # Debug print
+    except Exception as e:
+        print(f"Error loading teachers: {e}")  # Debug error message
     return teachers
 
 # Clean teacher names for search comparison
@@ -56,6 +60,9 @@ def save_ratings(ratings_df):
 # Load teachers data
 teachers = load_teachers('SCOPE.txt')
 teachers_cleaned = [clean_name(teacher[0]) for teacher in teachers]
+
+# Verify if teachers were loaded successfully
+print(f"Loaded teachers: {teachers}")  # Debug print
 
 # Load ratings from the CSV file
 ratings_df = load_ratings()
@@ -134,13 +141,5 @@ if matches:
             # Display the teacher's image
             st.image(image_url, caption=f"{teacher}'s Picture", use_column_width=True)
 
-# Display reviews and ratings (if there are any reviews in the session state)
-if 'reviews' in st.session_state:
-    st.header("Current Reviews")
-    for teacher, review_data in st.session_state.reviews.items():
-        st.write(f"Reviews for {teacher}:")
-        st.write(f"Teaching: {review_data['teaching_review']} (Rating: {review_data['teaching_rating']}/10)")
-        st.write(f"Leniency: {review_data['leniency_review']} (Rating: {review_data['leniency_rating']}/10)")
-        st.write(f"Correction: {review_data['correction_review']} (Rating: {review_data['correction_rating']}/10)")
 else:
-    st.write("No reviews yet.")
+    st.write("No teachers found or no matching results.")
