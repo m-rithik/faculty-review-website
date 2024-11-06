@@ -1,5 +1,7 @@
 import streamlit as st
 import re
+import csv
+import os
 
 # Function to read teacher names and image URLs from the text file
 def load_teachers(file):
@@ -40,9 +42,38 @@ if search_query:
 else:
     matches = []
 
-# Create a session state to store the reviews and votes
+# Function to load saved reviews from CSV
+def load_reviews():
+    reviews = {}
+    if os.path.exists('ratings.csv'):
+        with open('ratings.csv', mode='r', newline='', encoding='utf-8') as file:
+            reader = csv.reader(file)
+            for row in reader:
+                if row:  # Skip empty rows
+                    teacher_name = row[0]
+                    teaching, leniency, correction, da_quiz = map(int, row[1:5])
+                    if teacher_name not in reviews:
+                        reviews[teacher_name] = {'ratings': [], 'overall': 0}
+                    reviews[teacher_name]['ratings'].append((teaching, leniency, correction, da_quiz))
+                    reviews[teacher_name]['overall'] = calculate_overall_rating(reviews[teacher_name]['ratings'])
+    return reviews
+
+# Function to save reviews to CSV
+def save_reviews():
+    with open('ratings.csv', mode='w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        for teacher_name, data in st.session_state.reviews.items():
+            for rating in data['ratings']:
+                writer.writerow([teacher_name] + list(rating))
+
+# Function to calculate overall rating (based on existing ratings)
+def calculate_overall_rating(ratings):
+    total_rating = sum([sum(rating) for rating in ratings])
+    return total_rating / (len(ratings) * 4) if ratings else 0
+
+# Load reviews into session state
 if 'reviews' not in st.session_state:
-    st.session_state.reviews = {}
+    st.session_state.reviews = load_reviews()
 
 # Display the search results
 if matches:
@@ -56,21 +87,16 @@ if matches:
             # Initialize teacher's reviews in session state if not already present
             if teacher not in st.session_state.reviews:
                 st.session_state.reviews[teacher] = {
-                    'teaching': 0,
-                    'leniency': 0,
-                    'correction': 0,
-                    'da_quiz': 0,
-                    'overall': 0,
-                    'user_reviews': 0,  # Track total reviews for the teacher
-                    'total_reviews': 0  # Track total rating points (teaching + leniency + correction + da_quiz)
+                    'ratings': [],  # Store all individual ratings as a list of tuples (teaching, leniency, correction, da_quiz)
+                    'overall': 0     # Overall rating
                 }
 
             # User input section (ratings for the teacher)
             st.markdown("### **Rate the Teacher**")
-            teaching = st.slider("Teaching:", 0, 10, st.session_state.reviews[teacher]['teaching'] if st.session_state.reviews[teacher]['teaching'] > 0 else 0)
-            leniency = st.slider("Leniency:", 0, 10, st.session_state.reviews[teacher]['leniency'] if st.session_state.reviews[teacher]['leniency'] > 0 else 0)
-            correction = st.slider("Correction:", 0, 10, st.session_state.reviews[teacher]['correction'] if st.session_state.reviews[teacher]['correction'] > 0 else 0)
-            da_quiz = st.slider("DA/Quiz:", 0, 10, st.session_state.reviews[teacher]['da_quiz'] if st.session_state.reviews[teacher]['da_quiz'] > 0 else 0)
+            teaching = st.slider("Teaching:", 0, 10)
+            leniency = st.slider("Leniency:", 0, 10)
+            correction = st.slider("Correction:", 0, 10)
+            da_quiz = st.slider("DA/Quiz:", 0, 10)
 
             # Display the teacher's image in a smaller size
             with col2:
@@ -83,63 +109,36 @@ if matches:
             submit_button = st.button("Submit Review")
             
             if submit_button:
-                # Combine new ratings with old data and calculate the new overall score
-
-                # Retrieve previous reviews
-                old_teaching = st.session_state.reviews[teacher]['teaching']
-                old_leniency = st.session_state.reviews[teacher]['leniency']
-                old_correction = st.session_state.reviews[teacher]['correction']
-                old_da_quiz = st.session_state.reviews[teacher]['da_quiz']
-
-                # Calculate the average of old and new ratings (normalize to out of 10)
-                combined_teaching = (old_teaching + teaching) / 2
-                combined_leniency = (old_leniency + leniency) / 2
-                combined_correction = (old_correction + correction) / 2
-                combined_da_quiz = (old_da_quiz + da_quiz) / 2
-
-                # Update the reviews in session state
-                st.session_state.reviews[teacher]['teaching'] = combined_teaching
-                st.session_state.reviews[teacher]['leniency'] = combined_leniency
-                st.session_state.reviews[teacher]['correction'] = combined_correction
-                st.session_state.reviews[teacher]['da_quiz'] = combined_da_quiz
-
-                # Update total reviews and rating points
-                st.session_state.reviews[teacher]['user_reviews'] += 1
-                st.session_state.reviews[teacher]['total_reviews'] += combined_teaching + combined_leniency + combined_correction + combined_da_quiz
-
+                # Save the ratings in session state
+                st.session_state.reviews[teacher]['ratings'].append((teaching, leniency, correction, da_quiz))
+                
                 # Calculate the overall rating
-                overall_rating = (combined_teaching + combined_leniency + combined_correction + combined_da_quiz) / 4
+                overall_rating = calculate_overall_rating(st.session_state.reviews[teacher]['ratings'])
                 st.session_state.reviews[teacher]['overall'] = overall_rating
-
+                
+                # Save the updated reviews to the CSV file
+                save_reviews()
+                
                 # Display success message
                 st.success("Review submitted successfully!")
 
-        # Section 2: Overall Rating and Previous Votes
-        if st.session_state.reviews[teacher]['user_reviews'] > 0:
-            # Highlighted Section with Overall Rating and Previous Reviews
+        # Section 2: Overall Rating and Previous Reviews
+        if st.session_state.reviews[teacher]['ratings']:
             st.markdown("---")
-            st.markdown("### **Overall Rating**", unsafe_allow_html=True)
+            st.markdown("### **Overall Rating**")
             
-            # Calculate average overall rating
-            total_reviews = st.session_state.reviews[teacher]['user_reviews']
-            avg_overall = st.session_state.reviews[teacher]['total_reviews'] / (total_reviews * 4) if total_reviews > 0 else 0
-            avg_overall = round(avg_overall, 2)  # Overall rating on 0-10 scale
-
-            # Ensure avg_overall is between 0 and 1 before multiplying by 100
-            avg_overall = min(max(avg_overall, 0), 1)
-
+            # Calculate average overall rating (without approximating)
+            overall_rating = st.session_state.reviews[teacher]['overall']
+            
             # Display the overall rating in the overall rating box
-            st.markdown(f"**Overall Rating (based on {total_reviews} reviews):**")
-            st.markdown(f"{avg_overall * 10} / 10", unsafe_allow_html=True)  # Display on 10-point scale
+            st.markdown(f"**Overall Rating (based on {len(st.session_state.reviews[teacher]['ratings'])} reviews):**")
+            st.markdown(f"{overall_rating:.2f} / 10", unsafe_allow_html=True)  # Display on 10-point scale
             
-            # Display the progress bar (scaled from 0 to 100)
-            st.progress(avg_overall * 100, text="Rating is good" if avg_overall > 0.7 else "Rating is average" if avg_overall > 0.4 else "Rating is poor")
-
-            # Display reviews and their individual ratings with colors based on rating
+            # Display reviews and their individual ratings
             st.markdown("### **REVIEWS**")
-            st.write("**Teaching:**", f"{st.session_state.reviews[teacher]['teaching']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['teaching'] > 5 else 'red' if st.session_state.reviews[teacher]['teaching'] < 5 else 'yellow'};")
-            st.write("**Leniency:**", f"{st.session_state.reviews[teacher]['leniency']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['leniency'] > 5 else 'red' if st.session_state.reviews[teacher]['leniency'] < 5 else 'yellow'};")
-            st.write("**Correction:**", f"{st.session_state.reviews[teacher]['correction']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['correction'] > 5 else 'red' if st.session_state.reviews[teacher]['correction'] < 5 else 'yellow'};")
-            st.write("**DA/Quiz:**", f"{st.session_state.reviews[teacher]['da_quiz']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['da_quiz'] > 5 else 'red' if st.session_state.reviews[teacher]['da_quiz'] < 5 else 'yellow'};")
+            for idx, rating in enumerate(st.session_state.reviews[teacher]['ratings']):
+                st.write(f"**Review {idx + 1}:**")
+                st.write(f"Teaching: {rating[0]}/10, Leniency: {rating[1]}/10, Correction: {rating[2]}/10, DA/Quiz: {rating[3]}/10")
+
 else:
     st.write("No teachers found.")
