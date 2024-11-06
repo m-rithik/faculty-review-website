@@ -111,20 +111,16 @@ if matches:
             avg_overall = st.session_state.reviews[teacher]['total_reviews'] / (total_reviews * 4) if total_reviews > 0 else 0
             avg_overall = round(avg_overall, 2)  # Overall rating on 0-10 scale
 
+            # Ensure avg_overall is between 0 and 1 before multiplying by 100
+            avg_overall = min(max(avg_overall, 0), 1)
+
             # Display the overall rating in the overall rating box
             st.markdown(f"**Overall Rating (based on {total_reviews} reviews):**")
-            st.markdown(f"{avg_overall} / 10", unsafe_allow_html=True)  # Display on 10-point scale
+            st.markdown(f"{avg_overall * 10} / 10", unsafe_allow_html=True)  # Display on 10-point scale
             
             # Display the progress bar (scaled from 0 to 100)
             st.progress(avg_overall * 100, text="Rating is good" if avg_overall > 0.7 else "Rating is average" if avg_overall > 0.4 else "Rating is poor")
 
-            # Always visible dropdown with the old data
-            st.markdown("### **Current Ratings**")
-            st.selectbox("Current Teaching Rating:", [f"{st.session_state.reviews[teacher]['teaching']}/10"], disabled=True)
-            st.selectbox("Current Leniency Rating:", [f"{st.session_state.reviews[teacher]['leniency']}/10"], disabled=True)
-            st.selectbox("Current Correction Rating:", [f"{st.session_state.reviews[teacher]['correction']}/10"], disabled=True)
-            st.selectbox("Current DA/Quiz Rating:", [f"{st.session_state.reviews[teacher]['da_quiz']}/10"], disabled=True)
-            
             # Display reviews and their individual ratings with colors based on rating
             st.markdown("### **REVIEWS**")
             st.write("**Teaching:**", f"{st.session_state.reviews[teacher]['teaching']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['teaching'] > 5 else 'red' if st.session_state.reviews[teacher]['teaching'] < 5 else 'yellow'};")
