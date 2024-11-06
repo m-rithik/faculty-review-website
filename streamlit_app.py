@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import re
+import time
 
 # Function to read teacher names and image URLs from the text file
 def load_teachers(file):
@@ -62,11 +63,14 @@ if matches:
 
         with col1:
             st.subheader(f"Leave a review for {teacher}:")
-            
+
             # Rating sliders for teaching, leniency, and correction (Range: 1-10)
             teaching_rating = st.slider(f"Rating for Teaching for {teacher}", 1, 10, 5)
             leniency_rating = st.slider(f"Rating for Leniency for {teacher}", 1, 10, 5)
             correction_rating = st.slider(f"Rating for Correction for {teacher}", 1, 10, 5)
+
+            # Create a placeholder for the loading bar
+            progress = st.progress(0)
 
             # Update the ratings in the dataframe
             if teacher not in ratings_df.index:
@@ -95,6 +99,11 @@ if matches:
             ratings_df.at[teacher, 'teaching_votes'] = current_teaching_votes + 1
             ratings_df.at[teacher, 'leniency_votes'] = current_leniency_votes + 1
             ratings_df.at[teacher, 'correction_votes'] = current_correction_votes + 1
+
+            # Simulate a delay (for example, saving or processing)
+            for i in range(100):
+                time.sleep(0.05)  # Simulate processing delay
+                progress.progress(i + 1)  # Update the progress bar
 
             # Save ratings after updating
             save_ratings(ratings_df)
