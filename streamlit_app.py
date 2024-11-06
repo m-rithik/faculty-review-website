@@ -144,3 +144,14 @@ if matches:
 
 else:
     st.write("No teachers found.")
+
+# Footer message
+st.markdown(
+    """
+    <hr style="margin-top: 3rem;">
+    <div style="text-align: center; color: grey; font-size: 0.9rem;">
+        Please contribute with reviews
+    </div>
+    """,
+    unsafe_allow_html=True
+)
