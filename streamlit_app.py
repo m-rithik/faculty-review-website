@@ -67,10 +67,10 @@ if matches:
 
             # User input section (ratings for the teacher)
             st.markdown("### **Rate the Teacher**")
-            teaching = st.slider("Teaching:", 0, 10, st.session_state.reviews[teacher]['teaching'])
-            leniency = st.slider("Leniency:", 0, 10, st.session_state.reviews[teacher]['leniency'])
-            correction = st.slider("Correction:", 0, 10, st.session_state.reviews[teacher]['correction'])
-            da_quiz = st.slider("DA/Quiz:", 0, 10, st.session_state.reviews[teacher]['da_quiz'])
+            teaching = st.slider("Teaching:", 0, 10, st.session_state.reviews[teacher]['teaching'] if st.session_state.reviews[teacher]['teaching'] > 0 else 0)
+            leniency = st.slider("Leniency:", 0, 10, st.session_state.reviews[teacher]['leniency'] if st.session_state.reviews[teacher]['leniency'] > 0 else 0)
+            correction = st.slider("Correction:", 0, 10, st.session_state.reviews[teacher]['correction'] if st.session_state.reviews[teacher]['correction'] > 0 else 0)
+            da_quiz = st.slider("DA/Quiz:", 0, 10, st.session_state.reviews[teacher]['da_quiz'] if st.session_state.reviews[teacher]['da_quiz'] > 0 else 0)
 
             # Display the teacher's image in a smaller size
             with col2:
