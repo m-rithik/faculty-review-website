@@ -106,27 +106,22 @@ if matches:
             st.markdown("---")
             st.markdown("### **Overall Rating**", unsafe_allow_html=True)
             
-           # Calculate average overall rating based on total reviews
-total_reviews = st.session_state.reviews[teacher]['user_reviews']
-avg_overall = st.session_state.reviews[teacher]['total_reviews'] / (total_reviews * 4) if total_reviews > 0 else 0
-avg_overall = round(avg_overall, 2)  # Average overall on 0-1 scale
+            # Calculate average overall rating
+            total_reviews = st.session_state.reviews[teacher]['user_reviews']
+            avg_overall = st.session_state.reviews[teacher]['total_reviews'] / (total_reviews * 4) if total_reviews > 0 else 0
+            avg_overall = round(avg_overall, 2)  # Average overall on 0-1 scale
 
-# When showing rating in the progress bar, don't scale by 10
-with st.expander("See Previous Reviews", expanded=True):
-    st.markdown(f"**Overall Rating (based on {total_reviews} reviews):**")
-    st.markdown(f"{avg_overall * 10} / 10", unsafe_allow_html=True)  # This line shows the rating on 10-point scale
-    
-    # Display the overall rating in the progress bar on 0-1 scale
-    st.progress(avg_overall, text="Rating is good" if avg_overall > 0.7 else "Rating is average" if avg_overall > 0.4 else "Rating is poor")
+            # Display the overall rating in the progress bar on 0-1 scale
+            st.progress(avg_overall, text="Rating is good" if avg_overall > 0.7 else "Rating is average" if avg_overall > 0.4 else "Rating is poor")
+
+            # Display overall rating and previous reviews in a box
+            rating_color = 'green' if avg_overall > 0.7 else 'yellow' if avg_overall > 0.4 else 'red'
 
             with st.expander("See Previous Reviews", expanded=True):
                 st.markdown(f"**Overall Rating (based on {total_reviews} reviews):**")
-                st.markdown(f"{avg_overall * 10} / 10", unsafe_allow_html=True)
+                st.markdown(f"{avg_overall * 10} / 10", unsafe_allow_html=True)  # This line shows the rating on 10-point scale
                 
-                # Fix: Scale avg_overall to 0-1 for the progress bar
-                st.progress(avg_overall, text="Rating is good" if avg_overall > 0.7 else "Rating is average" if avg_overall > 0.4 else "Rating is poor")
-
-                # Display reviews and their individual ratings
+                # Display reviews and their individual ratings with colors based on rating
                 st.markdown("### **REVIEWS**")
                 st.write("**Teaching:**", f"{st.session_state.reviews[teacher]['teaching']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['teaching'] > 5 else 'red' if st.session_state.reviews[teacher]['teaching'] < 5 else 'yellow'};")
                 st.write("**Leniency:**", f"{st.session_state.reviews[teacher]['leniency']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['leniency'] > 5 else 'red' if st.session_state.reviews[teacher]['leniency'] < 5 else 'yellow'};")
