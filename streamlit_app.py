@@ -15,9 +15,11 @@ def load_teachers(file):
                 teachers.append((parts[0].replace('Name: ', ''), parts[1]))
     return teachers
 
-# Clean teacher names for search comparison
+# Clean teacher names for search comparison (removes titles like Prof, Dr, Mr, Ms)
 def clean_name(name):
-    return re.sub(r'^(dr|mr|ms)\s+', '', name.strip().lower())
+    # Remove common titles (Prof, Dr, Mr, Ms)
+    name = re.sub(r'^(dr|mr|ms|prof)\s+', '', name.strip(), flags=re.IGNORECASE)
+    return name.lower()
 
 # Function to load ratings from CSV file (from GitHub URL)
 def load_ratings():
@@ -45,7 +47,7 @@ ratings_df = load_ratings()
 st.title("Teacher Review System")
 st.header("Leave a Review for Teaching, Leniency, and Correction (Out of 10)")
 
-# Search bar (case insensitive and ignore titles like Dr, Mr, Ms)
+# Search bar (case insensitive and ignore titles like Prof, Dr, Mr, Ms)
 search_query = st.text_input("Search for a teacher:")
 
 # Find matching teachers based on the search query
@@ -115,8 +117,14 @@ if matches:
             st.write(f"Correction: {ratings_df.at[teacher, 'correction_rating']} (Votes: {ratings_df.at[teacher, 'correction_votes']})")
 
         with col2:
-            # Display the teacher's image
-            st.image(image_url, caption=f"{teacher}'s Picture", use_column_width=True)
+            # Check if the image URL is valid and display the image
+            if image_url:
+                try:
+                    st.image(image_url, caption=f"{teacher}'s Picture", use_column_width=True)
+                except Exception as e:
+                    st.error(f"Error loading image for {teacher}: {e}")
+            else:
+                st.write("No image available.")
 
 # Display reviews and ratings (if there are any reviews in the session state)
 if 'reviews' in st.session_state:
