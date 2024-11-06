@@ -1,0 +1,109 @@
+import streamlit as st
+import pandas as pd
+import re
+import os
+
+# Function to read teacher names from SCOPE.txt
+def load_teachers(file):
+    with open(file, 'r') as f:
+        teachers = f.readlines()
+    return [teacher.strip() for teacher in teachers]
+
+# Clean teacher names for search comparison
+def clean_name(name):
+    return re.sub(r'^(dr|mr|ms)\s+', '', name.strip().lower())
+
+# Load teachers data from the correct file path
+teachers = load_teachers('SCOPE.txt')
+teachers_cleaned = [clean_name(teacher) for teacher in teachers]
+
+# Check if ratings.csv exists, if not create it
+ratings_file = 'ratings.csv'
+
+if not os.path.exists(ratings_file):
+    # Create a new CSV file with appropriate columns
+    df = pd.DataFrame(columns=['teacher', 'teaching_rating', 'leniency_rating', 'correction_rating', 'teaching_votes', 'leniency_votes', 'correction_votes'])
+    df.to_csv(ratings_file, index=False)
+
+# Load the existing ratings data
+ratings_df = pd.read_csv(ratings_file)
+
+# Set up Streamlit UI
+st.title("Teacher Review System")
+st.header("Leave a Review ")
+
+# Search bar (case insensitive and ignore titles like Dr, Mr, Ms)
+search_query = st.text_input("Search for a teacher:")
+
+# Find matching teachers based on the search query
+if search_query:
+    search_query_cleaned = clean_name(search_query)
+    matches = [teachers[i] for i in range(len(teachers_cleaned)) if search_query_cleaned in teachers_cleaned[i]]
+else:
+    matches = []
+
+# Display the search results
+if matches:
+    st.write("Teachers found:")
+    for teacher in matches:
+        st.write(teacher)
+    
+    # Let the user leave a review for each teacher
+    for teacher in matches:
+        st.subheader(f"Leave a review for {teacher}:")
+
+        # Rating sliders for teaching, leniency, and correction (Range: 1-10)
+        teaching_rating = st.slider(f"Rating for Teaching for {teacher}", 1, 10, 5)
+        leniency_rating = st.slider(f"Rating for Leniency for {teacher}", 1, 10, 5)
+        correction_rating = st.slider(f"Rating for Correction for {teacher}", 1, 10, 5)
+
+        # Update or add the rating in the CSV file
+        if st.button(f"Submit Review for {teacher}"):
+            # Check if teacher already exists in the ratings data
+            teacher_row = ratings_df[ratings_df['teacher'].str.lower() == clean_name(teacher)]
+
+            if not teacher_row.empty:
+                # If teacher exists, update the ratings and vote counts
+                ratings_df.loc[ratings_df['teacher'].str.lower() == clean_name(teacher), 'teaching_rating'] = (
+                    (ratings_df.loc[ratings_df['teacher'].str.lower() == clean_name(teacher), 'teaching_rating'] * ratings_df.loc[ratings_df['teacher'].str.lower() == clean_name(teacher), 'teaching_votes'] + teaching_rating)
+                    / (ratings_df.loc[ratings_df['teacher'].str.lower() == clean_name(teacher), 'teaching_votes'] + 1)
+                )
+                ratings_df.loc[ratings_df['teacher'].str.lower() == clean_name(teacher), 'leniency_rating'] = (
+                    (ratings_df.loc[ratings_df['teacher'].str.lower() == clean_name(teacher), 'leniency_rating'] * ratings_df.loc[ratings_df['teacher'].str.lower() == clean_name(teacher), 'leniency_votes'] + leniency_rating)
+                    / (ratings_df.loc[ratings_df['teacher'].str.lower() == clean_name(teacher), 'leniency_votes'] + 1)
+                )
+                ratings_df.loc[ratings_df['teacher'].str.lower() == clean_name(teacher), 'correction_rating'] = (
+                    (ratings_df.loc[ratings_df['teacher'].str.lower() == clean_name(teacher), 'correction_rating'] * ratings_df.loc[ratings_df['teacher'].str.lower() == clean_name(teacher), 'correction_votes'] + correction_rating)
+                    / (ratings_df.loc[ratings_df['teacher'].str.lower() == clean_name(teacher), 'correction_votes'] + 1)
+                )
+                ratings_df.loc[ratings_df['teacher'].str.lower() == clean_name(teacher), 'teaching_votes'] += 1
+                ratings_df.loc[ratings_df['teacher'].str.lower() == clean_name(teacher), 'leniency_votes'] += 1
+                ratings_df.loc[ratings_df['teacher'].str.lower() == clean_name(teacher), 'correction_votes'] += 1
+            else:
+                # If teacher doesn't exist, create a new row
+                new_row = pd.DataFrame({
+                    'teacher': [teacher],
+                    'teaching_rating': [teaching_rating],
+                    'leniency_rating': [leniency_rating],
+                    'correction_rating': [correction_rating],
+                    'teaching_votes': [1],
+                    'leniency_votes': [1],
+                    'correction_votes': [1]
+                })
+                ratings_df = pd.concat([ratings_df, new_row], ignore_index=True)
+
+            # Save updated ratings data to CSV
+            ratings_df.to_csv(ratings_file, index=False)
+
+            st.success(f"Review for {teacher} submitted successfully!")
+
+# Display current ratings and vote counts
+if not ratings_df.empty:
+    st.header("Current Reviews and Vote Counts")
+    for _, row in ratings_df.iterrows():
+        st.write(f"Reviews for {row['teacher']}:")
+        st.write(f"Teaching: {row['teaching_rating']:.1f} (Votes: {row['teaching_votes']})")
+        st.write(f"Leniency: {row['leniency_rating']:.1f} (Votes: {row['leniency_votes']})")
+        st.write(f"Correction: {row['correction_rating']:.1f} (Votes: {row['correction_votes']})")
+else:
+    st.write("No reviews yet.")
