@@ -109,23 +109,20 @@ if matches:
             # Calculate average overall rating
             total_reviews = st.session_state.reviews[teacher]['user_reviews']
             avg_overall = st.session_state.reviews[teacher]['total_reviews'] / (total_reviews * 4) if total_reviews > 0 else 0
-            avg_overall = round(avg_overall, 2)  # Average overall on 0-1 scale
+            avg_overall = round(avg_overall, 2)  # Overall rating on 0-10 scale
 
-            # Display the overall rating in the progress bar on 0-1 scale
-            st.progress(avg_overall, text="Rating is good" if avg_overall > 0.7 else "Rating is average" if avg_overall > 0.4 else "Rating is poor")
+            # Display the overall rating in the overall rating box
+            st.markdown(f"**Overall Rating (based on {total_reviews} reviews):**")
+            st.markdown(f"{avg_overall * 10} / 10", unsafe_allow_html=True)  # Display on 10-point scale
+            
+            # Display the progress bar (scaled from 0 to 10)
+            st.progress(avg_overall * 10, text="Rating is good" if avg_overall > 0.7 else "Rating is average" if avg_overall > 0.4 else "Rating is poor")
 
-            # Display overall rating and previous reviews in a box
-            rating_color = 'green' if avg_overall > 0.7 else 'yellow' if avg_overall > 0.4 else 'red'
-
-            with st.expander("See Previous Reviews", expanded=True):
-                st.markdown(f"**Overall Rating (based on {total_reviews} reviews):**")
-                st.markdown(f"{avg_overall * 10} / 10", unsafe_allow_html=True)  # This line shows the rating on 10-point scale
-                
-                # Display reviews and their individual ratings with colors based on rating
-                st.markdown("### **REVIEWS**")
-                st.write("**Teaching:**", f"{st.session_state.reviews[teacher]['teaching']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['teaching'] > 5 else 'red' if st.session_state.reviews[teacher]['teaching'] < 5 else 'yellow'};")
-                st.write("**Leniency:**", f"{st.session_state.reviews[teacher]['leniency']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['leniency'] > 5 else 'red' if st.session_state.reviews[teacher]['leniency'] < 5 else 'yellow'};")
-                st.write("**Correction:**", f"{st.session_state.reviews[teacher]['correction']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['correction'] > 5 else 'red' if st.session_state.reviews[teacher]['correction'] < 5 else 'yellow'};")
-                st.write("**DA/Quiz:**", f"{st.session_state.reviews[teacher]['da_quiz']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['da_quiz'] > 5 else 'red' if st.session_state.reviews[teacher]['da_quiz'] < 5 else 'yellow'};")
+            # Display reviews and their individual ratings with colors based on rating
+            st.markdown("### **REVIEWS**")
+            st.write("**Teaching:**", f"{st.session_state.reviews[teacher]['teaching']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['teaching'] > 5 else 'red' if st.session_state.reviews[teacher]['teaching'] < 5 else 'yellow'};")
+            st.write("**Leniency:**", f"{st.session_state.reviews[teacher]['leniency']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['leniency'] > 5 else 'red' if st.session_state.reviews[teacher]['leniency'] < 5 else 'yellow'};")
+            st.write("**Correction:**", f"{st.session_state.reviews[teacher]['correction']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['correction'] > 5 else 'red' if st.session_state.reviews[teacher]['correction'] < 5 else 'yellow'};")
+            st.write("**DA/Quiz:**", f"{st.session_state.reviews[teacher]['da_quiz']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['da_quiz'] > 5 else 'red' if st.session_state.reviews[teacher]['da_quiz'] < 5 else 'yellow'};")
 else:
     st.write("No teachers found.")
