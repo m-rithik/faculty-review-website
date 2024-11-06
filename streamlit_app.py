@@ -61,7 +61,8 @@ if matches:
                     'leniency': 0,
                     'correction': 0,
                     'da_quiz': 0,
-                    'overall': 0
+                    'overall': 0,
+                    'user_reviews': 0  # Track total reviews for the teacher
                 }
                 st.session_state.total_reviews[teacher] = 0
 
@@ -79,7 +80,8 @@ if matches:
                 'leniency': leniency,
                 'correction': correction,
                 'da_quiz': da_quiz,
-                'overall': overall_rating
+                'overall': overall_rating,
+                'user_reviews': st.session_state.reviews[teacher]['user_reviews'] + 1
             }
             st.session_state.total_reviews[teacher] += 1
 
@@ -110,10 +112,18 @@ if matches:
             
             # Display overall rating and previous reviews in a box
             rating_color = 'green' if avg_overall > 7 else 'yellow' if avg_overall > 4 else 'red'
+
             with st.expander("See Previous Reviews", expanded=False):
                 st.markdown(f"**Overall Rating (based on {total_reviews} reviews):**")
                 st.markdown(f"{avg_overall} / 10", unsafe_allow_html=True)
-                st.progress(avg_overall / 10)  # Display as progress bar (scaled to 10)
+                
+                # Color-sensitive progress bar
+                if avg_overall > 7:
+                    st.progress(avg_overall / 10, text="Rating is good")
+                elif avg_overall > 4:
+                    st.progress(avg_overall / 10, text="Rating is average")
+                else:
+                    st.progress(avg_overall / 10, text="Rating is poor")
 
                 # Display reviews and their individual ratings
                 st.markdown("### **REVIEWS**")
