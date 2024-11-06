@@ -109,9 +109,13 @@ if matches:
                 st.success(f"Review for {teacher} submitted successfully!")
 
             # Display the overall rating as a progress bar out of 10
-            overall_rating_percentage = st.session_state.reviews[teacher]['overall'] / 10  # Scaled for 10
-            st.markdown(f"Overall Rating: {st.session_state.reviews[teacher]['overall']} / 10")
-            st.progress(overall_rating_percentage)  # Display as progress bar (scaled to 10)
+            overall_rating = st.session_state.reviews[teacher]['overall']
+            if overall_rating is not None and 0 <= overall_rating <= 10:
+                overall_rating_percentage = overall_rating / 10  # Scale for 0-1
+                st.markdown(f"Overall Rating: {overall_rating} / 10")
+                st.progress(overall_rating_percentage)  # Display as progress bar (scaled to 10)
+            else:
+                st.error("Error: Invalid overall rating")
 
         with col2:
             # Display the teacher's image and resize it (set width to 150px for smaller size)
