@@ -15,7 +15,7 @@ def clean_name(name):
 # Function to load ratings from CSV file (from GitHub URL)
 def load_ratings():
     # URL to your raw CSV file on GitHub
-    csv_url = 'https://raw.githubusercontent.com/username/repository/branch/ratings.csv'  # Change this URL
+    csv_url = 'https://raw.githubusercontent.com/m-rithik/facrev-app/refs/heads/main/ratings.csv'  # Change this URL
     try:
         ratings_df = pd.read_csv(csv_url, index_col=0)
     except Exception as e:
