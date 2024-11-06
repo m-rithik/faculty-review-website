@@ -29,7 +29,7 @@ teachers = load_teachers('SCOPE.txt')
 teachers_cleaned = [clean_name(teacher[0]) for teacher in teachers]
 
 # Set up Streamlit UI
-st.title("Teacher Review System")
+st.title("VIT Vellore Teacher Review")
 st.header("Search for a Teacher")
 
 # Search bar (case insensitive and ignore titles like Dr, Mr, Ms)
