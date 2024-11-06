@@ -1,316 +1,4584 @@
+Name: Dr. Umadevi K S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10781.webp
+
+Name: Dr. Anthoniraj A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/antony-1.jpg
+
+Name: Dr. Govinda K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10670.webp
+
+Name: Dr. Gunavathi C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14794.webp
+
+Name: Dr. Jaisankar N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10247.webp
+
+Name: Dr. Kumar K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10664-1.webp
+
+Name: Dr. Manjula R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10167.webp
+
+Name: Dr. Margret Anouncia S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10093.webp
+
+Name: Dr. MOHANASUNDARAM R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13589.webp
+
+Name: Dr. Mythili T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11397.webp
+
+Name: Dr. Sanjiban Sekhar Roy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11986.webp
+
+Name: Dr. Shobha Rekh
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18803.webp
+
+Name: Dr. S Vairamuthu
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Vairamuthu-11190.jpg
+
+Name: Dr. D Ajitha
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18802.webp
+
+Name: Dr. Akila Victor
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12529.webp
+
+Name: Dr. Anindita Kundu
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20207.webp
+
+Name: Dr. Annapurna J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11991.webp
+
+Name: Dr. Arun Kumar G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12372.webp
+
+Name: Dr. Badrinath N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20106.webp
+
+Name: Dr. Jayakumar S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12566.webp
+
+Name: Dr. Keyur B Joshi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17045-1.webp
+
+Name: Dr. Nithya N S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20127.webp
+
+Name: Dr. Perepi Rajarajeswari
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Perepi-Rajarajeswari-1.webp
+
+Name: Dr. Saravanakumar K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11543.jpg
+
+Name: Dr. SARWESH P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19633.webp
+
+Name: Dr. Satish C.J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12338.webp
+
+Name: Dr. Siva Shanmugam G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13305.webp
+
+Name: Dr. Vijayasherly V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10243.webp
+
+Name: Dr. S VINILA JINNY
+Image: https://vit.ac.in/wp-content/uploads/2023/11/VINILA-1.webp
+
+Name: Dr. Anuradha D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13704.webp
+
+Name: Dr Anuradha G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13703.webp
+
+Name: Dr. Arpan Garai
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21150.jpg
+
+Name: Dr. Deepa D
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21238.jpg
+
+Name: Dr. DEEPA K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12354.webp
+
+Name: Dr. Durgesh Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18819.webp
+
+Name: Dr. B Gladys Gnana Kiruba
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12949.webp
+
+Name: Dr. Jabanjalin Hilda
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13298.webp
+
+Name: Dr. JAYA SUBALAKSHMI R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13560.webp
+
+Name: Dr. R KANNADASAN
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12378.webp
+
+Name: Dr. KRISHNAMOORTHY A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13299.webp
+
+Name: Dr. MOHANA SUNDARI L
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19606.webp
+
+Name: Dr. NIVITHA K
+Image: https://vit.ac.in/wp-content/uploads/2024/08/20768.jpg
+
+Name: Ms. Padma Priya R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13950.webp
+
+Name: Ms. SHALINI L
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11174.webp
+
+Name: Dr. Sivaprakash S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18858.webp
+
+Name: Dr. SUNIJA A P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20177.webp
+
+Name: Dr.Tamizhselvi.S.P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20088.webp
+
+Name: Ms. Anandita Iyer A
+Image: https://vit.ac.in/wp-content/uploads/2024/09/21764.jpg
+
+Name: Mr. Ankareddy Rajesh
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18995.webp
+
+Name: Ms. Lakshmi S
+Image: https://vit.ac.in/wp-content/uploads/2024/09/21763.jpg
+
+Name: Mrs. Sripriyanka G
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21289.jpg
+
 Name: Dr. Swathi J N
+Image: https://vit.ac.in/wp-content/uploads/2024/08/10946.jpg
+
 Name: Dr. K Ramesh Babu
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10619.webp
+
 Name: Dr. S L Aarthy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12466.webp
+
 Name: Dr.Ananda Kumar S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11872.webp
+
 Name: Dr. Chandramohan B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14822.webp
+
 Name: Dr. Debi Prasanna Acharjya
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10622.webp
+
 Name: Dr. Jothi K R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15771.webp
+
 Name: Dr. M Rajasekhara Babu
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10366.webp
+
 Name: Dr. Rhymend Uthariaraj V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/New-VITOL-Direcoter-Incharge.webp
+
 Name: Dr. Sathiya Kumar C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15249.webp
+
 Name: Dr. Sasikala R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14455.webp
+
 Name: Dr. Shashank Mouli Satapathy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15257.webp
+
 Name: Dr. S ANTO
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15820.webp
+
 Name: Dr. ARIVOLI A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15761.webp
+
 Name: Dr. Balaji GN
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19527_0.webp
+
 Name: Dr. BERLIN M A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20164.webp
+
 Name: Dr. Geraldine Bessie Amali D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14055.webp
+
 Name: Dr. Jyotismita Chaki
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15981.webp
+
 Name: Dr. NAGA RAJA G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13338.webp
+
 Name: Dr. A Nagaraja Rao
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13714.webp
+
 Name: Dr. NAVAMANI T M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15260.webp
+
 Name: Dr. Naveenkumar J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18849.webp
+
 Name: Dr. Prakash M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18965.webp
+
 Name: Dr. S SREETHAR
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18860.webp
+
 Name: Dr. SURESH A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20155.webp
+
 Name: Dr. Anand Bihari
+Image: https://vit.ac.in/wp-content/uploads/2023/11/anand_0.webp
+
 Name: Dr. Athira K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18811.webp
+
 Name: Dr. Baskaran P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19614.webp
+
 Name: Dr. Bhawana Tyagi
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21239.jpg
+
 Name: Dr. S. M. Farooq
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19727.webp
+
 Name: Dr. Hiteshwar Kumar Azad
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17974.webp
+
 Name: Dr. Iyappan Perumal
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18864.webp
+
 Name: Dr. JAGALINGAM PUSHPARAJ
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16158.webp
+
 Name: Dr. A JUSTIN GOPINATH
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17968.webp
+
 Name: Dr. N KOPPERUNDEVI
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18969.webp
+
 Name: Dr. K Krishna Rani Samal
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19553.webp
+
 Name: Dr. Lijo V P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13600.webp
+
 Name: Dr. Malini S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18876.webp
+
 Name: Ms. MOHANA C M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18414.webp
+
 Name: Dr. Murugan Krishnamoorthy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16709.webp
+
 Name: Dr. RAJARAJAN G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15959.webp
+
 Name: Mr. Sudhakar P
+Image: https://vit.ac.in/wp-content/uploads/2024/08/20774.jpg
+
 Name: Dr. Sukantha Ghosh
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21151.jpg
+
 Name: Dr. Thirunavukkarasan M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19615.webp
+
 Name: Dr. Umamaheswari M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19662.webp
+
 Name: Dr. Uma Priya D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20136.webp
+
 Name: Dr. vishnu Priya A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18409.webp
+
 Name: Mr. Bharath Babu S
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21285.jpg
+
 Name: Mr. Munusamy S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17564.webp
+
 Name: Ms. Nivethitha K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17285.webp
+
 Name: Mr. Pasupuleti Muniraja
+Image: https://vit.ac.in/wp-content/uploads/2024/09/21769.jpg
+
 Name: Mr.Syamasudha Veeragandham
-
-Name: Dr. Rajkumar S
-Name: Dr. Lakshmanan K
-Name: Dr. Kathiravan S
-Name: Dr. K Rajakumar
-Name: Dr. Rajkumar R
-Name: Dr. Santhi K
-Name: Dr. Adaline Suji R
-Name: Dr. Kakelli Anil Kumar
-Name: Dr. Anny Leema
-Name: Dr. P Balakrishnan
-Name: Dr. BALAMURUGAN R
-Name: Dr. Biji C L
-Name: Dr. CHELLATAMILAN T
-Name: Dr. Dheeba J
-Name: Dr. S EBENEZER JULIET
-Name: Dr. Jayakumar K
-Name: Dr. T JOSHVA DEVADAS
-Name: Dr. JENICKA S
-Name: Dr. Keerthika P
-Name: Dr. Lokesh Kumar R
-Name: Dr. Madiajagan M
-Name: Dr. Mary Mekala A
-Name: Dr. Priya G
-Name: Dr. Radhakrishnan Delhibabu
-Name: Dr. Ramesh C
-Name: Dr. P Senthilnathan
-Name: Dr. Sudha S
-Name: Dr. Vimaladevi K
-Name: Dr. Balaji.N
-Name: Dr. Dilip Kumar S
-Name: Dr. Hussain Ahmed Chowdhury
-Name: Dr. Kamanasish Bhattacharjee
-Name: Dr. Karthik K
-Name: Dr.Muchenedihari Kishor
-Name: Dr. Naga Priyadarsini R
-Name: Dr. Parthiban K
-Name: Dr. Rahul Shrivastava
-Name: Dr. S Ranjithkumar
-Name: Dr. A. Saraswathi Priyadharshini
-Name: Dr. Siva Sankari S
-Name: Dr. Sivakumar V
-Name: Dr. Suganthini C
-Name: Dr. Swetha NG
-Name: Dr. Varalakshmi M
-Name: Dr. Yoganand S
-Name: Ms. Debarati Dutta
-Name: Ms. Deepika S
-Name: Ms. Keerthika C
-Name: Mr. Kurra Sai Susheel
-Name: Ms. Megala G
-Name: Mr. Pandiaraj A
-Name: Ms. Vasanthi P
-
-Name: Dr. Gopinath M.P
-Name: Dr. Balasubramanian
-Name: Dr. BOOMINATHAN P
-Name: Dr. Kalyanaraman P
-Name: Dr. Madhu Viswanatham V
-Name: Dr. Mohan K
-Name: Dr. RA. K. Saravanaguru
-Name: Dr. Rajeshkannan
-Name: Dr. Saravanan R
-Name: Dr. SATHYARAJ R
-Name: Dr. SENTHILKUMAR K
-Name: Dr. Swarnalatha P
-Name: Dr. VIJAYAKUMAR K
-Name: Dr. D Aju
-Name: Dr. Arun Kumar S
-Name: Dr. G M KARTHIK
-Name: Dr. Natarajan P
-Name: Dr. RAJA S P
-Name: Dr. Ramani S
-Name: Dr. Sivakumar N
-Name: Dr.Sudarshan Nandy
-Name: Dr. Viswanathan A
-Name: Dr. Yuvaraj N
-Name: Dr. Anbarasi M
-Name: Mrs. Bhulakshmi Bonthu
-Name: Dr. Chandru Vignesh C
-Name: Dr. Debashreet Das
-Name: Dr. Deepika J
-Name: Mrs. Ezhil Arasi V
-Name: Dr. Islabudeen M
-Name: Dr. GOPICHAND G
-Name: Dr. Jasmin T Jose
-Name: Dr. KANAGARAJ R
-Name: Mr. Manikandan G
-Name: Dr. Mohankumar B
-Name: Dr. Niha Kamal Basha
-Name: Dr. Parthasarathy G
-Name: Dr. Poornima
-Name: Dr. S M Prabin
-Name: Dr. Preetha Evangeline D
-Name: Dr. Priyadharsini M
-Name: Mr. Rishin Haldar
-Name: Dr. Sabyasachi Kamila
-Name: Dr. Samriddhi Sarkar
-Name: Dr. S Sridevi
-Name: Dr. Somasundaram.S K
-Name: Dr. Thangaramya K
-Name: Mrs. Anusha R
-Name: Mr. Jayachandran J
-Name: Mr. Manas Gautam
-Name: Ms. Vusirikkayala Gowthami
-
-Name: Dr. Murali S
-Name: Dr. J Anuradha
-Name: Dr. Arunkumar T
-Name: Dr. Gayathri P
-Name: Dr. Geetha Mary
-Name: Dr. Kannan A
-Name: Dr. Manikandan K
-Name: Dr. Manikandan N
-Name: Dr. Narayanan Prasanth N
-Name: Dr. H Parveen Sultana
-Name: Dr. Subramaniyaswamy
-Name: Dr. Vasantha W B
-Name: Dr. Abdul Gaffar H
-Name: Dr. Ilanthenral K P S K
-Name: Dr. Kumaresan A
-Name: Dr. Mehfooza M
-Name: Dr. P Mohankumar
-Name: Dr. Prabakaran N
-Name: Dr. Prakash G
-Name: Dr. Santhi H
-Name: Dr. Selvi M
-Name: Dr. Suresh P
-Name: Dr. Archana T
-Name: Dr. Arulkumar V
-Name: Dr. Ganesh  Khekare
-Name: Dr. Dhivyaa C R
-Name: Dr. Goutam Majumder
-Name: Dr. Jayashree J
-Name: Dr. Jeevana Jyothi Pujari
-Name: Dr. Kalaivani K
-Name: Dr. Kauser Ahmed P
-Name: Dr. Konatham Sumalatha
-Name: Dr. kovendan  A K P
-Name: Dr. Krishnaraj N
-Name: Dr. Madhan E S
-Name: Dr. Meenakshi S P
-Name: Mr. Naveen Kumar N
-Name: Dr. Padmavathy T
-Name: Dr. Ruby D
-Name: Dr. Saritha Murali
-Name: Dr.Sathya K
-Name: Dr. SAURABH AGRAWAL
-Name: Dr. Sayan Sikder
-Name: Dr. Sunil kumar
-Name: Dr. T Tamizharasi
-Name: Dr. J Vijayashree
-Name: Dr. Vinothsaravanan R
-Name: Ms. Latha Reddy N
-Name: Mr. Naramalli Jayakrishna
-Name: Ms. Pavithra M
-Name: Mr. Raparthi Yaswanth
-Name: Ms. Revathi C K
-Name: Ms. Rohini.S
-Name: Mr. Tamilmani A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18999.webp
 
 Name: Dr. Sharmila Banu K
-Name: Dr. Anand M
-Name: Dr. AYYASAMY S
-Name: Dr. KALAAVATHI B
-Name: Dr. Mariappan R
-Name: Dr. Sahaaya Arul Mary S A
-Name: Dr. Saleem Durai M A
-Name: Dr. Srimathi
-Name: Dr. Viswanathan P
-Name: Dr. Anisha M Lal
-Name: Dr. ANUSHA N
-Name: Dr. Ilayaraja V
-Name: Dr. K Lavanya
-Name: Dr. Narayanamoorthi M
-Name: Dr. Naresh K
-Name: Dr. Ramanathan L
-Name: Dr. J Saira Banu
-Name: Dr. SENDHIL KUMAR KS
-Name: Dr. Vijayarajan V
-Name: Dr. Yokesh Babu S
-Name: Dr. Allam Jaya Prakash
-Name: Dr. R Arumuga Arun
-Name: Dr. Baiju B V
-Name: Dr. BHUVANESWARI M
-Name: Dr. Deepikaa S
-Name: Dr. Dinesh R
-Name: Dr. Gayathri S
-Name: Dr. Gunasekar M
-Name: Dr. Jafar Ali Ibrahim S
-Name: Dr. Lydia Jane G
-Name: Dr. Manoov R
-Name: Dr. Mukku Nisanth Kartheek
-Name: Dr. Muthunagai S U
-Name: Dr. Nalini N
-Name: Dr. Priyanka N
-Name: Ms. Pushpa Gothwal
-Name: Dr. RAGAVAN K
-Name: Mr. Sivanesan S
-Name: Dr. Sridhar Raj S
-Name: Dr. Sri Preethaa K R
-Name: Dr. SRIVANI A
-Name: Dr. Thamizharasan S
-Name: Dr. M Thurai Pandian
-Name: Ms. Ushus Elizebeth zachariah
-Name: Dr. Vetriselvi
-Name: Mrs. Anitha R
-Name: Ms. Deepa D
-Name: Mr. Dhinakaran N
-Name: Mr. Dinesh P
-Name: Mr. Katari Balakrishna
-Name: Mr. Nagaraj S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/SharmilaBanuK.webp
 
-Name: Dr. Umadevi K S
-Name: Dr. Anthoniraj A
-Name: Dr. Govinda K
-Name: Dr. Gunavathi C
-Name: Dr. Jaisankar N
-Name: Dr. Kumar K
-Name: Dr. Manjula R
-Name: Dr. Margret Anouncia S
-Name: Dr. MOHANASUNDARAM R
-Name: Dr. Mythili T
-Name: Dr. Sanjiban Sekhar Roy
-Name: Dr. Shobha Rekh
-Name: Dr. S Vairamuthu
-Name: Dr. D Ajitha
-Name: Dr. Akila Victor
-Name: Dr. Anindita Kundu
-Name: Dr. Annapurna J
-Name: Dr. Arun Kumar G
-Name: Dr. Badrinath N
-Name: Dr. Jayakumar S
-Name: Dr. Keyur B Joshi
-Name: Dr. Nithya N S
-Name: Dr. Perepi Rajarajeswari
-Name: Dr. Saravanakumar K
-Name: Dr. SARWESH P
-Name: Dr. Satish C.J
-Name: Dr. Siva Shanmugam G
-Name: Dr. Vijayasherly V
-Name: Dr. S VINILA JINNY
-Name: Dr. Anuradha D
-Name: Dr Anuradha G
-Name: Dr. Arpan Garai
-Name: Dr. Deepa D
-Name: Dr. DEEPA K
-Name: Dr. Durgesh Kumar
-Name: Dr. B Gladys Gnana Kiruba
-Name: Dr. Jabanjalin Hilda
-Name: Dr. JAYA SUBALAKSHMI R
-Name: Dr. R KANNADASAN
-Name: Dr. KRISHNAMOORTHY A
-Name: Dr. MOHANA SUNDARI L
-Name: Dr. NIVITHA K
-Name: Ms. Padma Priya R
-Name: Ms. SHALINI L
-Name: Dr. Sivaprakash S
-Name: Dr. SUNIJA A P
-Name: Dr.Tamizhselvi.S.P
-Name: Ms. Anandita Iyer A
-Name: Mr. Ankareddy Rajesh
-Name: Ms. Lakshmi S
-Name: Mrs. Sripriyanka G
+Name: Dr. Anand M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10696.webp
+
+Name: Dr. AYYASAMY S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18830.webp
+
+Name: Dr. KALAAVATHI B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18939.webp
+
+Name: Dr. Mariappan R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20131.webp
+
+Name: Dr. Sahaaya Arul Mary S A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19584.webp
+
+Name: Dr. Saleem Durai M A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10301.webp
+
+Name: Dr. Srimathi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10269.webp
+
+Name: Dr. Viswanathan P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11109.webp
+
+Name: Dr. Anisha M Lal
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10667.webp
+
+Name: Dr. ANUSHA N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18867.webp
+
+Name: Dr. Ilayaraja V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18844.webp
+
+Name: Dr. K Lavanya
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13340.webp
+
+Name: Dr. Narayanamoorthi M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10454.webp
+
+Name: Dr. Naresh K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13303.webp
+
+Name: Dr. Ramanathan L
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11187.webp
+
+Name: Dr. J Saira Banu
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11474.webp
+
+Name: Dr. SENDHIL KUMAR KS
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12385.webp
+
+Name: Dr. Vijayarajan V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11982.jpg
+
+Name: Dr. Yokesh Babu S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12386.webp
+
+Name: Dr. Allam Jaya Prakash
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20700.webp
+
+Name: Dr. R Arumuga Arun
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20212.webp
+
+Name: Dr. Baiju B V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18813.webp
+
+Name: Dr. BHUVANESWARI M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18866.webp
+
+Name: Dr. Deepikaa S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13329.webp
+
+Name: Dr. Dinesh R
+Image: https://vit.ac.in/wp-content/uploads/2024/08/20775.jpg
+
+Name: Dr. Gayathri S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20180.webp
+
+Name: Dr. Gunasekar M
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21236.jpg
+
+Name: Dr. Jafar Ali Ibrahim S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18886.jpg
+
+Name: Dr. Lydia Jane G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13647.webp
+
+Name: Dr. Manoov R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13337.webp
+
+Name: Dr. Mukku Nisanth Kartheek
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20151.webp
+
+Name: Dr. Muthunagai S U
+Image: https://vit.ac.in/wp-content/uploads/2024/08/20767.jpg
+
+Name: Dr. Nalini N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11293.webp
+
+Name: Dr. Priyanka N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19728.webp
+
+Name: Ms. Pushpa Gothwal
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19597.webp
+
+Name: Dr. RAGAVAN K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20118.webp
+
+Name: Mr. Sivanesan S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11644.webp
+
+Name: Dr. Sridhar Raj S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18016.webp
+
+Name: Dr. Sri Preethaa K R
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21171.jpg
+
+Name: Dr. SRIVANI A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12357.webp
+
+Name: Dr. Thamizharasan S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18820.webp
+
+Name: Dr. M Thurai Pandian
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19539.webp
+
+Name: Ms. Ushus Elizebeth zachariah
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11969.webp
+
+Name: Dr. Vetriselvi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18842.webp
+
+Name: Mrs. Anitha R
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21283.jpg
+
+Name: Ms. Deepa D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18993.webp
+
+Name: Mr. Dhinakaran N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17353.webp
+
+Name: Mr. Dinesh P
+Image: https://vit.ac.in/wp-content/uploads/2024/09/21765.jpg
+
+Name: Mr. Katari Balakrishna
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18994.webp
+
+Name: Mr. Nagaraj S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18976.webp
+
+Name: Dr. Murali S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Dr.-Murali.s.jpg
+
+Name: Dr. J Anuradha
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10521.webp
+
+Name: Dr. Arunkumar T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10708.webp
+
+Name: Dr. Gayathri P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11560.webp
+
+Name: Dr. Geetha Mary
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11600.webp
+
+Name: Dr. Kannan A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15883.webp
+
+Name: Dr. Manikandan K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10910.webp
+
+Name: Dr. Manikandan N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11941.webp
+
+Name: Dr. Narayanan Prasanth N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15785.webp
+
+Name: Dr. H Parveen Sultana
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10435.webp
+
+Name: Dr. Subramaniyaswamy
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21167.jpg
+
+Name: Dr. Vasantha W B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15194.webp
+
+Name: Dr. Abdul Gaffar H
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11473.webp
+
+Name: Dr. Ilanthenral K P S K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14713.webp
+
+Name: Dr. Kumaresan A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18865.jpg
+
+Name: Dr. Mehfooza M
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21154.jpg
+
+Name: Dr. P Mohankumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11125.webp
+
+Name: Dr. Prabakaran N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13306.webp
+
+Name: Dr. Prakash G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19528.webp
+
+Name: Dr. Santhi H
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11561.webp
+
+Name: Dr. Selvi M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16106.webp
+
+Name: Dr. Suresh P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18862.webp
+
+Name: Dr. Archana T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11983.webp
+
+Name: Dr. Arulkumar V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18875.webp
+
+Name: Dr. Ganesh  Khekare
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19723.webp
+
+Name: Dr. Dhivyaa C R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20701.webp
+
+Name: Dr. Goutam Majumder
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19733.webp
+
+Name: Dr. Jayashree J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13363.webp
+
+Name: Dr. Jeevana Jyothi Pujari
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20123.webp
+
+Name: Dr. Kalaivani K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19004.webp
+
+Name: Dr. Kauser Ahmed P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Dr.Kauser-Ahmed-P.webp
+
+Name: Dr. Konatham Sumalatha
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20109.webp
+
+Name: Dr. kovendan  A K P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18997.webp
+
+Name: Dr. Krishnaraj N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18880.webp
+
+Name: Dr. Madhan E S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19586.webp
+
+Name: Dr. Meenakshi S P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10140.webp
+
+Name: Mr. Naveen Kumar N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12624.webp
+
+Name: Dr. Padmavathy T
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21134.jpg
+
+Name: Dr. Ruby D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16386.webp
+
+Name: Dr. Saritha Murali
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18810.webp
+
+Name: Dr.Sathya K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19602.webp
+
+Name: Dr. SAURABH AGRAWAL
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20165.webp
+
+Name: Dr. Sayan Sikder
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19718.webp
+
+Name: Dr. Sunil kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20144.webp
+
+Name: Dr. T Tamizharasi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13648.webp
+
+Name: Dr. J Vijayashree
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13362.webp
+
+Name: Dr. Vinothsaravanan R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18881.webp
+
+Name: Ms. Latha Reddy N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18987.webp
+
+Name: Mr. Naramalli Jayakrishna
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18991.webp
+
+Name: Ms. Pavithra M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18989.webp
+
+Name: Mr. Raparthi Yaswanth
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18972.webp
+
+Name: Ms. Revathi C K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17297.webp
+
+Name: Ms. Rohini.S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18985.webp
+
+Name: Mr. Tamilmani A
+Image: https://vit.ac.in/wp-content/uploads/2024/09/21766.jpg
+
+Name: Dr. Gopinath M.P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12353.webp
+
+Name: Dr. Balasubramanian
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10525.webp
+
+Name: Dr. BOOMINATHAN P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12392.webp
+
+Name: Dr. Kalyanaraman P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10084.webp
+
+Name: Dr. Madhu Viswanatham V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10704.webp
+
+Name: Dr. Mohan K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11881.webp
+
+Name: Dr. RA. K. Saravanaguru
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10523.webp
+
+Name: Dr. Rajeshkannan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12411-1.webp
+
+Name: Dr. Saravanan R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10230.webp
+
+Name: Dr. SATHYARAJ R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12425.webp
+
+Name: Dr. SENTHILKUMAR K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10785.webp
+
+Name: Dr. Swarnalatha P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10321.webp
+
+Name: Dr. VIJAYAKUMAR K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11105.webp
+
+Name: Dr. D Aju
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10520.webp
+
+Name: Dr. Arun Kumar S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11173.webp
+
+Name: Dr. G M KARTHIK
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18938.webp
+
+Name: Dr. Natarajan P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10560.webp
+
+Name: Dr. RAJA S P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17975.webp
+
+Name: Dr. Ramani S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12389.webp
+
+Name: Dr. Sivakumar N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12350.webp
+
+Name: Dr.Sudarshan Nandy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18824.webp
+
+Name: Dr. Viswanathan A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19626.webp
+
+Name: Dr. Yuvaraj N
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21170.jpg
+
+Name: Dr. Anbarasi M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10483.webp
+
+Name: Mrs. Bhulakshmi Bonthu
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11934.webp
+
+Name: Dr. Chandru Vignesh C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18951.webp
+
+Name: Dr. Debashreet Das
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18814.webp
+
+Name: Dr. Deepika J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20163.webp
+
+Name: Mrs. Ezhil Arasi V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20179.webp
+
+Name: Dr. Islabudeen M
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21119.jpg
+
+Name: Dr. GOPICHAND G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14059.webp
+
+Name: Dr. Jasmin T Jose
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13705.webp
+
+Name: Dr. KANAGARAJ R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18889.webp
+
+Name: Mr. Manikandan G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19592.webp
+
+Name: Dr. Mohankumar B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20159.webp
+
+Name: Dr. Niha Kamal Basha
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18804.webp
+
+Name: Dr. Parthasarathy G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Parthasarathy.webp
+
+Name: Dr. Poornima
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18872.webp
+
+Name: Dr. S M Prabin
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18808.webp
+
+Name: Dr. Preetha Evangeline D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16702.webp
+
+Name: Dr. Priyadharsini M
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21218.jpg
+
+Name: Mr. Rishin Haldar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12390.webp
+
+Name: Dr. Sabyasachi Kamila
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20130.webp
+
+Name: Dr. Samriddhi Sarkar
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21070.jpg
+
+Name: Dr. S Sridevi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20161.webp
+
+Name: Dr. Somasundaram.S K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19612.webp
+
+Name: Dr. Thangaramya K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20113.webp
+
+Name: Mrs. Anusha R
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21284.jpg
+
+Name: Mr. Jayachandran J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17315.webp
+
+Name: Mr. Manas Gautam
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17750.webp
+
+Name: Ms. Vusirikkayala Gowthami
+Image: https://vit.ac.in/wp-content/uploads/2024/09/21762.jpg
+
+Name: Dr. Rajkumar S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12497.webp
+
+Name: Dr. Lakshmanan K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11104.webp
+
+Name: Dr. Kathiravan S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15756.webp
+
+Name: Dr. K Rajakumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14816.webp
+
+Name: Dr. Rajkumar R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10526.webp
+
+Name: Dr. Santhi K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14723_0.webp
+
+Name: Dr. Adaline Suji R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19734.webp
+
+Name: Dr. Kakelli Anil Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15386.webp
+
+Name: Dr. Anny Leema
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15698.webp
+
+Name: Dr. P Balakrishnan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15285.webp
+
+Name: Dr. BALAMURUGAN R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15772.webp
+
+Name: Dr. Biji C L
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18812.webp
+
+Name: Dr. CHELLATAMILAN T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15927-1.webp
+
+Name: Dr. Dheeba J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15269.webp
+
+Name: Dr. S EBENEZER JULIET
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19594.webp
+
+Name: Dr. Jayakumar K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15755.webp
+
+Name: Dr. T JOSHVA DEVADAS
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16700.webp
+
+Name: Dr. JENICKA S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17970.webp
+
+Name: Dr. Keerthika P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18861.webp
+
+Name: Dr. Lokesh Kumar R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15776.webp
+
+Name: Dr. Madiajagan M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15261.webp
+
+Name: Dr. Mary Mekala A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11579.webp
+
+Name: Dr. Priya G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10883.webp
+
+Name: Dr. Radhakrishnan Delhibabu
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15387.webp
+
+Name: Dr. Ramesh C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20139.webp
+
+Name: Dr. P Senthilnathan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13336.webp
+
+Name: Dr. Sudha S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12427.webp
+
+Name: Dr. Vimaladevi K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Vimaladevi.jpg
+
+Name: Dr. Balaji.N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20086.webp
+
+Name: Dr. Dilip Kumar S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18818.webp
+
+Name: Dr. Hussain Ahmed Chowdhury
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19620.webp
+
+Name: Dr. Kamanasish Bhattacharjee
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20203.webp
+
+Name: Dr. Karthik K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20225.webp
+
+Name: Dr.Muchenedihari Kishor
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18967.webp
+
+Name: Dr. Naga Priyadarsini R
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21237.jpg
+
+Name: Dr. Parthiban K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17972.webp
+
+Name: Dr. Rahul Shrivastava
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21118.jpg
+
+Name: Dr. S Ranjithkumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20226.webp
+
+Name: Dr. A. Saraswathi Priyadharshini
+Image: https://vit.ac.in/wp-content/uploads/2023/11/saraswathi-17977.webp
+
+Name: Dr. Siva Sankari S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19503.webp
+
+Name: Dr. Sivakumar V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19599.webp
+
+Name: Dr. Suganthini C
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21136.jpg
+
+Name: Dr. Swetha NG
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18871.webp
+
+Name: Dr. Varalakshmi M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11226.webp
+
+Name: Dr. Yoganand S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20087.webp
+
+Name: Ms. Debarati Dutta
+Image: https://vit.ac.in/wp-content/uploads/2024/09/21767.jpg
+
+Name: Ms. Deepika S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18971.webp
+
+Name: Ms. Keerthika C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18974.webp
+
+Name: Mr. Kurra Sai Susheel
+Image: https://vit.ac.in/wp-content/uploads/2024/09/21768.jpg
+
+Name: Ms. Megala G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18981.webp
+
+Name: Mr. Pandiaraj A
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21287.jpg
+
+Name: Ms. Vasanthi P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18992.webp
+
+Name: Dr. Sarveswari S
+Image: https://vit.ac.in/wp-content/uploads/2023/10/Sarveswari.jpg
+
+Name: Dr. Akella Siva Rama Krishana
+Image: https://vit.ac.in/wp-content/uploads/2023/10/Akella.jpg
+
+Name: Dr. Anand Prabu A
+Image: https://vit.ac.in/wp-content/uploads/2023/10/11858.jpg
+
+Name: Dr. Asharani I V
+Image: https://vit.ac.in/wp-content/uploads/2023/10/11946.webp
+
+Name: Dr. Ashok Kumar S K
+Image: https://vit.ac.in/wp-content/uploads/2023/10/12515.webp
+
+Name: Dr. Badal Kumar Mandal
+Image: https://vit.ac.in/wp-content/uploads/2023/10/10826.webp
+
+Name: Dr. Buvaneswari G
+Image: https://vit.ac.in/wp-content/uploads/2023/10/10548.webp
+
+Name: Dr. Cheralathan K K
+Image: https://vit.ac.in/wp-content/uploads/2023/10/12281.webp
+
+Name: Dr. Ethiraj KR
+Image: https://vit.ac.in/wp-content/uploads/2023/10/10683.webp
+
+Name: Dr.Karpagam S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10543.jpg
+
+Name: Dr.Karthikeyan S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12430.jpg
+
+Name: Dr.Madhvesh Pathak
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11852.jpg
+
+Name: Dr.Manju S L
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10449.jpg
+
+Name: Dr.Mary Saral A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10257.jpg
+
+Name: Dr.Nawaz Khan F
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10677.jpg
+
+Name: Dr.Palanisami N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12550.webp
+
+Name: Dr.Prabhakaran D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14838.webp
+
+Name: Dr.Pundlik Rambhau Bhagat
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11838.webp
+
+Name: Dr.Rajagopal D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14381.webp
+
+Name: Dr.Rajasekhara Reddy Sabbasani
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12355.webp
+
+Name: Dr.Sangeetha D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11225.webp
+
+Name: Dr.Sasikumar S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10393.webp
+
+Name: Dr.Sathiyanarayanan K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10083.webp
+
+Name: Dr.Senthil Kumar A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11322.webp
+
+Name: Dr.Senthilkumar S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11848.webp
+
+Name: Dr.Sheela A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10441.webp
+
+Name: Dr.Shivashankar M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10722_0.webp
+
+Name: Dr.Sriraghavan K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13379.webp
+
+Name: Dr.Sumathi S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10546_0.webp
+
+Name: Dr.Thirumanavelan G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12930.webp
+
+Name: Dr.Vijayakumar V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10666.webp
+
+Name: Dr.Vijayalakshmi U
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12969.jpg
+
+Name: Dr.Vijayaraghavan R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10394.webp
+
+Name: Dr. Akhila Maheswari M
+Image: https://vit.ac.in/wp-content/uploads/2023/10/14494.webp
+
+Name: Dr. Arunprasad M
+Image: https://vit.ac.in/wp-content/uploads/2023/10/17062.webp
+
+Name: Dr. Barnali Maiti
+Image: https://vit.ac.in/wp-content/uploads/2023/10/14485.webp
+
+Name: Dr. Kannadasan S
+Image: https://vit.ac.in/wp-content/uploads/2023/10/12865.webp
+
+Name: Dr. Loganathan R
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19680.webp
+
+Name: Dr. Logesh Mathivathanan
+Image: https://vit.ac.in/wp-content/uploads/2023/10/18856.webp
+
+Name: Dr. Madhumitha G
+Image: https://vit.ac.in/wp-content/uploads/2023/10/13374.webp
+
+Name: Dr. Mohana Roopan S
+Image: https://vit.ac.in/wp-content/uploads/2023/10/12811.webp
+
+Name: Dr.Napoleon A.A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10944.webp
+
+Name: Dr.Priyankar Paira
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13762.webp
+
+Name: Dr.Sai Saraswathi V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11890.webp
+
+Name: Dr.Santhakumar K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13744.webp
+
+Name: Dr.Satish Kumar G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12827.webp
+
+Name: Dr.Suseem S.R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10924_0.webp
+
+Name: Dr.Thenmozhi K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13740.webp
+
+Name: Dr.Thirumoorthy K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13716_0.webp
+
+Name: Dr.Vijayanand C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15254.webp
+
+Name: Dr. Abir Sarbajna
+Image: https://vit.ac.in/wp-content/uploads/2023/10/18905.webp
+
+Name: Dr. Amit Kumar Tiwari
+Image: https://vit.ac.in/wp-content/uploads/2023/10/16364.webp
+
+Name: Dr. ARYA J S
+Image: https://vit.ac.in/wp-content/uploads/2023/10/20084-Arya.webp
+
+Name: Dr. Arup Sinha
+Image: https://vit.ac.in/wp-content/uploads/2023/10/15966_0.webp
+
+Name: Dr. Ganesh Babu S
+Image: https://vit.ac.in/wp-content/uploads/2023/10/16362.webp
+
+Name: Dr. Gopi R
+Image: https://vit.ac.in/wp-content/uploads/2023/10/20120-Gopi-Ragupathy.webp
+
+Name: Dr. Kamini Mishra
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16355.jpg
+
+Name: Dr.Manish Kumar Mishra
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17955.jpg
+
+Name: Dr.Mausumi Goswami
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16363.jpg
+
+Name: Dr.NAMRATA DEKA
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20103-Namrata-Deka.jpg
+
+Name: Dr.Pratheepkumar Annamalai
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18904.jpg
+
+Name: Dr.Rajasekar P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16123.jpg
+
+Name: Dr. Ramesh Kumar Singh
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18925.jpg
+
+Name: Dr. Sathish Kumar P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17083.jpg
+
+Name: Dr. Shanmugam R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18924.jpg
+
+Name: Dr.Sovan Roy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15281.jpg
+
+Name: Dr.Srinivasan Latha
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15507.jpg
+
+Name: Dr.Susanta Kumar Bhunia
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15953_0.jpg
+
+Name: Dr.Tamas Kumar Panda
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15941_0.webp
+
+Name: Dr. Tapas Ghatak
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16360.webp
+
+Name: Dr.Veera Venkata Ramesh E
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15280.webp
+
+Name: Dr. Roopa Kenoth
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17154-1.webp
+
+Name: Ms.Aishwariya R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17423-1.webp
+
+Name: Mr.Ajith Kumar N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17507-1.webp
+
+Name: Ms.Amudha S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17341-1.webp
+
+Name: Ms.Anandhi R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17446-1.webp
+
+Name: Ms.Ancy Kurian
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17647-1.webp
+
+Name: Ms.Anju P V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17644-1.webp
+
+Name: Mr.Aravinth D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17430-1.webp
+
+Name: Ms.Archana B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17299-1.webp
+
+Name: Mr.Chayan Pandya
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17617-1.webp
+
+Name: Ms.Devipriya S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17459-1.webp
+
+Name: Ms.Dhivya J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17273-1.webp
+
+Name: Ms.Dolly David T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17641-1.webp
+
+Name: Mr.Gowtham B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17310-1.webp
+
+Name: Ms.Greeshma Gigi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17636-1.webp
+
+Name: Mr.Harashkumar V T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17457-1.webp
+
+Name: Mr.Hari Prakash S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17422-1.webp
+
+Name: Mr.Harikaran D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17380-1.webp
+
+Name: Ms.Hema Malini V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17300-1.webp
+
+Name: Ms.Hemalatha M S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17527-1.webp
+
+Name: Ms.Hemalatha V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17411-1.webp
+
+Name: Ms.Ilakiyalakshmi M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17383-1.webp
+
+Name: Ms.Jayasri S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17444-1.webp
+
+Name: Mr.Jeevarathinam M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17541-1.webp
+
+Name: Mr.Jeyaraj S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17568-1.webp
+
+Name: Mr.Joydip Mondal
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17603-1.webp
+
+Name: Ms.Jyothylakshmi J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17629-1.webp
+
+Name: Ms.Kavita Basavaraj Hiremath
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17901-1.webp
+
+Name: Ms.Keerthana J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17667-1.webp
+
+Name: Ms.Keerthana P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17317-1.webp
+
+Name: Ms.Kumudhavalli D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17486-1.webp
+
+Name: Mr.Lakshmanan N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17419-1.webp
+
+Name: Ms.Lakshmi Priya R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17248-1.webp
+
+Name: Ms.Lavanya V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17657-1.webp
+
+Name: Ms.Mahabarathi S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17391-1.webp
+
+Name: Ms.Manjupriya R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17395-1.webp
+
+Name: Mr.Martin Luther J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17655-1.webp
+
+Name: Ms.Meena J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17330-1.webp
+
+Name: Ms.Mittal Bathwar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17626-1.webp
+
+Name: Mr.Mohammed Musthafa J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17491-1.webp
+
+Name: Mr.Navaneethakrishnan S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17343-1.webp
+
+Name: Ms.Nethra Kuruthukulangara
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17646-1.webp
+
+Name: Ms.Nishanthi V S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17371-1.webp
+
+Name: Ms.Nithya G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17270_0-1.webp
+
+Name: Mr.Pothu Raju Surendra
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17660-1.webp
+
+Name: Ms.Pouthika K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17256_0-1.webp
+
+Name: Ms.Pranati Somkuwar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17653-1.webp
+
+Name: Ms.Preethi D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17452-1.webp
+
+Name: Mr.Premchand Panda
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17658-1.webp
+
+Name: Ms.Punitha U
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17487-1.webp
+
+Name: Mr.Purushothaman P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17540-1.webp
+
+Name: Ms.Ragavi S P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17340-1.webp
+
+Name: Mr.Rajesh A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17334-1.webp
+
+Name: Mr.Ramesh S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17551-1.webp
+
+Name: Ms.Ramya P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17338-1.webp
+
+Name: Mr.Ranjithkumar G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17389-1.webp
+
+Name: Ms.Reshma K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17611-1.webp
+
+Name: Ms.Reshma Rajan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17596-1.webp
+
+Name: Ms.Sabareeswari K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17628-1.webp
+
+Name: Mr.Sai Deepak P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17599-1.webp
+
+Name: Ms.Sakthi G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17501-1.webp
+
+Name: Ms.Sambavi N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17295-1.webp
+
+Name: Mr.Sanjay K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17525-1.webp
+
+Name: Mr.Saravanan E
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17396-1.webp
+
+Name: Mr.Selvaganapathy G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17533-1.webp
+
+Name: Mr.Shafeeq S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17276-1.webp
+
+Name: Ms.Shalu Singh
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17607-1.webp
+
+Name: Mr.Sherlin Joseph S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17279-1.webp
+
+Name: Ms.Shilpa Shajan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17654-1.webp
+
+Name: Mr.Shivabasayya V Salimath
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17640-1.webp
+
+Name: Ms.Silpa Sunil
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17637-1.webp
+
+Name: Ms.Sruthi V P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17485-1.webp
+
+Name: Mr.Sivaraj C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17503-1.webp
+
+Name: Ms.Smrithi Saroj
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17635-1.webp
+
+Name: Mr.Soni Amit Balkrishna
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17912-1.webp
+
+Name: Mr.Soumyadip Das
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17597-1.webp
+
+Name: Ms.Subalakshmi P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17417-1.webp
+
+Name: Mr.Suman Joseph
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17602-1.webp
+
+Name: Mr.Suresh S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17573-1.webp
+
+Name: Ms.Suruthi R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17581-1.webp
+
+Name: Ms.Tharani S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17515-1.webp
+
+Name: Ms.Tharani G R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17313-1.webp
+
+Name: Mr.Uppuluru Ajay
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17662-1.webp
+
+Name: Mr.Utpal Das
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17604-1.webp
+
+Name: Ms.Vani Narayanan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17633-1.webp
+
+Name: Mr.Vasanth M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17537-1.webp
+
+Name: Mr.Vignesh K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17497-1.webp
+
+Name: Ms.Vyshnavi A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17608-1.webp
+
+Name: Ms.Yashly Yesudas K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17649-1.webp
+
+Name: Ms.Yoganandhini S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17407-1.webp
+
+Name: Dr. Ramesh Pathy M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11141-1.webp
+
+Name: Dr. Siva R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10791-1.webp
+
+Name: Dr. Abul Kalam Azad Mandal
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12346-1.webp
+
+Name: Dr. Anand A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11468-1.webp
+
+Name: Dr. Debasish Mishra
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13735-2.webp
+
+Name: Dr. Gothandam KM
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11264-1.webp
+
+Name: Dr. Jayanthi S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12274-1.webp
+
+Name: Dr. Karthikeyan S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10357-1.webp
+
+Name: Dr. KAVITHA THIRUMURUGAN
+Image: https://vit.ac.in/wp-content/uploads/2024/08/11714-1.jpg
+
+Name: Dr. Mythili S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10370-1.webp
+
+Name: Dr. Rajasekaran C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10865-1.webp
+
+Name: Dr. Ramanathan K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10613-1.webp
+
+Name: Dr.Sabina  E P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10509-1.webp
+
+Name: Dr. Sangeetha Subramanian
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10608-1.webp
+
+Name: Dr. Shanthi C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10627-1.webp
+
+Name: Dr. Shanthi V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12147-1.webp
+
+Name: Dr. Subathradevi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11194-1.webp
+
+Name: Dr. Sudandira Doss C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10377-1.webp
+
+Name: Dr. Suneetha V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10832-1.webp
+
+Name: Dr. Faraz Ahmad
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18806-Dr.-Faraz-Ahmad-1.webp
+
+Name: Dr. Kanagavel Deepankumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19721-1.webp
+
+Name: Dr. Mohana Priya A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10902-1.webp
+
+Name: Dr. Rohit
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19740-1.webp
+
+Name: Dr. Ramesh N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14811-1.webp
+
+Name: Dr. Sajithu Lulu S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10868-1.webp
+
+Name: Dr. Sreeja S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20128.jpg
+
+Name: Dr. Aanchal Mittal
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19668-1.webp
+
+Name: Dr. Dhanya V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20116.jpg
+
+Name: Dr. Sankar Ganesh D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19611-Dr.-Sankar-Ganesh-1.webp
+
+Name: Dr. Satarupa Banerjee
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17085-1.webp
+
+Name: Dr. Arnold Emerson I
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10533_0.webp
+
+Name: Dr. Jayaraman G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10679-1.webp
+
+Name: Dr. Kalaivani T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10866-1.webp
+
+Name: Dr. I Manjubala
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12423-1-1.webp
+
+Name: Dr. Pragasam V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11603-1.webp
+
+Name: Dr. Priti Talwar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12365-1.webp
+
+Name: Dr. Rasool
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Rasool-2.webp
+
+Name: Dr. Ramalingam C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11393-1.webp
+
+Name: Dr. Sivakumar A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10757-1.webp
+
+Name: Dr. Sudha Ramaiah
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10712-1.webp
+
+Name: Dr. R Tamizhselvi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12974-1.webp
+
+Name: Dr. Vino S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10823-1.webp
+
+Name: Dr. Aravind Selvin Kumar R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19565-1.webp
+
+Name: Dr. Jabez Osborne W
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12600-1.webp
+
+Name: Dr. Jeevitha GC
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18918-Dr.-G-C-Jeevitha-1.webp
+
+Name: Dr. Kuntal Pal
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20182.jpg
+
+Name: Dr. Rashmi Kataria
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20210.jpg
+
+Name: Dr. Rahul vashishth
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18919-Dr.-Rahul-Vashisth-1.webp
+
+Name: Dr. Rahul Shaw
+Image: https://vit.ac.in/wp-content/uploads/2024/08/20181.jpg
+
+Name: Dr. Sandeep Singh Rana
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18917-Dr.-Sandeep-Sing-Rana-1.webp
+
+Name: Dr. Devi Rajeswari V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10601-1.webp
+
+Name: Dr. Jayanthi Abraham
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11477-1.webp
+
+Name: Dr. Anand Prem Rajan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11043-1.webp
+
+Name: Dr. S Asha Devi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10375-1.webp
+
+Name: Dr. K V Bhaskara Rao
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10678-1.webp
+
+Name: Dr. Ganesh V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20135.jpg
+
+Name: Dr. Godwin Christopher J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11540-1.webp
+
+Name: Dr. Kannabiran K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10515-1.webp
+
+Name: Dr. Mohana Srinivasan V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Mohanasrinivasan-1.webp
+
+Name: Dr. Radha Saraswathy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10416-1.webp
+
+Name: Dr. Suresh P K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11883-1.webp
+
+Name: Dr. Suthindhiran K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12275-1.webp
+
+Name: Dr. Venkatraman M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12975-1.webp
+
+Name: Dr. Abilash V G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/abilash-1.webp
+
+Name: Dr. Gayathri M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12599-1.webp
+
+Name: Dr. Jayasri M A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12179-1.webp
+
+Name: Dr. Kavitha M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10690-1.webp
+
+Name: Dr. Naveen Kumar P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19624-1.webp
+
+Name: Dr. Sudesh R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18920-Dr.-Sudesh-Ravi-1.webp
+
+Name: Dr. Sunantha G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19630-1.webp
+
+Name: Dr. Venkat Kumar S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10630-1.webp
+
+Name: Dr. Alka Mehta
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10940-1.webp
+
+Name: Dr. M Anbalagan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12927-1.webp
+
+Name: Dr. Asit Ranjan Ghosh
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10603-1.webp
+
+Name: Dr. Everette Jacob Remington Nelson
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14844-1.webp
+
+Name: Dr. George Priya Doss C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12175-1.webp
+
+Name: Dr. Trupti Patel
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12568.webp
+
+Name: Dr. Rajasekaran R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Rajasekaran-1.webp
+
+Name: Dr. Sridharan TB
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10371-1.webp
+
+Name: Dr. Subhashree V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10711-1.webp
+
+Name: Dr. Danie Kingsley J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11352-1.webp
+
+Name: Dr. Podili Koteswaraiah
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12342-1.webp
+
+Name: Dr. Rajiniraja M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12834-1.webp
+
+Name: Dr. Reena Rajkumari B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11893_3.webp
+
+Name: Dr. Shweta R Panchal
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19625-1.webp
+
+Name: Dr. R Sudhakaran
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13290-1.webp
+
+Name: Dr. Balaji Balakrishnan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Balaji-1.webp
+
+Name: Dr. Kannan P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19666-1.webp
+
+Name: Dr. E Nalini
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Nalini-1.webp
+
+Name: Dr. Sunita Nayak
+Image: https://vit.ac.in/wp-content/uploads/2023/11/sunitanayak-1.webp
+
+Name: Dr. A Punitha Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15276-2.webp
+
+Name: Dr. Santhi A S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10879-1.webp
+
+Name: Dr. Abdul Rahim A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13765-2.webp
+
+Name: Dr. S S Chandrasekaran
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12433-1.webp
+
+Name: Dr. Jayaprakash J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15880-1.webp
+
+Name: Dr. G Mohan Ganesh
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10878-1.webp
+
+Name: Dr. M Muthukumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11049-1.webp
+
+Name: Dr. P Rama Mohan Rao
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11421_0.webp
+
+Name: Dr. S K Sekar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10138-1.webp
+
+Name: Dr. Shanmuga Priya T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15252-1.webp
+
+Name: Dr. A Sofi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11162-2.webp
+
+Name: Dr. S Thirumalini
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14839-2.webp
+
+Name: Dr. Bala Murugan S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13396_0-1.webp
+
+Name: Dr. T Meena
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14473-1.webp
+
+Name: Dr. N Senthil Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15377-1.webp
+
+Name: Dr. Prasanna Venkatesan R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16201-1.webp
+
+Name: Dr. Om Suganya
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11467-1.webp
+
+Name: Dr. T S Viswanathan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14474-1.webp
+
+Name: Dr. Arunava Ray
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18822_0-1.webp
+
+Name: Mr. Hareesh M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13609-2.webp
+
+Name: Mr. John Sushil Packiyaraj
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14491-2.webp
+
+Name: Dr. K S K Karthik Reddy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/KSKKR.jpg
+
+Name: Dr. Prasanth S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20090_0-1.webp
+
+Name: Dr. J Visuvasam
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13975-2.webp
+
+Name: Dr. Ehsan Nikbakht
+Image: https://vit.ac.in/wp-content/uploads/2024/08/Ehsan.jpg
+
+Name: Dr. Sanjay Kumar Shukla
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Sanjay-Kumar-1.webp
+
+Name: Dr. Mahenthiran S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16337.jpg
+
+Name: Dr. Amit Mahindrakar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11569.jpg
+
+Name: Dr. Dillip Kumar Barik
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13668.jpg
+
+Name: Dr. G P Ganapathy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11345.jpg
+
+Name: Dr. P Jagadeesh
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11901.jpg
+
+Name: Dr. S Parimala Renganayaki
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14791.jpg
+
+Name: Dr. P Porchelvan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10021.jpg
+
+Name: Dr. Saravana Kumar M P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10534.jpg
+
+Name: Dr. S Shantha Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12217.jpg
+
+Name: Dr. B Srimuruganandam
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13581.jpg
+
+Name: Dr. Uma Shankar M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10831.jpg
+
+Name: Dr. S Vasantha Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13676.jpg
+
+Name: Dr. Pulipati Sasanka Bhushan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15291.jpg
+
+Name: Dr. Surendar M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18821_0.jpg
+
+Name: Dr. G Velvizhi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15782-1.jpg
+
+Name: Dr. Monali Priyadarshini
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21240_0.jpg
+
+Name: Dr. Priyadharshini B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Dr-Priyadharshini.-B.jpg
+
+Name: Dr. N VAANI
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11325_1.jpg
+
+Name: Dr. Venkadavarahan M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19043.jpg
+
+Name: Dr. L Vignesh Rajkumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16373-1.webp
+
+Name: Dr. Boosik kang
+Image: https://vit.ac.in/wp-content/uploads/2024/08/Boosik.jpg
+
+Name: Dr. Cecile Grosbois
+Image: https://vit.ac.in/wp-content/uploads/2024/08/Cecile.jpg
+
+Name: Dr. Salvador-Blanes sebastien
+Image: https://vit.ac.in/wp-content/uploads/2024/08/Salvador.jpg
+
+Name: Dr.Velu S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10386-1.webp
+
+Name: Dr.Muruganandam L
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10385-1.webp
+
+Name: Dr.Anand V P Gurumoorthy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/anand-1.webp
+
+Name: Dr.Aruna Singh
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13610-1.webp
+
+Name: Dr.Babu Ponnusami A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14778-1.webp
+
+Name: Dr.Mahesh Ganesapillai
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Mahesh-1.webp
+
+Name: Dr.Monash P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14831-1.webp
+
+Name: Dr.Nirmala G S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10193-1.webp
+
+Name: Dr.Shishir Kumar Behera
+Image: https://vit.ac.in/wp-content/uploads/2023/11/shishir-1.webp
+
+Name: Dr. Thomas Theodore
+Image: https://vit.ac.in/wp-content/uploads/2023/11/THEODORE-1.webp
+
+Name: Dr.Aabid Hussain Shaik
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15278-1.webp
+
+Name: Dr.Bandaru Kiran
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15949-2.webp
+
+Name: Dr.Aslam Abdullah M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13287-1.webp
+
+Name: Dr.Chitra D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10384-1.webp
+
+Name: Dr.Dharmendra Kumar Bal
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15273-1.webp
+
+Name: Dr. Ganesh Moorthy I
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19638-1.webp
+
+Name: Dr.Mohammed Rehaan Chandan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14771-1.webp
+
+Name: Dr.Nagamalleswara Rao K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14768-2.webp
+
+Name: Dr. Shankar Raman Dhanushkodi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Shankar-Raman-Dhanushkodi-1.webp
+
+Name: Dr. Sivagami K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Sivagami-K-1.webp
+
+Name: Dr. Kuldeep Roy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19644-1.webp
+
+Name: Mr. Pandurangan K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19645-1.webp
+
+Name: Dr. Rima Biswas
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17026-1.webp
+
+Name: Dr. G P Rangaiah
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Rangaiah_0-1.webp
+
+Name: Dr. Venkatesh Meda
+Image: https://vit.ac.in/wp-content/uploads/2023/11/VENKATESH-MEDA-1.webp
+
+Name: Dr. Iyapparaja M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Iyapparaja.webp
+
+Name: Dr. Lawanya Shri M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10882-1.webp
+
+Name: Dr. Parimala M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11943.webp
+
+Name: Dr. Prasanna M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14034.webp
+
+Name: Dr.Senthil Kumaran U
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11160.webp
+
+Name: Dr. Srinivas Koppu
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12388-1.webp
+
+Name: Dr. Tapan Kumar Das
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11966-1.webp
+
+Name: Dr. Thanapal P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11972-1.webp
+
+Name: Dr. Thandeeswaran R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10268.webp
+
+Name: Dr. Bhuvana.S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19593.webp
+
+Name: Dr. Brindha K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12383.webp
+
+Name: Dr. Chandra Mouliswaran
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11054.webp
+
+Name: Dr. Charanya R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12366-1.webp
+
+Name: Dr. Deepa M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10681.webp
+
+Name: Dr. Gunasekaran G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10286.webp
+
+Name: Dr. Kumar P.J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11953-1.webp
+
+Name: Dr. Malaserene I
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10163-1.webp
+
+Name: Dr. Muthamil Selvan T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10905-1.webp
+
+Name: Dr. Nirmala M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10949-1.webp
+
+Name: Dr. Nithya S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/nithya.webp
+
+Name: Dr. Parvathi R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19570-1.webp
+
+Name: Dr. Ramesh P S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13568.webp
+
+Name: Dr. Vani M P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10298-1.webp
+
+Name: Dr. Arun Pandian J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19710-1.webp
+
+Name: Mrs. Benjula Anbu Malar M B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10728-1.webp
+
+Name: Dr. Bharanidharan N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19692-1.webp
+
+Name: Dr. Bhuvaneswari M.S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20160-1.webp
+
+Name: Dr. Chemmalar Selvi G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14459-1.webp
+
+Name: Dr. Jothish Kumar M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19726-1.webp
+
+Name: Dr. Kavitha B.R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13347-1.webp
+
+Name: Dr. Kumaresan P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12377-1.webp
+
+Name: Dr. Mohanraj G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19649-1.webp
+
+Name: Dr. Rajkumar M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19608-1.webp
+
+Name: Dr. Sivashankari R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11995-1.webp
+
+Name: Dr. Sumathi D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11041-1.webp
+
+Name: Mrs. Sureka S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11239-1.webp
+
+Name: Dr. Thanga Mariappan L
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19709-1.webp
+
+Name: Ms. Ushapreethi P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14062-1.webp
+
+Name: Ms. Adla Padma
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19522-1.webp
+
+Name: Ms. Nagalakshmi Vallabhaneni
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19521-1.webp
+
+Name: Ms. Radhika C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19047-1.webp
+
+Name: Ms. Shobana D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19520-1.webp
+
+Name: Dr. Neelu Khare
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13587.webp
+
+Name: Dr. Agilandeeswari L
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12426.webp
+
+Name: Dr. Anitha A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11441.webp
+
+Name: Dr. Chiranji Lal Chowdhary
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12325.webp
+
+Name: Dr. Dharmendra Singh Rajput
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14049.webp
+
+Name: Dr. Dhinesh Babu L.D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10367.webp
+
+Name: Dr. Ganesan K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10414.webp
+
+Name: Mr. Hari Ram Vishwakarma
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10500.webp
+
+Name: Dr. Jagadeesh G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11184.webp
+
+Name: Dr. Jeyanthi N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10266.webp
+
+Name: Dr. Karthikeyan J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13328.webp
+
+Name: Dr. Navaneethan C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13722.webp
+
+Name: Dr. Pounambal M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10267.webp
+
+Name: Dr. Prabhu J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11921.webp
+
+Name: Dr. Prabukumar M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11236.webp
+
+Name: Dr. Rahamathunnisa U
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12473.webp
+
+Name: Dr. Rajesh Kaluri
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13350.webp
+
+Name: Dr. Senthilkumar M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12295.webp
+
+Name: Dr. Shantharajah S.P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14786.webp
+
+Name: Dr. Sree Dharinya S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10617.webp
+
+Name: Dr. Sujatha R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11882.webp
+
+Name: Dr. Swarna Priya R.M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11978.webp
+
+Name: Dr. Valarmathi B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12929.webp
+
+Name: Dr. Vanmathi C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12361.webp
+
+Name: Dr. Brijendra Singh
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12563.webp
+
+Name: Dr. Hemalatha S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10282.webp
+
+Name: Dr. Jayaram Reddy A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10594.webp
+
+Name: Dr. Kalaivani S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11619.webp
+
+Name: Dr. Kamalakannan J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10373.webp
+
+Name: Dr. Krishnamoorthy N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19622.webp
+
+Name: Dr. Mareeswari V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11879.webp
+
+Name: Dr. Rajeswari C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13300.webp
+
+Name: Dr. Santhi K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10907.webp
+
+Name: Dr. Senthilkumar N C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10364.webp
+
+Name: Dr. Siva Rama Krishnan S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12305.webp
+
+Name: Dr. Uma K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14808.webp
+
+Name: Dr. Vellingiri J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16379.webp
+
+Name: Dr. Bala Ganesh N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20162.webp
+
+Name: Dr. Balaji E
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19600.webp
+
+Name: Dr. Bhavani S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12516.webp
+
+Name: Dr. Jagadeesan S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19719.webp
+
+Name: Dr. Jagannathan J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20153.webp
+
+Name: Mrs. Kiruba Thangam R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11040.webp
+
+Name: Dr. Krithika L.B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12532.webp
+
+Name: Dr. Magesh G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/MageshG-1.webp
+
+Name: Dr. Malathy E
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11916.webp
+
+Name: Dr. Nancy Victor
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13678.webp
+
+Name: Dr. Tamil Priya D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12572.webp
+
+Name: Dr. Thilagavathi M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11544.webp
+
+Name: Dr. Vijaya Rani
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12506.webp
+
+Name: Ms. Asha M M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19515.webp
+
+Name: Mr. Maddiralla Vinay
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19509.webp
+
+Name: Mr. Nagarajan B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19508.webp
+
+Name: Dr. Prabhavathy P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11577.webp
+
+Name: Dr. Sumathy S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10183.webp
+
+Name: Dr. Ajit Kumar Santra
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14872.webp
+
+Name: Dr. Asis Kumar Tripathy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14497.webp
+
+Name: Dr. Aswani Kumar Cherukuri
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10288.webp
+
+Name: Dr. Balakrushna Tripathy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11316.webp
+
+Name: Dr. Bimal Kumar Ray
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10134.webp
+
+Name: Dr. Durai Raj Vincent P.M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11906.webp
+
+Name: Dr. Gitanjali J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11641.webp
+
+Name: Dr. John Singh K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12442.webp
+
+Name: Dr. Kuruva Lakshmanna
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13580.webp
+
+Name: Dr. Mangayarkarasi R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10964.webp
+
+Name: Dr. Nadesh R.K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11186.webp
+
+Name: Dr. Sathiyamoorthy E
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10297.webp
+
+Name: Dr. Srinivasan P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14840.webp
+
+Name: Dr. Subha S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10817.webp
+
+Name: Dr. Usha Devi G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11985.webp
+
+Name: Dr. Vijayan R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10567.webp
+
+Name: Dr. Vijay Anand R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14081.webp
+
+Name: Dr. Alagiri I
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10889.webp
+
+Name: Dr. Arivuselvan K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11185.webp
+
+Name: Dr. Gundala Swathi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11554.webp
+
+Name: Dr. Harshita Patel
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16404.webp
+
+Name: Dr. Mythili N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10295.webp
+
+Name: Dr. Prabadevi B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14409.webp
+
+Name: Dr. Pradeepa M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16194.webp
+
+Name: Dr. Praveen Kumar Reddy M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14056.webp
+
+Name: Dr. Priya V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/priya.webp
+
+Name: Dr. Raghavan R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10620.webp
+
+Name: Dr. Ranichandra C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10236.webp
+
+Name: Dr. Santhosh Kumar SVN
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15946.webp
+
+Name: Dr. Seetha R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11599.webp
+
+Name: Dr. Selva Rani B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11189.webp
+
+Name: Dr. Subhashini R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10919.webp
+
+Name: Dr. Sudha M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11968.webp
+
+Name: Dr. Sumangali K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11576.webp
+
+Name: Dr. Sweta Bhattacharya
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13096.webp
+
+Name: Dr. Vivekananda G N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20137.webp
+
+Name: Dr. Vinothkumar V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19619.webp
+
+Name: Dr. Anbarasa Kumar A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19568.webp
+
+Name: Dr. Balasubramani M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19725.webp
+
+Name: Dr. Gayathri A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15951.webp
+
+Name: Dr. Jerart Julus L
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20152.webp
+
+Name: Dr. Karthikeyan D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19601.webp
+
+Name: Dr. Ramya G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12374.webp
+
+Name: Dr. Shunmuga Perumal P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16385.webp
+
+Name: Dr. Suba Shanthini S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11580.webp
+
+Name: Dr. Suganya P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14499.webp
+
+Name: Mr. Arunkumar M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19511.webp
+
+Name: Mr. Deenadayalan T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19050.webp
+
+Name: Mr. Prabhanantha Kumar M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19048.webp
+
+Name: Mr. Sreehari E
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19514.webp
+
+Name: Dr. Vijayan E
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10939.webp
+
+Name: Dr. Daphne Lopez
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10362.webp
+
+Name: Dr. Kishoreraja P C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19632_0.webp
+
+Name: Dr. Prasanna S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11117.webp
+
+Name: Dr. Ramkumar T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14795.webp
+
+Name: Dr. Senthil Murugan B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11627.webp
+
+Name: Dr. Shynu P.G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12340.webp
+
+Name: Dr. Vanitha M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10908.webp
+
+Name: Dr. Venketesh P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14790.webp
+
+Name: Dr. Angulakshmi M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11992.webp
+
+Name: Dr. Asha N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10967.webp
+
+Name: Dr. Ephzibah E.P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11888.webp
+
+Name: Dr. Karthikeyan P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10953.webp
+
+Name: Dr. Meenatchi S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12492.webp
+
+Name: Dr. Priya M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12362.webp
+
+Name: Dr. Rathi R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11947.webp
+
+Name: Dr. Senthil Kumar N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11581.webp
+
+Name: Dr. Senthil Kumar P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10873.webp
+
+Name: Dr. Uma Maheswari G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11853.webp
+
+Name: Dr. Arun Kumar A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19707.webp
+
+Name: Dr. Chandra Segar T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12387.webp
+
+Name: Dr. Jayalakshmi P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11061.webp
+
+Name: Dr. Mohana Priya P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20157.webp
+
+Name: Dr. Ramalingam M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19557.webp
+
+Name: Dr.Rampriya R S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19595.webp
+
+Name: Dr. Senthil Kumar T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19610.webp
+
+Name: Mr. Anbarasu B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19506.webp
+
+Name: Ms. Arul Treesa Mathew
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19513.webp
+
+Name: Ms. Chintalapudi V N U Bharathi Murthy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19510.webp
+
+Name: Ms. Felicita S A M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19045.webp
+
+Name: Mr. Thanga Prasath S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19512.webp
+
+Name: Dr. B Jaganatha Pandian
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12440.jpg
+
+Name: Dr. Mathew Mithra Noel
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12196-1.webp
+
+Name: Dr. Geetha M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14805-1.webp
+
+Name: Dr. P Geethaanjali
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10529-1.webp
+
+Name: Dr. Manimozhi M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10668-1.webp
+
+Name: Dr. M Monica Subashini
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11817-1.webp
+
+Name: Dr. T Raghunathan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13318-1.webp
+
+Name: Dr. Ramesh V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10091-1.webp
+
+Name: Dr. N Ruban
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10675-1.webp
+
+Name: Dr. R Saravanankumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10231-1.webp
+
+Name: Dr. A Sharmila
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11159-1.webp
+
+Name: Dr. Vinodh Kumar E
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14411-1.webp
+
+Name: Dr. V Bagyaveereswaran
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11176-1.webp
+
+Name: Dr. Dhanamjayulu C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12439-1.webp
+
+Name: Dr. M Praveen Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12960-1.webp
+
+Name: Dr. Rashmi Ranjan Das
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10616-1.webp
+
+Name: Dr. Sonam Shrivastava
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16177-1.webp
+
+Name: Dr. Venkata Ramana Kasi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17038_0-1.webp
+
+Name: Mr. Dhinu Lal M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17764-1.webp
+
+Name: Mr. Dinesh S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/dinesh-1.webp
+
+Name: Mr. Gunasekaran V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17321-1.webp
+
+Name: Mr. Joshi Kumar V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17772-1.webp
+
+Name: Mr. Mathesh G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/mathesh-1.webp
+
+Name: Mr. Paneti Anjaneya vara Prasad
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17759-1.webp
+
+Name: Ms. Rishika
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17769-1.webp
+
+Name: Ms. Souparnika Varijan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17770-1.webp
+
+Name: Dr. P PONNAMBALAM
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12957-1.webp
+
+Name: Dr. Aunkumar G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12943-1.webp
+
+Name: Dr. R M Brisilla
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15251-1.webp
+
+Name: Dr. CHITRA A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11975-1.webp
+
+Name: Dr. Elangovan D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13070-2.webp
+
+Name: Dr. Indragandhi V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14793-1.webp
+
+Name: Dr. M KOWSALYA
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10171-2.webp
+
+Name: Dr. K Palanisamy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11182-1.webp
+
+Name: Dr. N RAJASEKAR
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12250-1.webp
+
+Name: Dr. R Raja Singh
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15301-1.webp
+
+Name: Dr. RAZIA SULTANA W
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11558-1.webp
+
+Name: Dr. SUDHAKAR N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11080-2.webp
+
+Name: Dr. Yedula Pedda Obulesu
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15295-1.webp
+
+Name: Dr. S ALBERT ALEXANDER
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19693-1.webp
+
+Name: Dr. Arun N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11201-1.webp
+
+Name: Dr. Mahendra V Chilukuri
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14775-1.webp
+
+Name: Dr. Raju J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/DSC_6828-1.webp
+
+Name: Dr. Satyajit Mohanty
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17034_0-1.webp
+
+Name: Dr. Subramanian K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10433-1.webp
+
+Name: Dr. JAKEER HUSSAIN
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17037_0-1.webp
+
+Name: Dr. MRUTUNJAYA PANDA
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19646-1.webp
+
+Name: Dr. Mukul Chankaya
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19722-1.webp
+
+Name: Dr. SANKARDOSS V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11075-1.webp
+
+Name: Dr. Satyajit Das
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16367-1.webp
+
+Name: Dr. SUPRAVA CHAKRABORTY
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17035_0-1.webp
+
+Name: Dr. Washima Tasnin
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16393-1.webp
+
+Name: Mr. Boopathi R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17431-1.webp
+
+Name: Mr.Dattatraya Dilip Kalel
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17763-1.webp
+
+Name: Mr. Manikandan R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17424-1.webp
+
+Name: Ms. Nalluri ramya sri
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17775-1.webp
+
+Name: Ms. Nikita Ramachandra
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17767-1.webp
+
+Name: Mr.Nithiyanandham G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17344-1.webp
+
+Name: Mr. Pallamkuppam vinodh kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17753-1.webp
+
+Name: Mr. Pulipaka srikanth
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17751-1.webp
+
+Name: Mr. S. Rameshbabu
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17466-1.webp
+
+Name: Ms. Sangeetha E
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17266-1.webp
+
+Name: Ms. Shyni R Nambiar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17768-1.webp
+
+Name: Mr. Viswateja Anjuru
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17760-1.webp
+
+Name: Dr. G K Rajini
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12973.jpg
+
+Name: Dr. Partha Sharathi Mallick
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Mallick.jpg
+
+Name: Dr. N Amutha Prabha
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11341-1.webp
+
+Name: Dr. Balaji S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10368-2.webp
+
+Name: Dr. S Balamurugan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11355-1.webp
+
+Name: Dr. Arulmozhivarman
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10680-1-1.webp
+
+Name: Dr. P Mahalakshmi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10116-1.webp
+
+Name: Dr. Marimuthu R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11359-1.webp
+
+Name: Dr. Sivabalan S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10387-1-1.webp
+
+Name: Dr. Venkata Lakshmi Narayana K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13584-1.webp
+
+Name: Dr. S Vivekanandan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11051-1.webp
+
+Name: Dr. Abhishek G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13181-1.webp
+
+Name: Dr. A Karthikeyan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12415-1.webp
+
+Name: Dr. K Selvakumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16353-1.webp
+
+Name: Dr. P Uma Sathyakam
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13570-1.webp
+
+Name: Dr. Venkataraman M N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10943-1.webp
+
+Name: Dr. Jitendra Kumar Goyal
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Jitendra-1.webp
+
+Name: Mr. R Santhakumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10399-1.webp
+
+Name: Mr. Vidhya Sagar G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12480-1.webp
+
+Name: Dr. Vijayapriya R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16389_0-1.webp
+
+Name: Dr. Yuvapriya T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19653-1.webp
+
+Name: Mr. Annamalai M C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17460-1.webp
+
+Name: Ms. Anuradha Natarajan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17538-1.webp
+
+Name: Mr. Ashok Kumar A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17455-1.webp
+
+Name: Mr. Ganesh Kumar S S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17546-1.webp
+
+Name: Mr. Harish S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17752-1.webp
+
+Name: Mr. K M S Muthukumara Rajaguru
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17311-1.webp
+
+Name: Mr. Paramanand Prajapati
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17774-1.webp
+
+Name: Mr. Saravanan M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17587-1.webp
+
+Name: Mr. shana Lakshmi Prasad
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17765-1.webp
+
+Name: Mr. Sugumaran G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17448-1.webp
+
+Name: Dr. Thiruvenkadam S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Dr.-THIRUVENKADAM-S-1.webp
+
+Name: Dr. T Jayabarathi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10020-1.webp
+
+Name: Dr. Belwin Edward Jeyaraj
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11472-1.webp
+
+Name: Dr. Jacob Raglend Isaac
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14845-1.webp
+
+Name: Dr. M Janaki
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12486-2.webp
+
+Name: Dr. Mageshvaran R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11074-1.webp
+
+Name: Dr. Meikandasivam S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12490-2.webp
+
+Name: Dr. Prabhakar Karthikeyan Shanmugam
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10510-2.webp
+
+Name: Dr. D RAMA PRABHA
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10899-2.webp
+
+Name: Dr. Rani C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Rani.webp
+
+Name: Dr. Ravi K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11815-2.webp
+
+Name: Dr. B Saravanan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11562-2.webp
+
+Name: Dr. K Sathish Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10481-1.webp
+
+Name: Dr. R Thirumalaivasan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12485-3.webp
+
+Name: Dr. Vijayakumar D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12216-1.webp
+
+Name: Dr. P Vijayapriya
+Image: https://vit.ac.in/wp-content/uploads/2023/11/vijaya.webp
+
+Name: Dr. P Anbarasan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10162-1.webp
+
+Name: Dr. Anusuya Bhattacharyya
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18896-1.webp
+
+Name: Dr. Srihari Mandava
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12213-2.webp
+
+Name: Dr. Arun S L
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17030-1.webp
+
+Name: Dr. Himadri Lala
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16375-1.webp
+
+Name: Dr. Gokulakrishnan G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12959-2.webp
+
+Name: Dr. Gnanavignesh R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18893-1.webp
+
+Name: Dr. Maddela Chinna Obaiah
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16357-1.webp
+
+Name: Dr. Mallikarjuna Golla
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19613-1.webp
+
+Name: Dr. Rajesh Kumar Lenka
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19636-1.webp
+
+Name: Dr. Tapan Prakash
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17094-1.webp
+
+Name: Mr. Thamilmaran A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13406-1-1.webp
+
+Name: Dr. J Vanishree
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11930-1.webp
+
+Name: Ms. Asmita Ajay Rathod
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17755-1.webp
+
+Name: Ms. Bagadi Santhosh Kumari
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17754-1.webp
+
+Name: Ms. Dangeti Lakshmi satya naga sri
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17757-1.webp
+
+Name: Ms. Dharani M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/dharanim-1.webp
+
+Name: Mr. Dinesh P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17325-1.webp
+
+Name: Mr. Dipanjan Dey Sarkar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17758-1.webp
+
+Name: Mr. Karan Kumar K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17586-karan-1.webp
+
+Name: Mr. Maloth Hussen
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17761-1.webp
+
+Name: Mr. Nippatala V Ramanaiah
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17762-1.webp
+
+Name: Mr. Pankaj Sharma
+Image: https://vit.ac.in/wp-content/uploads/2023/11/pankaj_sharma-1.webp
+
+Name: Mr. Sekar P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17578-1.webp
+
+Name: Mr. Vanga Anil
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17766-1.webp
+
+Name: Dr. Vidhya S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11353.webp
+
+Name: Dr. Dharani Bai G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10238.webp
+
+Name: Prof. Elizabeth Rufus
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10117.jpg
+
+Name: Dr. Hemalatha K
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21207.jpg
+
+Name: Dr. Kathirvelan J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11885.jpg
+
+Name: Dr. MYTHILI A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14772.webp
+
+Name: Dr. SIVAKUMAR R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16145.webp
+
+Name: Dr. Zachariah C Alex
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10235.webp
+
+Name: Dr. Arunkumar Chandrasekhar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15979-1.webp
+
+Name: Dr. DEBASHIS MAJI
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15264.jpg
+
+Name: Dr. Jeeva J B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Jeeva-J.B.jpg
+
+Name: Dr. Kishor Lakshminarayanan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16399.webp
+
+Name: Dr. PRAKASH R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14835-1.webp
+
+Name: Dr. Sasikumar K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12741.webp
+
+Name: Dr. Sathya P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11837.jpg
+
+Name: Dr. Sathyanarayanan P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14717.webp
+
+Name: Dr. Sivacoumar R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11610-1.webp
+
+Name: Dr. Suganthan V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12857-1.webp
+
+Name: Dr. Abraham Sampson S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15484.jpg
+
+Name: Dr. ANJU THOMAS
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18809.webp
+
+Name: Dr. JAFFINO
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18825.webp
+
+Name: Dr. MUTHURAJA S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11575.webp
+
+Name: Dr. Nisha J S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19629.webp
+
+Name: Dr. Sharmila N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12738.webp
+
+Name: Dr. Subhathirai S P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15461-1.webp
+
+Name: Dr. Sukanta Kumar Tulo
+Image: https://vit.ac.in/wp-content/uploads/2024/06/21235.jpg
+
+Name: Dr.Jagannadha Naidu K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11877.webp
+
+Name: Dr. Sivanantham S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10688.webp
+
+Name: Dr.Kittur Harish Mallikarjun
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11927.webp
+
+Name: Dr.Kumaravel S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14418.webp
+
+Name: Dr.Ramakrishnan V.N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13616.webp
+
+Name: Dr.Sakthivel R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10540.webp
+
+Name: Dr.Sivasankaran K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11108.webp
+
+Name: Dr.Sri Adibhatla Sridevi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13751.webp
+
+Name: Dr. Abdul Majeed K K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17013.webp
+
+Name: Dr.Arunachalam V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10528.webp
+
+Name: Dr. Arun Dev Dhar Dwivedi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17067-1.webp
+
+Name: Dr.Govardhan K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10707.webp
+
+Name: Dr. Jayakrishnan P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11045.webp
+
+Name: Dr.Nithish Kumar V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14823.webp
+
+Name: Dr. Penchalaiah Palla
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13972-1.webp
+
+Name: Dr. PRACHI SHARMA
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19689.webp
+
+Name: Dr. PRADHEEP THIYAGARAJAN
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15266.webp
+
+Name: Dr. Rajan Kumar Pandey
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16406.webp
+
+Name: Dr. Rajeev Pankaj Nelapati
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12119.webp
+
+Name: Dr. Ravi S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11403.webp
+
+Name: Dr. Somasundaram D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19538.webp
+
+Name: Dr.Velmurugan V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10287-1.webp
+
+Name: Dr. Vetriveeran Rajamani
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19562.webp
+
+Name: Dr. Vikas Vijayvargiya
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17019-1.webp
+
+Name: Dr.Abhishek Narayan Tripathi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19715.webp
+
+Name: Dr. Aarthy M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13432.webp
+
+Name: Dr. Ahna Sharan
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21208.jpg
+
+Name: Ms.Anitha R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11135.webp
+
+Name: Dr. Antony Xavier Glittas
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Antony.webp
+
+Name: Dr. Debashish Dash
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17016_1.webp
+
+Name: Dr. Dhanabal R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11091.webp
+
+Name: Dr. Naushad Manzoor Laskar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19688.webp
+
+Name: Dr. Nawaz Shafi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19554.webp
+
+Name: Dr. Prayline Rajabai C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14061.webp
+
+Name: Dr. Ragunath G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13701.webp
+
+Name: Dr.Sandeep Moparthi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19660.webp
+
+Name: Dr. Sagar
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21187.jpg
+
+Name: Dr. Satheesh Kumar S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12121.webp
+
+Name: Dr. Saurabh Nagar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16390.webp
+
+Name: Dr.Shelja
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19647.webp
+
+Name: Dr. Shilpi Ruchi Kerketta
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21159.jpg
+
+Name: Mr. Surya Teja Naga Srinivas.P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20071_updated.webp
+
+Name: Dr. Tanmaya Kumar Das
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19523.webp
+
+Name: Dr. Vishal Gupta
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19034.webp
+
+Name: Dr. Noor Mohammed V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11166.webp
+
+Name: Dr. Abhijit Bhowmick
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14842.webp
+
+Name: Dr. Anantha Krishna Chintanpalli
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18852.webp
+
+Name: Dr. Christopher Clement J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11844-1.webp
+
+Name: Dr. Jasmin Pemeena Priyadarsini M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10094.webp
+
+Name: Dr. KALAIVANI S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14048.webp
+
+Name: Dr. Kavitha K V N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11158.webp
+
+Name: Dr. Kannadassan D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11177.webp
+
+Name: Dr. Malaya Kumar Hota
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15275.webp
+
+Name: Dr. Nandakumar S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11167.webp
+
+Name: Dr. Poonkuzhali R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10658.webp
+
+Name: Dr. Prakasam P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16382.webp
+
+Name: Dr. Rajeshkumar V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14787.webp
+
+Name: Dr. Ramachandra Reddy G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14871.webp
+
+Name: Dr. Renuga Devi S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10291.webp
+
+Name: Dr. Revathi S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10242.webp
+
+Name: Dr. Saravanan K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10189.webp
+
+Name: Dr. Shambavi K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10105.webp
+
+Name: Dr. Shankar T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11060.webp
+
+Name: Dr. Srinivasa Rao Inabathini
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11832.webp
+
+Name: Dr. Thanikaiselvan V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10888.webp
+
+Name: Dr. Vaegae Naveen Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13737.webp
+
+Name: Dr. Valarmathi J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10153.webp
+
+Name: Dr. Vijay Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13607.webp
+
+Name: Dr. Velmurugan T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10429-1.webp
+
+Name: Dr. Vinoth Babu K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11998.webp
+
+Name: Dr. Yogesh Kumar Choukiker
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13969.webp
+
+Name: Dr. Aarthi G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11976.webp
+
+Name: Dr. Avinash Chandra
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15784.webp
+
+Name: Dr. Biswajit Dwivedy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17022-1.webp
+
+Name: Dr. Boopalan G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11979.webp
+
+Name: Dr. Budhaditya Bhattacharyya
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14063.webp
+
+Name: Dr.Chittaranjan Nayak
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18839.webp
+
+Name: Dr. Gautam Narayan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15271.webp
+
+Name: Dr. Hariharan S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14814.webp
+
+Name: Dr. Jabeena A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10915.webp
+
+Name: Dr. Karthikeyan M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Dr.-KARTHIKEYAN-M_0.webp
+
+Name: Dr. Mugelan R K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15779.webp
+
+Name: Dr. POONGUNDRAN SELVAPRABHU
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15964.webp
+
+Name: Dr. Rajesh R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10822.webp
+
+Name: Dr. Rajesh Kumar M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10674.jpg
+
+Name: Dr. Rajkishor Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17015-1.webp
+
+Name: Dr. Sangeetha A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10418.webp
+
+Name: Dr. Sanjay Kumar Singh
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14825.webp
+
+Name: Dr. Sankar Ganesh S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11895.webp
+
+Name: Mr. SUDHAKAR M S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16441.webp
+
+Name: Dr. Suresh Kumar T R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14824-1.webp
+
+Name: Dr. Ashish P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12935.webp
+
+Name: Dr. Aswathi V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20147.webp
+
+Name: Dr. Chittotosh Ganguly
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21209.jpg
+
+Name: Dr. Christina Josephine Malathi A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13434.webp
+
+Name: Dr. Dilip Kumar Choudhary
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19501.webp
+
+Name: Dr. Gopinath P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19661.webp
+
+Name: Dr. Hemanta Kumar Sahu
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19542.webp
+
+Name: Dr. Henridass A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19713.webp
+
+Name: Dr. Kalyanbrata Ghosh
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19634.webp
+
+Name: Ms. Lavanya N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13178.webp
+
+Name: Dr. Mohiul Islam
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19699.webp
+
+Name: Dr. Naveen Mishra
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16206.webp
+
+Name: Mr.Pareshkumar Ramanbhai Sagar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20122.webp
+
+Name: Dr. Pradeep Kumar Das
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19642.webp
+
+Name: Dr. Preetha K S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11582.webp
+
+Name: Dr. Rahul Manohar O
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21160.jpg
+
+Name: Dr. Rajalakshmi S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10390.webp
+
+Name: Dr. Rajesh N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16153.webp
+
+Name: Mr. Rajesh N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12817-1.webp
+
+Name: Dr. Rohit Mathur
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20209.webp
+
+Name: Dr. Sandhana Mahalingam M
+Image: https://vit.ac.in/wp-content/uploads/2024/08/2119.jpg
+
+Name: Dr. Saranya K C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13399.webp
+
+Name: Dr. Shah Arpan Hasmukh Mayuri
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19704.webp
+
+Name: Dr. Shanidul Hoque
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19541.webp
+
+Name: Dr. Shweta B Thomas
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16168.webp
+
+Name: Dr. Subhra Sankha Sarma
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20146.webp
+
+Name: Dr. Sudhanshu Arya
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21147.jpg
+
+Name: Dr. Sultan Mahmood Chowdhury
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19561.webp
+
+Name: Dr. Thangudu Ramji
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21077.jpg
+
+Name: Dr. Veerapu Goutham
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19603.webp
+
+Name: Dr. Vijaya Durga Chintala
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21188.jpg
+
+Name: Dr. Vivek Rajpoot
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19687.webp
+
+Name: Dr. B Karthikeyan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11052.webp
+
+Name: Dr. Arun M
+Image: https://vit.ac.in/wp-content/uploads/2024/02/13592.webp
+
+Name: Dr. Sasikumar P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12003.webp
+
+Name: Dr. Sujatha R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15760_0.jpg
+
+Name: Dr. SUMIT KUMAR JINDAL
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14819.webp
+
+Name: Dr. Venugopal P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11956.webp
+
+Name: Dr. Bagubali A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11335.webp
+
+Name: Dr. Gerardine Immaculate Mary
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11678.webp
+
+Name: Dr. Hemprasad Yashwant Patil
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15924.webp
+
+Name: Dr. Konguvel E
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17021_0.webp
+
+Name: Dr. Sriharipriya K C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16383.webp
+
+Name: Dr. S Sundar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12414.webp
+
+Name: Dr. Venkata Ravikumar C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13353_0.webp
+
+Name: Dr. APARNA MOHANTY
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17020.webp
+
+Name: Mrs. Bijaylaxmi Das
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21112.jpg
+
+Name: Dr. Deepika Rani Sona
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13427.jpg
+
+Name: Dr.Indrasen Singh
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19714.webp
+
+Name: Dr.Jagana Bihari Padhy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19716.webp
+
+Name: Dr. Karthikeyan A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10881.webp
+
+Name: Dr. Manish Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16147.webp
+
+Name: Dr. Padmini T N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10309.webp
+
+Name: Dr. Sangeetha N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11545.webp
+
+Name: Dr. Shanmugasundaram M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11195.jpg
+
+Name: Dr. Sidharth Gautam
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18816.webp
+
+Name: Dr. Sumathi G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17066_0.webp
+
+Name: Dr.Suraj Prakash Sahoo
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19685.webp
+
+Name: Dr. Vidhyapathi C.M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12554.webp
+
+Name: Dr. VIJENDRA BABU D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19578.webp
+
+Name: Dr. Pandivelan C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11235.jpg
+
+Name: Dr. Devendranath Ramkumar K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11152.jpg
+
+Name: Dr. Ahankari Sandeep Sureshrao
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15792-1.webp
+
+Name: Dr. M Anthony Xavior
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10223.jpg
+
+Name: Dr. Aravind Raj S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15262-1.webp
+
+Name: Dr. S K Ariful Rahaman
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13613-1.webp
+
+Name: Dr. Arivazhagan N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11234.jpg
+
+Name: Dr. Dega Nagaraju
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13140-1.webp
+
+Name: Dr. Geetha Manivasagam
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10597-1.webp
+
+Name: Dr. Jayakrishna K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14802-1.webp
+
+Name: Dr. Jeevanantham AK
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11106-1.webp
+
+Name: Dr. John Rajan A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14836-1.webp
+
+Name: Dr. Kuppan P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10249-1.webp
+
+Name: Dr. Murugan M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15385-1.webp
+
+Name: Dr. Narendra Kumar U
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13576-1.webp
+
+Name: Dr. Padmanabhan K
+Image: https://vit.ac.in/wp-content/uploads/2024/09/12334.webp
+
+Name: Dr. RAJAMURUGAN G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15744-1.webp
+
+Name: Dr. Raja Annamalai A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13954-1.webp
+
+Name: Dr. Rajyalakshmi G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12475-1.webp
+
+Name: Dr. Ramanujam R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13348-1.webp
+
+Name: Dr. Sampath Kumar T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14807-1.webp
+
+Name: Dr. Senthil Kumaran S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15757-1.webp
+
+Name: Dr. Sivaprasad Darla
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10251-1.webp
+
+Name: Dr. Soumen Pal
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12538-photo-1.webp
+
+Name: Dr. Sridhar V.G
+Image: https://vit.ac.in/wp-content/uploads/2024/10/10165.webp
+
+Name: Dr. Srinivasa Gupta N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12476-1.webp
+
+Name: Dr. Sudhakara pandian R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16099-1.webp
+
+Name: Dr. Thiagarajan S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15250-1.webp
+
+Name: Dr. Venkateshwarlu B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13970-1.webp
+
+Name: Dr. Ashish Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17041-1.webp
+
+Name: Dr. Chinmaya Prasad Mohanty
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15274-1.webp
+
+Name: Dr. Jambeswar Sahu
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16175-1.webp
+
+Name: Dr. Muralidharan B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15259-1.webp
+
+Name: Dr. Raja K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13574-1.webp
+
+Name: Dr. Rijesh M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15284-1.webp
+
+Name: Dr. Sreekanth M S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15288-1.webp
+
+Name: Dr. Vezhavendhan R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11819-1.webp
+
+Name: Dr. Vivek Kumar Barnwal
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19650-1.webp
+
+Name: Dr. Anoj Giri
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16169-1.webp
+
+Name: Dr. Atul Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17042-1.webp
+
+Name: Dr. S Babu
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17069-1.webp
+
+Name: Dr. Devasri Fuloria
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16167-1.webp
+
+Name: Dr. Jeyapandiarajan P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13612-1.webp
+
+Name: Dr. Joel J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13331-1.webp
+
+Name: Dr. Kishore Kumar Mahato
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16369-1.webp
+
+Name: Dr. Mahesh V P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/20158-1.webp
+
+Name: Dr. Oyyaravelu R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12802-1.webp
+
+Name: Dr. Raviteja Buddala
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16370-1.webp
+
+Name: Dr. Sreethul Das
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13356-1.webp
+
+Name: Dr. Srinivasan Narayanan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15770-1.webp
+
+Name: Dr. Sundaramali G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12941-1.webp
+
+Name: Dr. Suya Prem Anand P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16164_0-1.webp
+
+Name: Dr. Asokan M A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13386-2.webp
+
+Name: Dr. Bibin John
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14032-1.webp
+
+Name: Dr. Edison Gundabattini
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12246-1.webp
+
+Name: Dr.  Immanuel Selwynraj A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14747-1.webp
+
+Name: Dr. Jose S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15850-1.webp
+
+Name: Dr.Kamatchi R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14563-1.webp
+
+Name: Dr. Ponnusamy P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15729-1.webp
+
+Name: Dr. Prakash R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14810-1.webp
+
+Name: Dr. Raja Sekhar Y
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Raja-Sekhar_0-1.webp
+
+Name: Dr. Satheesh A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12585-1.webp
+
+Name: Dr. Satyajit Ghosh
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11168-1.webp
+
+Name: Dr. Tapano Kumar Hotta
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14800-1.webp
+
+Name: Dr. Vincent Herald Wilson D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16380-1.webp
+
+Name: Dr. Aruna Kumar Behura
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15764-2.webp
+
+Name: Dr. Balaji K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16371-1.webp
+
+Name: Dr.Chiranjeevi C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13382-2.webp
+
+Name: Dr. Devendra Kumar Patel
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14417-1.webp
+
+Name: Dr. Dsilva Winferd Rufuss
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16351-1.webp
+
+Name: Dr. Gaurav Gupta
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16170-1.webp
+
+Name: Dr. Mohan C G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13094-2.webp
+
+Name: Dr. Natarajan M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11899-1.webp
+
+Name: Dr. Ranjitha J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Ranjitha-1.webp
+
+Name: Dr. Saboor S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15272-2.webp
+
+Name: Dr. Sakthivadivel D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16349-1.webp
+
+Name: Dr. Sekarapandian N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15767-1.webp
+
+Name: Dr. Senthur Prabu S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13385-1.webp
+
+Name: Dr. Vijayalakshmi S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13611-2.webp
+
+Name: Mr. Anoop Kumar M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14484-1.webp
+
+Name: Dr. Anuj Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15957-2.webp
+
+Name: Dr. Ashish Alex Sam
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17040_0-1.webp
+
+Name: Dr. Deepakkumar R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17043-1.webp
+
+Name: Dr. Gayathri V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16148-1.webp
+
+Name: Dr. Jayaprakash Narayan M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15798-1.webp
+
+Name: Dr. Lalit Kumar Bansal
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16215-1.webp
+
+Name: Dr. Nataraj G
+Image: https://vit.ac.in/wp-content/uploads/2024/08/16347.webp
+
+Name: Dr. Nishant Tiwari
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16356-1.webp
+
+Name: Dr. Padmanathan P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13384-2.webp
+
+Name: Dr. Praveen Kumar G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16348-1.webp
+
+Name: Dr. Sreeja Sadasivan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14486-1.webp
+
+Name: Dr. Ashok B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13339.jpg
+
+Name: Dr. Bibhuti Bhusan Sahoo
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15287.jpg
+
+Name: Dr. Govindha Rasu N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13976.jpg
+
+Name: Dr. Mohamed Ibrahim M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14465.jpg
+
+Name: Dr. Nandhagopal K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10783.jpg
+
+Name: Dr. Porpatham E
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12869.jpg
+
+Name: Dr. Prabu K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15780.jpg
+
+Name: Dr. Ramesh Kumar C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10693.jpg
+
+Name: Dr. Senthil Kumar A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10063.jpg
+
+Name: Dr. Thangaraja J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14463.jpg
+
+Name: Dr. R Thundil Karuppa Raj
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12449.jpg
+
+Name: Dr. Vijayakumar T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12384.jpg
+
+Name: Dr. Yagna S Mukkamala
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10397.jpg
+
+Name: Dr. Ashok K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15267.jpg
+
+Name: Dr. Baskar P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10894_0.jpg
+
+Name: Dr. Kannan C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14475.jpg
+
+Name: Dr. Premkartikkumar SR
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14488.jpg
+
+Name: Dr.  Ravi K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13304.jpg
+
+Name: Dr. Sakthivel P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11259.jpg
+
+Name: Mr. Senthil Kumar M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10347.jpg
+
+Name: Dr. Vijesh V Joshi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15786.jpg
+
+Name: Dr. Krishna S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13295.jpg
+
+Name: Mr. Senthilkumar P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/SenthilkumarP.jpg
+
+Name: Dr. Suresh Kumar P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17954_0.jpg
+
+Name: Dr. Benedict Thomas
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14792.jpg
+
+Name: Dr. Akash Mohanty
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12507.jpg
+
+Name: Dr. Arivarasu M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14789.jpg
+
+Name: Dr. Arun Tom Mathew
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13614.jpg
+
+Name: Dr. Bharanidaran R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14462.jpg
+
+Name: Dr. Denis Ashok S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12481.jpg
+
+Name: Dr. Devendiran S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13124.jpg
+
+Name: Dr. M Giriraj
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11475.jpg
+
+Name: Dr. Gokul kumar K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10392.jpg
+
+Name: Dr. Kanish T C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/kanish-Passport-pic1.jpg
+
+Name: Dr. Mallikarjuna Reddy D
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14461.jpg
+
+Name: Dr. Manikandan M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14781.jpg
+
+Name: Dr. Manoharan R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11149.jpg
+
+Name: Dr. NAIJU CD
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10335.jpg
+
+Name: Dr. Narendiranath Babu T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13462.jpg
+
+Name: Dr. Niranjana Behera
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13618.jpg
+
+Name: Dr. Rajay Vedaraj I S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11042.jpg
+
+Name: Dr. Renold Elsen S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15768.jpg
+
+Name: Dr. Senthil Kumar S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11151.jpg
+
+Name: Dr. Vasudevan R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12625.jpg
+
+Name: Dr. Velu M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11551.jpg
+
+Name: Dr. Venkatesan K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13315.jpg
+
+Name: Dr. Anandavel K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15834.jpg
+
+Name: Dr. Bikash Routh
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14054.jpg
+
+Name: Dr. Edwin Sudhagar P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14828.jpg
+
+Name: Dr. Jeeva P A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12803.jpg
+
+Name: Dr. D S Mohan Varma
+Image: https://vit.ac.in/wp-content/uploads/2023/11/image002.jpg
+
+Name: Dr. J Naveen
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Naveen-1.jpg
+
+Name: Dr. Raghuraman DRS
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10691.jpg
+
+Name: Dr. Rahul Singh Sikarwar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14841.jpg
+
+Name: Dr. Rajasekhara Reddy Mutra
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16358.jpg
+
+Name: Dr. Rajesh M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14833.jpg
+
+Name: Dr. Ramakrishnan R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14769.jpg
+
+Name: Dr. Ramesh Babu Vemuluri
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13301.jpg
+
+Name: Dr. Senthilnathan N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13370.jpg
+
+Name: Dr. Sovan Sundar Dasgupta
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15190.jpg
+
+Name: Dr. Venkatesan S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13097.jpg
+
+Name: Dr. Vinoth Jebaraj A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14796.jpg
+
+Name: Dr. Arulvel S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16352.jpg
+
+Name: Dr. Ashirbad Swain
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17039.jpg
+
+Name: Dr. Boopathi M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13595.jpg
+
+Name: Dr. Chinmaya Sahu
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17070.jpg
+
+Name: Dr. Deepa A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12962.jpg
+
+Name: Dr. Deepak Kumar Biswal
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16342.jpg
+
+Name: Dr. Gunji Bala Murali
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16346.jpg
+
+Name: Dr. Kalaiarassan G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Dr.G.Kalaiarassan_New.jpg
+
+Name: Dr. Mohankumar K V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17102.jpg
+
+Name: Dr. Sathish G P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16208_0.jpg
+
+Name: Dr. Saurabh Gupta
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16701.jpg
+
+Name: Dr. Seenuvasaperumal P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16350.jpg
+
+Name: Dr. Sharan Chandran M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13644.jpg
+
+Name: Dr. Sridharan K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12431.jpg
+
+Name: Dr.Bangalore Morarji
+Image: https://vit.ac.in/wp-content/uploads/2023/10/13563.webp
+
+Name: Dr.Prabakar S
+Image: https://vit.ac.in/wp-content/uploads/2023/10/12934.webp
+
+Name: Dr.Balamurugan J
+Image: https://vit.ac.in/wp-content/uploads/2023/10/13961.webp
+
+Name: Dr.Bhuvaneswari M
+Image: https://vit.ac.in/wp-content/uploads/2023/10/13176.webp
+
+Name: Dr.Kubendran A
+Image: https://vit.ac.in/wp-content/uploads/2023/10/13953.webp
+
+Name: Dr.Navin Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/10/12522.webp
+
+Name: Dr.Poonam Sharma
+Image: https://vit.ac.in/wp-content/uploads/2023/10/20057_Poonam-Sharma.webp
+
+Name: Dr.Savitha N
+Image: https://vit.ac.in/wp-content/uploads/2023/10/13390.webp
+
+Name: Dr.Sivakumar S
+Image: https://vit.ac.in/wp-content/uploads/2023/10/12937.webp
+
+Name: Dr.Tony P Jose
+Image: https://vit.ac.in/wp-content/uploads/2023/10/13968.webp
+
+Name: Dr.Abdhut Deheri
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19748.webp
+
+Name: Dr. Adil Ahmad Shah
+Image: https://vit.ac.in/wp-content/uploads/2024/10/21217.webp
+
+Name: Dr.Abdul Azeez E P
+Image: https://vit.ac.in/wp-content/uploads/2023/10/18915.webp
+
+Name: Dr.Abhijit Dasgupta
+Image: https://vit.ac.in/wp-content/uploads/2023/10/20105.webp
+
+Name: Dr. Aquib Parvez
+Image: https://vit.ac.in/wp-content/uploads/2024/10/21205.webp
+
+Name: Dr. Domnic Savio
+Image: https://vit.ac.in/wp-content/uploads/2023/10/18028.webp
+
+Name: Dr. Irshad C V
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19746.webp
+
+Name: Dr. Mohd Owais Khan
+Image: https://vit.ac.in/wp-content/uploads/2023/10/20039.webp
+
+Name: Dr. Mulugu S Neelotpal
+Image: https://vit.ac.in/wp-content/uploads/2024/10/21215.webp
+
+Name: Dr. Nilavathy K
+Image: https://vit.ac.in/wp-content/uploads/2023/10/13378.webp
+
+Name: Dr. Preethi Solomon
+Image: https://vit.ac.in/wp-content/uploads/2024/10/21195.webp
+
+Name: Dr. Prithiraj Borah
+Image: https://vit.ac.in/wp-content/uploads/2023/10/20038.webp
+
+Name: Dr.Rahul Shukla
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19750.webp
+
+Name: Dr. Rajameenakshi J
+Image: https://vit.ac.in/wp-content/uploads/2024/10/21202.webp
+
+Name: Dr. Ramnath Reghunadhan
+Image: https://vit.ac.in/wp-content/uploads/2024/10/21216.webp
+
+Name: Dr. RASI R A
+Image: https://vit.ac.in/wp-content/uploads/2023/10/18914.webp
+
+Name: Dr.Rashmi M
+Image: https://vit.ac.in/wp-content/uploads/2023/10/15973.webp
+
+Name: Dr.Rizwan Ahmad
+Image: https://vit.ac.in/wp-content/uploads/2024/10/21194.webp
+
+Name: Dr. Rupak Kumar
+Image: https://vit.ac.in/wp-content/uploads/2024/10/21186.webp
+
+Name: Dr. Salman Haider
+Image: https://vit.ac.in/wp-content/uploads/2023/12/20211.jpg
+
+Name: Dr.Shahid Hamid Raina
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19749.webp
+
+Name: Dr.Sreya Sen
+Image: https://vit.ac.in/wp-content/uploads/2023/10/20085.webp
+
+Name: Dr.Sriram G
+Image: https://vit.ac.in/wp-content/uploads/2023/10/11955.webp
+
+Name: Mr.Sudheer C.V
+Image: https://vit.ac.in/wp-content/uploads/2023/10/13573.webp
+
+Name: Dr. Sumeetha M
+Image: https://vit.ac.in/wp-content/uploads/2023/10/20040.webp
+
+Name: Dr.Soma Saha
+Image: https://vit.ac.in/wp-content/uploads/2024/10/21204.webp
+
+Name: Dr. Tanu Kukreja
+Image: https://vit.ac.in/wp-content/uploads/2023/10/20056.webp
+
+Name: Dr. Jayalakshmi K
+Image: https://vit.ac.in/wp-content/uploads/2023/10/11442.webp
+
+Name: Dr. Calaivanane R
+Image: https://vit.ac.in/wp-content/uploads/2023/10/10576.webp
+
+Name: Dr. Sabyasachi Mishra
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19617.webp
+
+Name: Dr. Adaikalam Arulanandam
+Image: https://vit.ac.in/wp-content/uploads/2023/10/11318.webp
+
+Name: Dr. Atul Kumar
+Image: https://vit.ac.in/wp-content/uploads/2024/10/21241.webp
+
+Name: Dr. Antoinette Daniel
+Image: https://vit.ac.in/wp-content/uploads/2023/10/12814.webp
+
+Name: Dr. Arati Kumari
+Image: https://vit.ac.in/wp-content/uploads/2023/10/17090_0.webp
+
+Name: Dr. Bahishali Choudhuri
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19741.webp
+
+Name: Dr. Coumaran G
+Image: https://vit.ac.in/wp-content/uploads/2023/10/11324.webp
+
+Name: Dr. Dhanajay Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/10/16723.webp
+
+Name: Dr. Gaurav Sushant
+Image: https://vit.ac.in/wp-content/uploads/2023/10/13743.webp
+
+Name: Dr. Hiya Mukherjee
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19708.webp
+
+Name: Prof. Jacopo Mosseso
+Image: https://vit.ac.in/wp-content/uploads/2023/10/16705.webp
+
+Name: Ms. Khana Baidya
+Image: https://vit.ac.in/wp-content/uploads/2023/10/17095.webp
+
+Name: Dr. Khanjan
+Image: https://vit.ac.in/wp-content/uploads/2023/10/Khanjan.webp
+
+Name: Mrs. Malathy O
+Image: https://vit.ac.in/wp-content/uploads/2023/10/11319.webp
+
+Name: Dr. Maria Sebastin A
+Image: https://vit.ac.in/wp-content/uploads/2023/10/14555.webp
+
+Name: Dr. Mohd Saqib
+Image: https://vit.ac.in/wp-content/uploads/2023/10/17091.webp
+
+Name: Ms. Nupur Manasi
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19698.webp
+
+Name: Dr. Shanthanu Sandily
+Image: https://vit.ac.in/wp-content/uploads/2023/10/15963_0.webp
+
+Name: Dr. Shilpi Gupta
+Image: https://vit.ac.in/wp-content/uploads/2023/10/15968.webp
+
+Name: Dr. Visalakshi R
+Image: https://vit.ac.in/wp-content/uploads/2024/10/21184.webp
+
+Name: Dr.Geetha R
+Image: https://vit.ac.in/wp-content/uploads/2023/10/12947.webp
+
+Name: Dr.Dunstan Rajkumar A
+Image: https://vit.ac.in/wp-content/uploads/2023/10/12218.webp
+
+Name: Dr. Indradevi R
+Image: https://vit.ac.in/wp-content/uploads/2024/09/10446.webp
+
+Name: Dr.Selvam V
+Image: https://vit.ac.in/wp-content/uploads/2023/10/10365.webp
+
+Name: Dr. C.L.V. Sivakumar
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19499.webp
+
+Name: Dr.Sundaram N
+Image: https://vit.ac.in/wp-content/uploads/2023/10/11193.webp
+
+Name: Dr.Velmurugan G
+Image: https://vit.ac.in/wp-content/uploads/2023/10/10793.webp
+
+Name: Dr.Mani P
+Image: https://vit.ac.in/wp-content/uploads/2023/10/13413.webp
+
+Name: Dr.Muthumeenakshi M
+Image: https://vit.ac.in/wp-content/uploads/2023/10/13195.webp
+
+Name: Dr. A.V.V.S. Subbalakshmi
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19498-1.webp
+
+Name: Dr.Usha S
+Image: https://vit.ac.in/wp-content/uploads/2023/10/11617.webp
+
+Name: Dr.Faisal Usmani
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19697.webp
+
+Name: Dr. Jintu George
+Image: https://vit.ac.in/wp-content/uploads/2023/10/18911.webp
+
+Name: Dr. Mohsin Khan
+Image: https://vit.ac.in/wp-content/uploads/2023/10/18913.webp
+
+Name: Dr. Nirakar Barik
+Image: https://vit.ac.in/wp-content/uploads/2023/10/Nirakar.webp
+
+Name: Dr. Sangeetha S
+Image: https://vit.ac.in/wp-content/uploads/2024/09/21185.webp
+
+Name: Dr. Saravanabhavan N
+Image: https://vit.ac.in/wp-content/uploads/2023/10/14467.webp
+
+Name: Dr.Sathya N
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19717.webp
+
+Name: Dr. Syed Noorul Shajar
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19656.webp
+
+Name: Dr.Vijayaraj K
+Image: https://vit.ac.in/wp-content/uploads/2023/10/10119.webp
+
+Name: Dr. Anil Premraj J
+Image: https://vit.ac.in/wp-content/uploads/2023/10/12531.webp
+
+Name: Dr. Ajanta Sircar
+Image: https://vit.ac.in/wp-content/uploads/2023/10/12015.webp
+
+Name: Dr. Anitha Devi V
+Image: https://vit.ac.in/wp-content/uploads/2023/10/10792.webp
+
+Name: Dr. Bhuvaneswari V
+Image: https://vit.ac.in/wp-content/uploads/2023/10/10551.webp
+
+Name: Dr. Joseph Rex Young
+Image: https://vit.ac.in/wp-content/uploads/2023/10/20076.webp
+
+Name: Dr. Laxmi Dhar Dwivedi
+Image: https://vit.ac.in/wp-content/uploads/2023/10/12098.webp
+
+Name: Dr. Raju R L N
+Image: https://vit.ac.in/wp-content/uploads/2023/10/RajuR.webp
+
+Name: Dr. Md Sahul Hameed MA
+Image: https://vit.ac.in/wp-content/uploads/2023/10/10078.webp
+
+Name: Dr. Sarika Gupta
+Image: https://vit.ac.in/wp-content/uploads/2023/10/12006.webp
+
+Name: Dr. Srinivasan R
+Image: https://vit.ac.in/wp-content/uploads/2023/10/10068.webp
+
+Name: Dr. Anu Baisel
+Image: https://vit.ac.in/wp-content/uploads/2023/10/14813.webp
+
+Name: Dr. Meenakshi S
+Image: https://vit.ac.in/wp-content/uploads/2023/10/13964.webp
+
+Name: Dr. Prasantha Kumar N S
+Image: https://vit.ac.in/wp-content/uploads/2023/10/12009.webp
+
+Name: Dr. Rukmini S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14832.webp
+
+Name: Dr. Soumen Mukherjee
+Image: https://vit.ac.in/wp-content/uploads/2023/10/15292.webp
+
+Name: Dr. Sujatha Aravindakshan Menon
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19627.webp
+
+Name: Dr. Sunitha V
+Image: https://vit.ac.in/wp-content/uploads/2023/10/14798.webp
+
+Name: Dr. Vijayakumar M
+Image: https://vit.ac.in/wp-content/uploads/2023/10/14820.webp
+
+Name: Dr.Vishnu Priya N.S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11565.webp
+
+Name: Prof. Anburaj G
+Image: https://vit.ac.in/wp-content/uploads/2023/10/12033.webp
+
+Name: Dr. Ankita Sundriyal
+Image: https://vit.ac.in/wp-content/uploads/2024/09/ankita.webp
+
+Name: Dr. Annuncy Vinoliya D
+Image: https://vit.ac.in/wp-content/uploads/2024/09/21214.webp
+
+Name: Dr. Blessy Sharon Samjose
+Image: https://vit.ac.in/wp-content/uploads/2023/12/Dr.-Blessy-Sharon-Samjose-copy.webp
+
+Name: Dr. Christopher G
+Image: https://vit.ac.in/wp-content/uploads/2023/10/12546.webp
+
+Name: Dr. Christopher Rajasekaran W
+Image: https://vit.ac.in/wp-content/uploads/2023/10/11553.webp
+
+Name: Dr. Denish Raja Durai K
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19591.webp
+
+Name: Dr. Dwiji Bai AK
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17055.webp
+
+Name: Dr.Evangeline Priscilla B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14082.webp
+
+Name: Dr. Gandhimathi S.N.S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13410.webp
+
+Name: Dr. Gayathri N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10989.webp
+
+Name: Dr. Jaishree Jaikrishnan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/faculty-1.webp
+
+Name: Dr. Mary Jennifer J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19628.webp
+
+Name: Dr. Mathumathy S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16210.webp
+
+Name: Dr. Meenu B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17072_0.webp
+
+Name: Dr. Meera B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17073_0.webp
+
+Name: Dr. Prajeesh Tomy
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13411.webp
+
+Name: Dr. Rajalekshmi K
+Image: https://vit.ac.in/wp-content/uploads/2024/09/21206.webp
+
+Name: Mr. Rakesh Kumar Pankaj
+Image: https://vit.ac.in/wp-content/uploads/2024/09/21203.webp
+
+Name: Dr. Sangeeta Mukherjee
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14812.webp
+
+Name: Dr. Sankar G
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17058.webp
+
+Name: Dr. Saraswathy S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/14086.webp
+
+Name: Dr. Saravanan V
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15247.webp
+
+Name: Dr. Senguttuvan M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13754.webp
+
+Name: Dr. Senthil Babu MK
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17079.webp
+
+Name: Dr. Sheeja Rajagopal
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19652.webp
+
+Name: Dr. Shivshankar Rajmohan A K
+Image: https://vit.ac.in/wp-content/uploads/2024/09/21233.webp
+
+Name: Dr. Sneha Mishra
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16157_0.webp
+
+Name: Dr. Sreejith Varma R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15983.webp
+
+Name: Dr. Srijani Chowdhury
+Image: https://vit.ac.in/wp-content/uploads/2024/09/21198.webp
+
+Name: Dr. Sushant Kishore
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17056_0.webp
+
+Name: Dr. Thenmozhi M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/13314.webp
+
+Name: Dr. Varsha K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17047.webp
+
+Name: Dr. Vidhya B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19641.webp
+
+Name: Dr. Yadamala Sreenivasulu
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16186_0.webp
+
+Name: Mr. Ravishankar B
+Image: https://vit.ac.in/wp-content/uploads/2023/10/15923.webp
+
+Name: Dr. Suvojit Ganguly
+Image: https://vit.ac.in/wp-content/uploads/2023/10/16202_0.webp
+
+Name: Mr. Jesu Frederick T
+Image: https://vit.ac.in/wp-content/uploads/2023/10/14766.webp
+
+Name: Mr. Pradeep Kumar N B
+Image: https://vit.ac.in/wp-content/uploads/2023/10/14854.webp
+
+Name: Mr. Ramakrishnan O
+Image: https://vit.ac.in/wp-content/uploads/2023/10/14855.webp
+
+Name: Mr. Sathish Kumar E T
+Image: https://vit.ac.in/wp-content/uploads/2023/10/17082.webp
+
+Name: Dr. Vipin Singh
+Image: https://vit.ac.in/wp-content/uploads/2023/10/17076_0.webp
+
+Name: Dr. Saravanan S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15829_0.webp
+
+Name: Dr. Pradeesh Kumar T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18952-1.webp
+
+Name: Dr. Ashwini TR
+Image: https://vit.ac.in/wp-content/uploads/2023/11/19751-1.webp
+
+Name: Dr. Krishnaprabu N
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18909-1.webp
+
+Name: Dr. ThirumalaiKumar
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17588_0-1.webp
+
+Name: Dr. Saravanan S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15829_0.webp
+
+Name: Dr. Sajan George
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16698-1.webp
+
+Name: Dr. Saravanan S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15829_0.webp
+
+Name: Dr. Annie Jenifer M
+Image: https://vit.ac.in/wp-content/uploads/2023/11/annie.webp
+
+Name: Dr. Immanuel Selvaraj C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11165-1.webp
+
+Name: Dr. Jagan Mohan Obineni
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15777-1.webp
+
+Name: Dr. Parthasarathi T
+Image: https://vit.ac.in/wp-content/uploads/2023/11/partha.webp
+
+Name: Dr. Vidya R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/vidya.webp
+
+Name: Dr. Subramanian Babu
+Image: https://vit.ac.in/wp-content/uploads/2023/11/12173-1.webp
+
+Name: Dr. Priyadharshini B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16176-1.webp
+
+Name: Dr. Anbarasan P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15839-1.webp
+
+Name: Dr. Merlin Mathew
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18024-1.webp
+
+Name: Dr. Padma Lakshmi
+Image: https://vit.ac.in/wp-content/uploads/2023/11/padma-1.webp
+
+Name: Dr. Sridharan TB
+Image: https://vit.ac.in/wp-content/uploads/2023/11/personal_empphoto.webp
+
+Name: Dr. Vidya R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/vidya.webp
+
+Name: Dr. Lincy Kirubhadharsini B
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15835-2.webp
+
+Name: Dr. Neenu Augustine
+Image: https://vit.ac.in/wp-content/uploads/2023/11/neenuaugustine.webp
+
+Name: Dr. Samraj JM
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Samraj.webp
+
+Name: Dr. Sowbiya Muneer
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15758-1.webp
+
+Name: Dr. Ramesh Kumar S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Ramesh-Kumar-S-1.webp
+
+Name: Prof. Chitra Kalaichelvan
+Image: https://vit.ac.in/wp-content/uploads/2023/11/chitra.webp
+
+Name: Dr. Madhusmita Dishri
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17887_0-1.webp
+
+Name: Dr. Utpal Das
+Image: https://vit.ac.in/wp-content/uploads/2023/11/utpal.webp
+
+Name: Dr. Vidisha Tomer
+Image: https://vit.ac.in/wp-content/uploads/2023/11/17881-1.webp
+
+Name: Dr. Immanuel Selvaraj C
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11165-1.webp
+
+Name: Dr. Deepa Sankar P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/deep.webp
+
+Name: Dr. Karthika Rajendran
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16179-1.webp
+
+Name: Dr. Poonguzhali S
+Image: https://vit.ac.in/wp-content/uploads/2023/11/Pookuzhali-1.webp
+
+Name: Dr. Vidya R
+Image: https://vit.ac.in/wp-content/uploads/2023/11/vidya.webp
+
+Name: Dr. Sathiavelu A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/10438-1.webp
+
+Name: Dr. Arabi Mohammed Saleh M A
+Image: https://vit.ac.in/wp-content/uploads/2023/11/11156_0.webp
+
+Name: Dr. Biswajitha Mohanty
+Image: https://vit.ac.in/wp-content/uploads/2023/11/bis.webp
+
+Name: Dr. Saiyyeda Firdous
+Image: https://vit.ac.in/wp-content/uploads/2023/11/saivv.webp
+
+Name: Dr. Theresa K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/18966-1.webp
+
+Name: Dr. Anbarasan P
+Image: https://vit.ac.in/wp-content/uploads/2023/11/15839-1.webp
+
+Name: Dr. Mohanraj K
+Image: https://vit.ac.in/wp-content/uploads/2023/11/IMG_0015.webp
+
+Name: Dr. Paul Mansingh J
+Image: https://vit.ac.in/wp-content/uploads/2023/11/16205-1.webp
+
+Name: Mr. Vydianathan R
+Image: https://vit.ac.in/wp-content/uploads/2023/10/1664.webp
+
+Name: Dr. Darius Gnanaraj S
+Image: https://vit.ac.in/wp-content/uploads/2024/09/Darius.webp
+
+Name: Dr. Saleem Ahmed S
+Image: https://vit.ac.in/wp-content/uploads/2023/10/Dr.-S.-Saleem-Ahmed.-Dean-V-Sign.webp
+
+Name: Dr. Lakshmi Priya G G
+Image: https://vit.ac.in/wp-content/uploads/2023/10/14040.webp
+
+Name: Dr. Fathima Patham K
+Image: https://vit.ac.in/wp-content/uploads/2024/09/15754.webp
+
+Name: Prof. Gowthaman E
+Image: https://vit.ac.in/wp-content/uploads/2023/10/18826.webp
+
+Name: Dr. Rajkumar G
+Image: https://vit.ac.in/wp-content/uploads/2024/09/20764.webp
+
+Name: Dr. Soumi Ray
+Image: https://vit.ac.in/wp-content/uploads/2024/09/17050.webp
+
+Name: Dr.Mugendi M’Rithaa
+Image: https://vit.ac.in/wp-content/uploads/2023/10/Mugendi.webp
+
+Name: Prof. Peer Sathikh
+Image: https://vit.ac.in/wp-content/uploads/2023/10/Prof.-Peer-Sathikh.webp
+
+Name: Prof. Raja M
+Image: https://vit.ac.in/wp-content/uploads/2023/10/15765.jpg
+
+Name: Dr. Krishnakumar K
+Image: https://vit.ac.in/wp-content/uploads/2023/10/Krishnakumar.webp
+
+Name: Dr. S Saravanan
+Image: https://vit.ac.in/wp-content/uploads/2023/10/15773.webp
+
+Name: Prof. Agase Devidas Haribhau
+Image: https://vit.ac.in/wp-content/uploads/2023/10/hari.webp
+
+Name: Dr. Bharath Yuvaraj R
+Image: https://vit.ac.in/wp-content/uploads/2023/10/yuvaraj.webp
+
+Name: Mr. Gopinath Devaraj
+Image: https://vit.ac.in/wp-content/uploads/2023/10/14716_0.webp
+
+Name: Prof. Kamalanathan S
+Image: https://vit.ac.in/wp-content/uploads/2023/10/18051.webp
+
+Name: Prof. Mahadevan R
+Image: https://vit.ac.in/wp-content/uploads/2023/10/13726_0.webp
+
+Name: Prof. Mantu Das
+Image: https://vit.ac.in/wp-content/uploads/2023/10/17065.webp
+
+Name: Prof. Praveen C K
+Image: https://vit.ac.in/wp-content/uploads/2023/10/14860_0.webp
+
+Name: Dr. Ramalakshmi L
+Image: https://vit.ac.in/wp-content/uploads/2023/10/17986.webp
+
+Name: Dr. Vaageessan M
+Image: https://vit.ac.in/wp-content/uploads/2023/10/vaagees.webp
+
+Name: Prof. Vikash V
+Image: https://vit.ac.in/wp-content/uploads/2023/10/Vikash.webp
+
+Name: Prof. Vivek V
+Image: https://vit.ac.in/wp-content/uploads/2023/10/Vivek.jpg
+
+Name: Dr. Madhumathi A
+Image: https://vit.ac.in/wp-content/uploads/2023/10/Madhumathi.webp
+
+Name: Prof. Devi Prasad N
+Image: https://vit.ac.in/wp-content/uploads/2023/10/Devi-Prasad.webp
+
+Name: Prof. Chandrasekaran C
+Image: https://vit.ac.in/wp-content/uploads/2023/10/20178.webp
+
+Name: Dr.Sharmila Jagadisan
+Image: https://vit.ac.in/wp-content/uploads/2023/10/SharmilaJ.webp
+
+Name: Mr. Cibi C B
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21244.jpg
+
+Name: Prof. E S Dinesh Raghavan
+Image: https://vit.ac.in/wp-content/uploads/2023/10/Dinesh-Raghavan.webp
+
+Name: Prof. Kumareswari R
+Image: https://vit.ac.in/wp-content/uploads/2023/10/20121.webp
+
+Name: Prof. Meenakshi Pappu
+Image: https://vit.ac.in/wp-content/uploads/2023/10/Prof.-Meenakshi-Pappu.webp
+
+Name: Prof. Mohafiz Riyaz
+Image: https://vit.ac.in/wp-content/uploads/2023/10/Mohafiz.webp
+
+Name: Dr. Parthiban Rajukalidoss
+Image: https://vit.ac.in/wp-content/uploads/2023/10/20167.webp
+
+Name: Mr. Praveen C K
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21213.jpg
+
+Name: Prof. Ankit Kumar
+Image: https://vit.ac.in/wp-content/uploads/2023/10/15933.webp
+
+Name: Ms. Bavya
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21243.jpg
+
+Name: Prof. Dipika M
+Image: https://vit.ac.in/wp-content/uploads/2023/10/16697.webp
+
+Name: Prof. Hareesh Haridasan
+Image: https://vit.ac.in/wp-content/uploads/2023/10/17081.webp
+
+Name: Prof. Jayadev N
+Image: https://vit.ac.in/wp-content/uploads/2023/10/15781.webp
+
+Name: Prof. Moumita Das
+Image: https://vit.ac.in/wp-content/uploads/2023/10/20042.webp
+
+Name: Dr. Nina Lazar
+Image: https://vit.ac.in/wp-content/uploads/2023/10/20174.webp
+
+Name: Prof.Pavithra A
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19560.webp
+
+Name: Prof.Piyush Das
+Image: https://vit.ac.in/wp-content/uploads/2023/10/18850.webp
+
+Name: Prof. Prabhu M
+Image: https://vit.ac.in/wp-content/uploads/2023/10/20134.webp
+
+Name: Prof.Pratik Bhattacharya
+Image: https://vit.ac.in/wp-content/uploads/2023/10/18928.webp
+
+Name: Mr. Reddy Rohinikumar
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21232.jpg
+
+Name: Prof. Renuka Devi N
+Image: https://vit.ac.in/wp-content/uploads/2023/10/17913.webp
+
+Name: Dr. Rituparna Das
+Image: https://vit.ac.in/wp-content/uploads/2024/08/21231.jpg
+
+Name: Prof. Selva Ziona B
+Image: https://vit.ac.in/wp-content/uploads/2023/10/SelvaZiona_0.webp
+
+Name: Prof. Sushanth.S J
+Image: https://vit.ac.in/wp-content/uploads/2023/10/19755.webp
+
+Name: Prof. Zahra Yasmoon
+Image: https://vit.ac.in/wp-content/uploads/2023/10/17882.webp
+
