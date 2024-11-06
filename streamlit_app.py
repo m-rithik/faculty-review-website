@@ -2,11 +2,17 @@ import streamlit as st
 import pandas as pd
 import re
 
-# Function to read teacher names from SCOPE.txt
+# Function to read teacher names and image URLs from the text file
 def load_teachers(file):
+    teachers = []
     with open(file, 'r') as f:
-        teachers = f.readlines()
-    return [teacher.strip() for teacher in teachers]
+        lines = f.readlines()
+        for line in lines:
+            # Assuming the format is: Name: [name] URL: [image_url]
+            parts = line.strip().split(' URL: ')
+            if len(parts) == 2:
+                teachers.append((parts[0].replace('Name: ', ''), parts[1]))
+    return teachers
 
 # Clean teacher names for search comparison
 def clean_name(name):
@@ -28,8 +34,8 @@ def save_ratings(ratings_df):
     ratings_df.to_csv('ratings.csv')
 
 # Load teachers data
-teachers = load_teachers('SCOPE.txt')
-teachers_cleaned = [clean_name(teacher) for teacher in teachers]
+teachers = load_teachers('iot_teachers_with_images_multiple_pages.txt')
+teachers_cleaned = [clean_name(teacher[0]) for teacher in teachers]
 
 # Load ratings from the CSV file
 ratings_df = load_ratings()
@@ -51,54 +57,57 @@ else:
 # Display the search results
 if matches:
     st.write("Teachers found:")
-    for teacher in matches:
-        st.write(teacher)
-    
-    # Let the user leave a review for each teacher
-    for teacher in matches:
-        st.subheader(f"Leave a review for {teacher}:")
+    for teacher, image_url in matches:
+        col1, col2 = st.columns([2, 1])  # Create two columns: one for the name, one for the image
 
-        # Rating sliders for teaching, leniency, and correction (Range: 1-10)
-        teaching_rating = st.slider(f"Rating for Teaching for {teacher}", 1, 10, 5)
-        leniency_rating = st.slider(f"Rating for Leniency for {teacher}", 1, 10, 5)
-        correction_rating = st.slider(f"Rating for Correction for {teacher}", 1, 10, 5)
+        with col1:
+            st.subheader(f"Leave a review for {teacher}:")
+            
+            # Rating sliders for teaching, leniency, and correction (Range: 1-10)
+            teaching_rating = st.slider(f"Rating for Teaching for {teacher}", 1, 10, 5)
+            leniency_rating = st.slider(f"Rating for Leniency for {teacher}", 1, 10, 5)
+            correction_rating = st.slider(f"Rating for Correction for {teacher}", 1, 10, 5)
 
-        # Update the ratings in the dataframe
-        if teacher not in ratings_df.index:
-            # If teacher not in ratings_df, initialize their ratings with 0 votes
-            ratings_df.loc[teacher] = [0, 0, 0, 0, 0, 0]
+            # Update the ratings in the dataframe
+            if teacher not in ratings_df.index:
+                # If teacher not in ratings_df, initialize their ratings with 0 votes
+                ratings_df.loc[teacher] = [0, 0, 0, 0, 0, 0]
 
-        # Update the ratings and the number of votes
-        current_teaching_ratings = ratings_df.at[teacher, 'teaching_rating']
-        current_leniency_ratings = ratings_df.at[teacher, 'leniency_rating']
-        current_correction_ratings = ratings_df.at[teacher, 'correction_rating']
+            # Update the ratings and the number of votes
+            current_teaching_ratings = ratings_df.at[teacher, 'teaching_rating']
+            current_leniency_ratings = ratings_df.at[teacher, 'leniency_rating']
+            current_correction_ratings = ratings_df.at[teacher, 'correction_rating']
 
-        current_teaching_votes = ratings_df.at[teacher, 'teaching_votes']
-        current_leniency_votes = ratings_df.at[teacher, 'leniency_votes']
-        current_correction_votes = ratings_df.at[teacher, 'correction_votes']
+            current_teaching_votes = ratings_df.at[teacher, 'teaching_votes']
+            current_leniency_votes = ratings_df.at[teacher, 'leniency_votes']
+            current_correction_votes = ratings_df.at[teacher, 'correction_votes']
 
-        # Update ratings and increment vote counts
-        new_teaching_avg = (current_teaching_ratings * current_teaching_votes + teaching_rating) / (current_teaching_votes + 1)
-        new_leniency_avg = (current_leniency_ratings * current_leniency_votes + leniency_rating) / (current_leniency_votes + 1)
-        new_correction_avg = (current_correction_ratings * current_correction_votes + correction_rating) / (current_correction_votes + 1)
+            # Update ratings and increment vote counts
+            new_teaching_avg = (current_teaching_ratings * current_teaching_votes + teaching_rating) / (current_teaching_votes + 1)
+            new_leniency_avg = (current_leniency_ratings * current_leniency_votes + leniency_rating) / (current_leniency_votes + 1)
+            new_correction_avg = (current_correction_ratings * current_correction_votes + correction_rating) / (current_correction_votes + 1)
 
-        # Increment vote counts
-        ratings_df.at[teacher, 'teaching_rating'] = new_teaching_avg
-        ratings_df.at[teacher, 'leniency_rating'] = new_leniency_avg
-        ratings_df.at[teacher, 'correction_rating'] = new_correction_avg
+            # Increment vote counts
+            ratings_df.at[teacher, 'teaching_rating'] = new_teaching_avg
+            ratings_df.at[teacher, 'leniency_rating'] = new_leniency_avg
+            ratings_df.at[teacher, 'correction_rating'] = new_correction_avg
 
-        ratings_df.at[teacher, 'teaching_votes'] = current_teaching_votes + 1
-        ratings_df.at[teacher, 'leniency_votes'] = current_leniency_votes + 1
-        ratings_df.at[teacher, 'correction_votes'] = current_correction_votes + 1
+            ratings_df.at[teacher, 'teaching_votes'] = current_teaching_votes + 1
+            ratings_df.at[teacher, 'leniency_votes'] = current_leniency_votes + 1
+            ratings_df.at[teacher, 'correction_votes'] = current_correction_votes + 1
 
-        # Save ratings after updating
-        save_ratings(ratings_df)
+            # Save ratings after updating
+            save_ratings(ratings_df)
 
-        # Show current ratings and vote count
-        st.write(f"Current Ratings (Out of 10):")
-        st.write(f"Teaching: {ratings_df.at[teacher, 'teaching_rating']} (Votes: {ratings_df.at[teacher, 'teaching_votes']})")
-        st.write(f"Leniency: {ratings_df.at[teacher, 'leniency_rating']} (Votes: {ratings_df.at[teacher, 'leniency_votes']})")
-        st.write(f"Correction: {ratings_df.at[teacher, 'correction_rating']} (Votes: {ratings_df.at[teacher, 'correction_votes']})")
+            # Show current ratings and vote count
+            st.write(f"Current Ratings (Out of 10):")
+            st.write(f"Teaching: {ratings_df.at[teacher, 'teaching_rating']} (Votes: {ratings_df.at[teacher, 'teaching_votes']})")
+            st.write(f"Leniency: {ratings_df.at[teacher, 'leniency_rating']} (Votes: {ratings_df.at[teacher, 'leniency_votes']})")
+            st.write(f"Correction: {ratings_df.at[teacher, 'correction_rating']} (Votes: {ratings_df.at[teacher, 'correction_votes']})")
+
+        with col2:
+            # Display the teacher's image
+            st.image(image_url, caption=f"{teacher}'s Picture", use_column_width=True)
 
 # Display reviews and ratings (if there are any reviews in the session state)
 if 'reviews' in st.session_state:
