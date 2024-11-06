@@ -10,9 +10,9 @@ def load_teachers(file):
         lines = f.readlines()
         for line in lines:
             # Assuming the format is: Name: [name] URL: [image_url]
-            parts = line.strip().split(' URL: ')
+            parts = line.strip().split(' Image: ')
             if len(parts) == 2:
-                teachers.append((parts[0].replace('Name: ', ''), parts[1]))
+                teachers.append((parts[0].replace('Name: ', ''), parts[1]))  # Removing 'Name: ' and keeping name
     return teachers
 
 # Clean teacher names for search comparison
@@ -34,7 +34,7 @@ def load_ratings():
 
     # If file exists, try to load it
     try:
-        ratings_df = pd.read_csv(file_path, index_col=0)
+        ratings_df = pd.read_csv(file_path)
         if ratings_df.empty:  # If the file is empty
             ratings_df = pd.DataFrame(columns=[
                 'teacher_name', 'leniency_rating', 'teaching_rating', 'correction_rating', 'da_quiz_rating', 'overall_rating'
@@ -67,12 +67,12 @@ st.header("Leave a Review for Teaching, Leniency, Correction, and DA/Quiz (Out o
 # Search bar (case insensitive and ignore titles like Dr, Mr, Ms)
 search_query = st.text_input("Search for a teacher:")
 
-# Find matching teachers based on the search query
+# Display all teachers if no search query is provided
 if search_query:
     search_query_cleaned = clean_name(search_query)
     matches = [teachers[i] for i in range(len(teachers_cleaned)) if search_query_cleaned in teachers_cleaned[i]]
 else:
-    matches = []
+    matches = teachers  # If no search, show all teachers
 
 # Display the search results
 if matches:
