@@ -113,7 +113,7 @@ if matches:
 
             # Display the overall rating in the overall rating box
             st.markdown(f"**Overall Rating (based on {total_reviews} reviews):**")
-            st.markdown(f"{avg_overall * 10} / 10", unsafe_allow_html=True)  # Display on 10-point scale
+            st.markdown(f"{avg_overall} / 10", unsafe_allow_html=True)  # Display on 10-point scale
             
             # Display the progress bar (scaled from 0 to 10)
             st.progress(avg_overall * 10, text="Rating is good" if avg_overall > 0.7 else "Rating is average" if avg_overall > 0.4 else "Rating is poor")
