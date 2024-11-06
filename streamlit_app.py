@@ -18,7 +18,7 @@ teachers_cleaned = [clean_name(teacher) for teacher in teachers]
 
 # Set up Streamlit UI
 st.title("Teacher Review System")
-st.header("Leave a Review ")
+st.header("Leave a Rating for Teaching, Leniency, and Correction")
 
 # Search bar (case insensitive and ignore titles like Dr, Mr, Ms)
 search_query = st.text_input("Search for a teacher:")
@@ -36,14 +36,9 @@ if matches:
     for teacher in matches:
         st.write(teacher)
     
-    # Let the user leave a review for each teacher
+    # Let the user rate each teacher
     for teacher in matches:
-        st.subheader(f"Leave a review for {teacher}:")
-
-        # Text input for review
-        teaching_review = st.text_input(f"Review Teaching for {teacher}")
-        leniency_review = st.text_input(f"Review Leniency for {teacher}")
-        correction_review = st.text_input(f"Review Correction for {teacher}")
+        st.subheader(f"Rate {teacher}:")
 
         # Rating sliders for teaching, leniency, and correction (Range: 1-10)
         teaching_rating = st.slider(f"Rating for Teaching for {teacher}", 1, 10, 5)
@@ -51,23 +46,22 @@ if matches:
         correction_rating = st.slider(f"Rating for Correction for {teacher}", 1, 10, 5)
         
         # Store the reviews and ratings in session state (for the session)
-        if teaching_review and leniency_review and correction_review:
-            st.session_state.reviews[teacher] = {
-                'teaching_review': teaching_review,
-                'leniency_review': leniency_review,
-                'correction_review': correction_review,
-                'teaching_rating': teaching_rating,
-                'leniency_rating': leniency_rating,
-                'correction_rating': correction_rating
-            }
+        if 'reviews' not in st.session_state:
+            st.session_state.reviews = {}
+
+        st.session_state.reviews[teacher] = {
+            'teaching_rating': teaching_rating,
+            'leniency_rating': leniency_rating,
+            'correction_rating': correction_rating
+        }
 
 # Display reviews and ratings (if there are any reviews in the session state)
 if 'reviews' in st.session_state:
-    st.header("Current Reviews")
+    st.header("Current Ratings")
     for teacher, review_data in st.session_state.reviews.items():
-        st.write(f"Reviews for {teacher}:")
-        st.write(f"Teaching: {review_data['teaching_review']} (Rating: {review_data['teaching_rating']}/10)")
-        st.write(f"Leniency: {review_data['leniency_review']} (Rating: {review_data['leniency_rating']}/10)")
-        st.write(f"Correction: {review_data['correction_review']} (Rating: {review_data['correction_rating']}/10)")
+        st.write(f"Ratings for {teacher}:")
+        st.write(f"Teaching: {review_data['teaching_rating']}/10")
+        st.write(f"Leniency: {review_data['leniency_rating']}/10")
+        st.write(f"Correction: {review_data['correction_rating']}/10")
 else:
-    st.write("No reviews yet.")
+    st.write("No ratings yet.")
