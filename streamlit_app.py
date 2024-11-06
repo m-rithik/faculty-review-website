@@ -123,25 +123,24 @@ if matches:
                 st.success("Review submitted successfully!")
 
         # Section 2: Overall Rating and Previous Reviews
-        if st.session_state.reviews[teacher]['ratings']:
-            st.markdown("---")
-            st.markdown("### **Overall Rating**")
-            
-            # Calculate average overall rating (without approximating)
-            overall_rating = st.session_state.reviews[teacher]['overall']
-            
-            # Display the overall rating in the overall rating box
-            st.markdown(f"**Overall Rating (based on {len(st.session_state.reviews[teacher]['ratings'])} reviews):**")
-            st.markdown(f"{overall_rating:.2f} / 10", unsafe_allow_html=True)  # Display on 10-point scale
-            
-            # Display reviews and their individual ratings
-            st.markdown("### **REVIEWS**")
-            if len(st.session_state.reviews[teacher]['ratings']) == 0:
-                st.write("No reviews available.")
-            else:
-                for idx, rating in enumerate(st.session_state.reviews[teacher]['ratings']):
-                    st.write(f"**Review {idx + 1}:**")
-                    st.write(f"Teaching: {rating[0]}/10, Leniency: {rating[1]}/10, Correction: {rating[2]}/10, DA/Quiz: {rating[3]}/10")
+        st.markdown("---")
+        st.markdown("### **Overall Rating**")
+        
+        # Calculate average overall rating (without approximating)
+        overall_rating = st.session_state.reviews[teacher]['overall']
+        
+        # Display the overall rating in the overall rating box
+        st.markdown(f"**Overall Rating (based on {len(st.session_state.reviews[teacher]['ratings'])} reviews):**")
+        st.markdown(f"{overall_rating:.2f} / 10", unsafe_allow_html=True)  # Display on 10-point scale
+        
+        # Display reviews and their individual ratings
+        st.markdown("### **REVIEWS**")
+        if not st.session_state.reviews[teacher]['ratings']:
+            st.write("No reviews available.")
+        else:
+            for idx, rating in enumerate(st.session_state.reviews[teacher]['ratings']):
+                st.write(f"**Review {idx + 1}:**")
+                st.write(f"Teaching: {rating[0]}/10, Leniency: {rating[1]}/10, Correction: {rating[2]}/10, DA/Quiz: {rating[3]}/10")
 
 else:
     st.write("No teachers found.")
