@@ -62,9 +62,9 @@ if matches:
                     'correction': 0,
                     'da_quiz': 0,
                     'overall': 0,
-                    'user_reviews': 0  # Track total reviews for the teacher
+                    'user_reviews': 0,  # Track total reviews for the teacher
+                    'total_reviews': 0  # Track total rating points (teaching + leniency + correction + da_quiz)
                 }
-                st.session_state.total_reviews[teacher] = 0
 
             # User input section (ratings for the teacher)
             st.markdown("### **Rate the Teacher**")
@@ -73,7 +73,7 @@ if matches:
             correction = st.slider("Correction:", 0, 10, st.session_state.reviews[teacher]['correction'])
             da_quiz = st.slider("DA/Quiz:", 0, 10, st.session_state.reviews[teacher]['da_quiz'])
 
-            # Calculate the overall rating
+            # Calculate the overall rating based on the user's input
             overall_rating = (teaching + leniency + correction + da_quiz) / 4
             st.session_state.reviews[teacher] = {
                 'teaching': teaching,
@@ -81,9 +81,9 @@ if matches:
                 'correction': correction,
                 'da_quiz': da_quiz,
                 'overall': overall_rating,
-                'user_reviews': st.session_state.reviews[teacher]['user_reviews'] + 1
+                'user_reviews': st.session_state.reviews[teacher]['user_reviews'] + 1,
+                'total_reviews': st.session_state.reviews[teacher]['total_reviews'] + teaching + leniency + correction + da_quiz
             }
-            st.session_state.total_reviews[teacher] += 1
 
             # Display the teacher's image in a smaller size
             with col2:
@@ -97,33 +97,30 @@ if matches:
                 st.success("Review submitted successfully!")
 
         # Section 2: Overall Rating and Previous Votes
-        if st.session_state.total_reviews[teacher] > 0:
+        if st.session_state.reviews[teacher]['user_reviews'] > 0:
             # Highlighted Section with Overall Rating and Previous Reviews
             st.markdown("---")
             st.markdown("### **Overall Rating**", unsafe_allow_html=True)
             
-            # Calculate overall rating from all reviews
-            overall_rating = st.session_state.reviews[teacher]['overall']
-            total_reviews = st.session_state.total_reviews[teacher]
-            
-            # Calculate average of previous ratings (considering total reviews)
-            avg_overall = sum([st.session_state.reviews[teacher]['overall'] for _ in range(total_reviews)]) / total_reviews if total_reviews > 0 else 0
+            # Calculate average overall rating from all reviews
+            total_reviews = st.session_state.reviews[teacher]['user_reviews']
+            avg_overall = st.session_state.reviews[teacher]['total_reviews'] / (total_reviews * 4) if total_reviews > 0 else 0
             avg_overall = round(avg_overall, 2)
             
             # Display overall rating and previous reviews in a box
-            rating_color = 'green' if avg_overall > 7 else 'yellow' if avg_overall > 4 else 'red'
+            rating_color = 'green' if avg_overall > 0.7 else 'yellow' if avg_overall > 0.4 else 'red'
 
             with st.expander("See Previous Reviews", expanded=False):
                 st.markdown(f"**Overall Rating (based on {total_reviews} reviews):**")
-                st.markdown(f"{avg_overall} / 10", unsafe_allow_html=True)
+                st.markdown(f"{avg_overall * 10} / 10", unsafe_allow_html=True)
                 
                 # Color-sensitive progress bar
-                if avg_overall > 7:
-                    st.progress(avg_overall / 10, text="Rating is good")
-                elif avg_overall > 4:
-                    st.progress(avg_overall / 10, text="Rating is average")
+                if avg_overall > 0.7:
+                    st.progress(avg_overall, text="Rating is good")
+                elif avg_overall > 0.4:
+                    st.progress(avg_overall, text="Rating is average")
                 else:
-                    st.progress(avg_overall / 10, text="Rating is poor")
+                    st.progress(avg_overall, text="Rating is poor")
 
                 # Display reviews and their individual ratings
                 st.markdown("### **REVIEWS**")
