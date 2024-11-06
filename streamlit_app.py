@@ -1,25 +1,27 @@
 import streamlit as st
 import pandas as pd
 import re
-import time
 
 # Function to read teacher names and image URLs from the text file
 def load_teachers(file):
     teachers = []
     with open(file, 'r') as f:
         lines = f.readlines()
+        teacher_name = None
+        image_url = None
         for line in lines:
-            # Assuming the format is: Name: [name] URL: [image_url]
-            parts = line.strip().split(' URL: ')
-            if len(parts) == 2:
-                teachers.append((parts[0].replace('Name: ', ''), parts[1]))
+            if line.startswith("Name:"):
+                teacher_name = line.strip().replace("Name: ", "")
+            elif line.startswith("Image:"):
+                image_url = line.strip().replace("Image: ", "")
+                if teacher_name and image_url:
+                    teachers.append((teacher_name, image_url))
+                    teacher_name, image_url = None, None  # Reset for the next entry
     return teachers
 
-# Clean teacher names for search comparison (removes titles like Prof, Dr, Mr, Ms)
+# Clean teacher names for search comparison
 def clean_name(name):
-    # Remove common titles (Prof, Dr, Mr, Ms)
-    name = re.sub(r'^(dr|mr|ms|prof)\s+', '', name.strip(), flags=re.IGNORECASE)
-    return name.lower()
+    return re.sub(r'^(dr|mr|ms)\s+', '', name.strip().lower())
 
 # Function to load ratings from CSV file (from GitHub URL)
 def load_ratings():
@@ -47,7 +49,7 @@ ratings_df = load_ratings()
 st.title("Teacher Review System")
 st.header("Leave a Review for Teaching, Leniency, and Correction (Out of 10)")
 
-# Search bar (case insensitive and ignore titles like Prof, Dr, Mr, Ms)
+# Search bar (case insensitive and ignore titles like Dr, Mr, Ms)
 search_query = st.text_input("Search for a teacher:")
 
 # Find matching teachers based on the search query
@@ -65,14 +67,11 @@ if matches:
 
         with col1:
             st.subheader(f"Leave a review for {teacher}:")
-
+            
             # Rating sliders for teaching, leniency, and correction (Range: 1-10)
             teaching_rating = st.slider(f"Rating for Teaching for {teacher}", 1, 10, 5)
             leniency_rating = st.slider(f"Rating for Leniency for {teacher}", 1, 10, 5)
             correction_rating = st.slider(f"Rating for Correction for {teacher}", 1, 10, 5)
-
-            # Create a placeholder for the loading bar
-            progress = st.progress(0)
 
             # Update the ratings in the dataframe
             if teacher not in ratings_df.index:
@@ -102,11 +101,6 @@ if matches:
             ratings_df.at[teacher, 'leniency_votes'] = current_leniency_votes + 1
             ratings_df.at[teacher, 'correction_votes'] = current_correction_votes + 1
 
-            # Simulate a delay (for example, saving or processing)
-            for i in range(100):
-                time.sleep(0.05)  # Simulate processing delay
-                progress.progress(i + 1)  # Update the progress bar
-
             # Save ratings after updating
             save_ratings(ratings_df)
 
@@ -117,14 +111,8 @@ if matches:
             st.write(f"Correction: {ratings_df.at[teacher, 'correction_rating']} (Votes: {ratings_df.at[teacher, 'correction_votes']})")
 
         with col2:
-            # Check if the image URL is valid and display the image
-            if image_url:
-                try:
-                    st.image(image_url, caption=f"{teacher}'s Picture", use_column_width=True)
-                except Exception as e:
-                    st.error(f"Error loading image for {teacher}: {e}")
-            else:
-                st.write("No image available.")
+            # Display the teacher's image
+            st.image(image_url, caption=f"{teacher}'s Picture", use_column_width=True)
 
 # Display reviews and ratings (if there are any reviews in the session state)
 if 'reviews' in st.session_state:
