@@ -68,60 +68,43 @@ if matches:
             # Display previous reviews if available
             review = st.session_state.reviews[teacher]
             if st.session_state.total_reviews[teacher] > 0:
-                st.write(f"Previous Review for {teacher}:")
-                st.write(f"Teaching: {review['teaching'] / st.session_state.total_reviews[teacher]}")
-                st.write(f"Leniency: {review['leniency'] / st.session_state.total_reviews[teacher]}")
-                st.write(f"Correction: {review['correction'] / st.session_state.total_reviews[teacher]}")
-                st.write(f"DA/Quiz: {review['da_quiz'] / st.session_state.total_reviews[teacher]}")
-                st.write(f"Overall: {review['overall'] / st.session_state.total_reviews[teacher]} (based on {st.session_state.total_reviews[teacher]} reviews)")
+                st.write(f"Previous Reviews (out of 10):")
+                st.write(f"Teaching: {review['teaching']}")
+                st.write(f"Leniency: {review['leniency']}")
+                st.write(f"Correction: {review['correction']}")
+                st.write(f"DA/Quiz: {review['da_quiz']}")
+                st.write(f"Overall: {review['overall']}")
+            
+            # Input new ratings
+            teaching = st.slider("Teaching:", 0, 10, review['teaching'])
+            leniency = st.slider("Leniency:", 0, 10, review['leniency'])
+            correction = st.slider("Correction:", 0, 10, review['correction'])
+            da_quiz = st.slider("DA/Quiz:", 0, 10, review['da_quiz'])
 
-            # Review inputs for ratings (Teaching, Leniency, Correction, DA/Quiz)
-            teaching_rating = st.slider(f"Teaching Rating for {teacher}", 1, 10, 5)
-            leniency_rating = st.slider(f"Leniency Rating for {teacher}", 1, 10, 5)
-            correction_rating = st.slider(f"Correction Rating for {teacher}", 1, 10, 5)
-            da_quiz_rating = st.slider(f"DA/Quiz Rating for {teacher}", 1, 10, 5)
+            # Calculate the overall rating
+            overall_rating = (teaching + leniency + correction + da_quiz) / 4
+            st.session_state.reviews[teacher] = {
+                'teaching': teaching,
+                'leniency': leniency,
+                'correction': correction,
+                'da_quiz': da_quiz,
+                'overall': overall_rating
+            }
+            st.session_state.total_reviews[teacher] += 1
 
-            # Overall rating calculation (average of all ratings)
-            overall_rating = (teaching_rating + leniency_rating + correction_rating + da_quiz_rating) / 4
-            overall_rating = round(overall_rating, 2)
+            # Display the overall rating as a progress bar
+            st.markdown(f"### Overall Rating: {overall_rating:.1f} / 10")
+            st.progress(overall_rating / 10)  # Display as progress bar (scaled to 10)
 
-            # Submit button for saving reviews
-            if st.button(f"Submit Review for {teacher}"):
-                # Update the review ratings and increment the total number of reviews
-                st.session_state.reviews[teacher]['teaching'] += teaching_rating
-                st.session_state.reviews[teacher]['leniency'] += leniency_rating
-                st.session_state.reviews[teacher]['correction'] += correction_rating
-                st.session_state.reviews[teacher]['da_quiz'] += da_quiz_rating
+            # Display the teacher's image
+            with col2:
+                try:
+                    st.image(image_url, caption=f"{teacher}'s Picture", use_column_width=True)
+                except Exception as e:
+                    st.error(f"Error displaying image: {e}")
 
-                # Increment the total reviews count
-                st.session_state.total_reviews[teacher] += 1
-
-                # Update the overall rating (average of all reviews)
-                st.session_state.reviews[teacher]['overall'] = (
-                    (st.session_state.reviews[teacher]['teaching'] +
-                     st.session_state.reviews[teacher]['leniency'] +
-                     st.session_state.reviews[teacher]['correction'] +
-                     st.session_state.reviews[teacher]['da_quiz']) /
-                    (st.session_state.total_reviews[teacher])
-                )
-                st.session_state.reviews[teacher]['overall'] = round(st.session_state.reviews[teacher]['overall'], 2)
-                
-                st.success(f"Review for {teacher} submitted successfully!")
-
-            # Display the overall rating as a progress bar out of 10
-            overall_rating = st.session_state.reviews[teacher]['overall']
-            if overall_rating is not None and 0 <= overall_rating <= 10:
-                overall_rating_percentage = overall_rating / 10  # Scale for 0-1
-                st.markdown(f"Overall Rating: {overall_rating} / 10")
-                st.progress(overall_rating_percentage)  # Display as progress bar (scaled to 10)
-            else:
-                st.error("Error: Invalid overall rating")
-
-        with col2:
-            # Display the teacher's image and resize it (set width to 150px for smaller size)
-            try:
-                st.image(image_url, caption=f"{teacher}'s Picture", width=150)
-            except Exception as e:
-                st.error(f"Error displaying image: {e}")
-else:
-    st.write("No teachers found.")
+            # Submit button to save the review
+            if st.button("Submit Review"):
+                st.success("Review submitted successfully!")
+        else:
+            st.write("No teachers found.")
