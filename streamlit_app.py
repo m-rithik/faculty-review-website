@@ -54,15 +54,26 @@ if matches:
         with col1:
             st.subheader(f"Teacher: {teacher}")
 
+            # Initialize teacher's reviews in session state if not already present
+            if teacher not in st.session_state.reviews:
+                st.session_state.reviews[teacher] = {
+                    'teaching': 0,
+                    'leniency': 0,
+                    'correction': 0,
+                    'da_quiz': 0,
+                    'overall': 0
+                }
+                st.session_state.total_reviews[teacher] = 0
+
             # Display previous reviews if available
-            if teacher in st.session_state.reviews:
-                review = st.session_state.reviews[teacher]
+            review = st.session_state.reviews[teacher]
+            if st.session_state.total_reviews[teacher] > 0:
                 st.write(f"Previous Review for {teacher}:")
-                st.write(f"Teaching: {review['teaching']}")
-                st.write(f"Leniency: {review['leniency']}")
-                st.write(f"Correction: {review['correction']}")
-                st.write(f"DA/Quiz: {review['da_quiz']}")
-                st.write(f"Overall: {review['overall']} (based on {st.session_state.total_reviews[teacher]} reviews)")
+                st.write(f"Teaching: {review['teaching'] / st.session_state.total_reviews[teacher]}")
+                st.write(f"Leniency: {review['leniency'] / st.session_state.total_reviews[teacher]}")
+                st.write(f"Correction: {review['correction'] / st.session_state.total_reviews[teacher]}")
+                st.write(f"DA/Quiz: {review['da_quiz'] / st.session_state.total_reviews[teacher]}")
+                st.write(f"Overall: {review['overall'] / st.session_state.total_reviews[teacher]} (based on {st.session_state.total_reviews[teacher]} reviews)")
 
             # Review inputs for ratings (Teaching, Leniency, Correction, DA/Quiz)
             teaching_rating = st.slider(f"Teaching Rating for {teacher}", 1, 10, 5)
@@ -76,17 +87,6 @@ if matches:
 
             # Submit button for saving reviews
             if st.button(f"Submit Review for {teacher}"):
-                # Initialize the review structure if not already present
-                if teacher not in st.session_state.reviews:
-                    st.session_state.reviews[teacher] = {
-                        'teaching': 0,
-                        'leniency': 0,
-                        'correction': 0,
-                        'da_quiz': 0,
-                        'overall': 0
-                    }
-                    st.session_state.total_reviews[teacher] = 0
-
                 # Update the review ratings and increment the total number of reviews
                 st.session_state.reviews[teacher]['teaching'] += teaching_rating
                 st.session_state.reviews[teacher]['leniency'] += leniency_rating
