@@ -72,18 +72,6 @@ if matches:
             correction = st.slider("Correction:", 0, 10, st.session_state.reviews[teacher]['correction'])
             da_quiz = st.slider("DA/Quiz:", 0, 10, st.session_state.reviews[teacher]['da_quiz'])
 
-            # Calculate the overall rating based on the user's input
-            overall_rating = (teaching + leniency + correction + da_quiz) / 4
-            st.session_state.reviews[teacher] = {
-                'teaching': teaching,
-                'leniency': leniency,
-                'correction': correction,
-                'da_quiz': da_quiz,
-                'overall': overall_rating,
-                'user_reviews': st.session_state.reviews[teacher]['user_reviews'] + 1,
-                'total_reviews': st.session_state.reviews[teacher]['total_reviews'] + teaching + leniency + correction + da_quiz
-            }
-
             # Display the teacher's image in a smaller size
             with col2:
                 try:
@@ -92,7 +80,24 @@ if matches:
                     st.error(f"Error displaying image: {e}")
 
             # Submit button to save the review
-            if st.button("Submit Review"):
+            submit_button = st.button("Submit Review")
+            
+            if submit_button:
+                # Update the reviews only when the button is clicked
+                st.session_state.reviews[teacher]['teaching'] = teaching
+                st.session_state.reviews[teacher]['leniency'] = leniency
+                st.session_state.reviews[teacher]['correction'] = correction
+                st.session_state.reviews[teacher]['da_quiz'] = da_quiz
+                
+                # Update total reviews and rating points
+                st.session_state.reviews[teacher]['user_reviews'] += 1
+                st.session_state.reviews[teacher]['total_reviews'] += teaching + leniency + correction + da_quiz
+                
+                # Calculate the overall rating
+                overall_rating = (teaching + leniency + correction + da_quiz) / 4
+                st.session_state.reviews[teacher]['overall'] = overall_rating
+                
+                # Display success message
                 st.success("Review submitted successfully!")
 
         # Section 2: Overall Rating and Previous Votes
