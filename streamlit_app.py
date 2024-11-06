@@ -34,7 +34,7 @@ def save_ratings(ratings_df):
     ratings_df.to_csv('ratings.csv')
 
 # Load teachers data
-teachers = load_teachers('iot_teachers_with_images_multiple_pages.txt')
+teachers = load_teachers('SCOPE.txt')
 teachers_cleaned = [clean_name(teacher[0]) for teacher in teachers]
 
 # Load ratings from the CSV file
