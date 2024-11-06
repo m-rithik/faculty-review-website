@@ -136,9 +136,12 @@ if matches:
             
             # Display reviews and their individual ratings
             st.markdown("### **REVIEWS**")
-            for idx, rating in enumerate(st.session_state.reviews[teacher]['ratings']):
-                st.write(f"**Review {idx + 1}:**")
-                st.write(f"Teaching: {rating[0]}/10, Leniency: {rating[1]}/10, Correction: {rating[2]}/10, DA/Quiz: {rating[3]}/10")
+            if len(st.session_state.reviews[teacher]['ratings']) == 0:
+                st.write("No reviews available.")
+            else:
+                for idx, rating in enumerate(st.session_state.reviews[teacher]['ratings']):
+                    st.write(f"**Review {idx + 1}:**")
+                    st.write(f"Teaching: {rating[0]}/10, Leniency: {rating[1]}/10, Correction: {rating[2]}/10, DA/Quiz: {rating[3]}/10")
 
 else:
     st.write("No teachers found.")
