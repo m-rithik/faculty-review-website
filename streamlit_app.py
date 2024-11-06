@@ -65,23 +65,11 @@ if matches:
                 }
                 st.session_state.total_reviews[teacher] = 0
 
-            # Display previous reviews if available
-            review = st.session_state.reviews[teacher]
-            if st.session_state.total_reviews[teacher] > 0:
-                st.markdown("### **REVIEWS**")  # Heading for Reviews
-                st.write("**Teaching:**", review['teaching'], style=f"color:{'green' if review['teaching'] > 5 else 'red' if review['teaching'] < 5 else 'yellow'};")
-                st.write("**Leniency:**", review['leniency'], style=f"color:{'green' if review['leniency'] > 5 else 'red' if review['leniency'] < 5 else 'yellow'};")
-                st.write("**Correction:**", review['correction'], style=f"color:{'green' if review['correction'] > 5 else 'red' if review['correction'] < 5 else 'yellow'};")
-                st.write("**DA/Quiz:**", review['da_quiz'], style=f"color:{'green' if review['da_quiz'] > 5 else 'red' if review['da_quiz'] < 5 else 'yellow'};")
-                
-                # Overall rating below the teacher's image
-                st.write("**Overall Rating:**", f"{review['overall']:.1f} / 10", style=f"color:{'green' if review['overall'] > 5 else 'red' if review['overall'] < 5 else 'yellow'};")
-
             # Input new ratings
-            teaching = st.slider("Teaching:", 0, 10, review['teaching'])
-            leniency = st.slider("Leniency:", 0, 10, review['leniency'])
-            correction = st.slider("Correction:", 0, 10, review['correction'])
-            da_quiz = st.slider("DA/Quiz:", 0, 10, review['da_quiz'])
+            teaching = st.slider("Teaching:", 0, 10, st.session_state.reviews[teacher]['teaching'])
+            leniency = st.slider("Leniency:", 0, 10, st.session_state.reviews[teacher]['leniency'])
+            correction = st.slider("Correction:", 0, 10, st.session_state.reviews[teacher]['correction'])
+            da_quiz = st.slider("DA/Quiz:", 0, 10, st.session_state.reviews[teacher]['da_quiz'])
 
             # Calculate the overall rating
             overall_rating = (teaching + leniency + correction + da_quiz) / 4
@@ -97,15 +85,29 @@ if matches:
             # Display the teacher's image
             with col2:
                 try:
-                    st.image(image_url, caption=f"{teacher}'s Picture", use_column_width=True)
+                    st.image(image_url, caption=f"{teacher}'s Picture", width=150)
                 except Exception as e:
                     st.error(f"Error displaying image: {e}")
 
-            # Submit button to save the review
-            if st.button("Submit Review"):
-                st.success("Review submitted successfully!")
-                st.markdown(f"Overall Rating: {overall_rating:.1f} / 10")
-                st.progress(overall_rating / 10)  # Display as progress bar (scaled to 10)
+        # Display reviews section
+        if st.session_state.total_reviews[teacher] > 0:
+            st.markdown("### **REVIEWS**")  # Heading for Reviews
+            st.write("**Teaching:**", f"{st.session_state.reviews[teacher]['teaching']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['teaching'] > 5 else 'red' if st.session_state.reviews[teacher]['teaching'] < 5 else 'yellow'};")
+            st.write("**Leniency:**", f"{st.session_state.reviews[teacher]['leniency']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['leniency'] > 5 else 'red' if st.session_state.reviews[teacher]['leniency'] < 5 else 'yellow'};")
+            st.write("**Correction:**", f"{st.session_state.reviews[teacher]['correction']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['correction'] > 5 else 'red' if st.session_state.reviews[teacher]['correction'] < 5 else 'yellow'};")
+            st.write("**DA/Quiz:**", f"{st.session_state.reviews[teacher]['da_quiz']}/10", style=f"color:{'green' if st.session_state.reviews[teacher]['da_quiz'] > 5 else 'red' if st.session_state.reviews[teacher]['da_quiz'] < 5 else 'yellow'};")
+
+            # Overall rating (below the teacher's image)
+            st.markdown("### **Overall Rating**")
+            overall_rating = st.session_state.reviews[teacher]['overall']
+            st.write(f"{overall_rating:.1f} / 10", style=f"color:{'green' if overall_rating > 5 else 'red' if overall_rating < 5 else 'yellow'};")
+            st.progress(overall_rating / 10)  # Display as progress bar (scaled to 10)
+
+        # Submit button to save the review
+        if st.button("Submit Review"):
+            st.success("Review submitted successfully!")
+            st.markdown(f"Overall Rating: {overall_rating:.1f} / 10")
+            st.progress(overall_rating / 10)  # Display as progress bar (scaled to 10)
 
 else:
     st.write("No teachers found.")
