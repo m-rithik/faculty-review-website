@@ -54,12 +54,6 @@ if matches:
         with col1:
             st.subheader(f"Teacher: {teacher}")
 
-            # Display the teacher's image immediately
-            try:
-                st.image(image_url, caption=f"{teacher}'s Picture", use_column_width=True)
-            except Exception as e:
-                st.error(f"Error displaying image: {e}")
-
             # Display previous reviews if available
             if teacher in st.session_state.reviews:
                 review = st.session_state.reviews[teacher]
@@ -119,7 +113,7 @@ if matches:
             st.progress(st.session_state.reviews[teacher]['overall'] / 10)  # Display as progress bar (scaled to 10)
 
         with col2:
-            # Display the teacher's image
+            # Display the teacher's image and resize it (you can adjust the width as per your requirement)
             try:
                 st.image(image_url, caption=f"{teacher}'s Picture", use_column_width=True)
             except Exception as e:
