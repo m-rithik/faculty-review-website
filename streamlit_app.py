@@ -116,7 +116,7 @@ if matches:
             st.markdown(f"{avg_overall} / 10", unsafe_allow_html=True)  # Display on 10-point scale
             
             # Display the progress bar (scaled from 0 to 100)
-            st.progress(avg_overall * 10, text="Rating is good" if avg_overall > 0.7 else "Rating is average" if avg_overall > 0.4 else "Rating is poor")
+            st.progress(avg_overall * 100, text="Rating is good" if avg_overall > 0.7 else "Rating is average" if avg_overall > 0.4 else "Rating is poor")
 
             # Always visible dropdown with the old data
             st.markdown("### **Current Ratings**")
