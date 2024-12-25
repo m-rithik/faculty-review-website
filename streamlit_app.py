@@ -1,9 +1,24 @@
 import streamlit as st
 import re
-import csv
-import os
+import gspread
+from google.oauth2.service_account import Credentials
 
-# Function to read teacher names and image URLs from the text file
+
+def get_google_sheet():
+    try:
+        credentials = Credentials.from_service_account_info(
+            st.secrets["gcp_service_account"],
+            scopes=["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
+        )
+        client = gspread.authorize(credentials)
+        sheet = client.open_by_key("1QYO7pcHGH3DOjogXCKxTTKQVqaQldePvlcvoawS6gxc").sheet1
+        return sheet
+    except Exception as e:
+        st.error(f"Failed to connect to Google Sheets: {str(e)}")
+        return None
+
+
+@st.cache_data(ttl=65)  
 def load_teachers(file):
     teachers = []
     with open(file, 'r') as f:
@@ -17,140 +32,160 @@ def load_teachers(file):
                 image_url = line.strip().replace("Image: ", "")
                 if teacher_name and image_url:
                     teachers.append((teacher_name, image_url))
-                    teacher_name, image_url = None, None  # Reset for the next entry
+                    teacher_name, image_url = None, None  
     return teachers
 
-# Clean teacher names for search comparison
+
 def clean_name(name):
     return re.sub(r'^(dr|mr|ms)\s+', '', name.strip().lower())
 
-# Load teachers data
-teachers = load_teachers('SCOPE.txt')
+
+def calculate_overall_rating(reviews):
+    if reviews:
+        return sum(reviews) / len(reviews)
+    return 0
+
+
+@st.cache_data(ttl=65)  
+def get_all_reviews():
+    sheet = get_google_sheet()
+    if sheet:
+        return sheet.get_all_records()  
+    return []
+
+
+
+def get_teacher_reviews(records, teacher_name):
+    
+    cleaned_teacher_name = clean_name(teacher_name)
+    
+    
+    reviews = [record for record in records if clean_name(record.get('Teacher ', '').strip()) == cleaned_teacher_name]
+    
+    return reviews
+
+
+teachers = load_teachers('vitv.txt')
 teachers_cleaned = [clean_name(teacher[0]) for teacher in teachers]
 
-# Set up Streamlit UI
+
 st.title("VIT Vellore Teacher Review")
 st.header("Search for a Teacher")
 
-# Search bar (case insensitive and ignore titles like Dr, Mr, Ms)
+
 search_query = st.text_input("Search for a teacher:")
 
-# Find matching teachers based on the search query
+
 if search_query:
     search_query_cleaned = clean_name(search_query)
     matches = [teachers[i] for i in range(len(teachers_cleaned)) if search_query_cleaned in teachers_cleaned[i]]
 else:
     matches = []
 
-# Function to load saved reviews from CSV
-def load_reviews():
-    reviews = {}
-    if os.path.exists('ratings.csv'):
-        with open('ratings.csv', mode='r', newline='', encoding='utf-8') as file:
-            reader = csv.reader(file)
-            for row in reader:
-                if row:  # Skip empty rows
-                    teacher_name = row[0]
-                    teaching, leniency, correction, da_quiz = map(int, row[1:5])
-                    if teacher_name not in reviews:
-                        reviews[teacher_name] = {'ratings': [], 'overall': 0}
-                    reviews[teacher_name]['ratings'].append((teaching, leniency, correction, da_quiz))
-                    reviews[teacher_name]['overall'] = calculate_overall_rating(reviews[teacher_name]['ratings'])
-    return reviews
 
-# Function to save reviews to CSV
-def save_reviews():
-    with open('ratings.csv', mode='w', newline='', encoding='utf-8') as file:
-        writer = csv.writer(file)
-        for teacher_name, data in st.session_state.reviews.items():
-            for rating in data['ratings']:
-                writer.writerow([teacher_name] + list(rating))
+records = get_all_reviews()
 
-# Function to calculate overall rating (based on existing ratings)
-def calculate_overall_rating(ratings):
-    total_rating = sum([sum(rating) for rating in ratings])
-    return total_rating / (len(ratings) * 4) if ratings else 0
 
-# Load reviews into session state
-if 'reviews' not in st.session_state:
-    st.session_state.reviews = load_reviews()
-
-# Display the search results
 if matches:
     st.write("Teachers found:")
-    for teacher, image_url in matches:
-        col1, col2 = st.columns([2, 1])  # Create two columns: one for the name, one for the image
+    for idx, (teacher, image_url) in enumerate(matches):
+        col1, col2 = st.columns([2, 1]) 
 
         with col1:
             st.subheader(f"Teacher: {teacher}")
 
-            # Initialize teacher's reviews in session state if not already present
-            if teacher not in st.session_state.reviews:
-                st.session_state.reviews[teacher] = {
-                    'ratings': [],  # Store all individual ratings as a list of tuples (teaching, leniency, correction, da_quiz)
-                    'overall': 0     # Overall rating
-                }
+            
+            reviews = get_teacher_reviews(records, clean_name(teacher))
 
-            # User input section (ratings for the teacher)
+            if reviews:
+                
+                st.write("### Reviews:")
+                overall_ratings = []
+                teaching_scores = []
+                leniency_scores = []
+                correction_scores = []
+                da_quiz_scores = []
+
+                for review in reviews:
+                    
+                    teaching_scores.append(review.get('Teaching ', 0))
+                    leniency_scores.append(review.get('Leniency ', 0))
+                    correction_scores.append(review.get('Correction ', 0))
+                    da_quiz_scores.append(review.get('DA/Quiz ', 0))
+                    overall_ratings.append(review.get('Overall Rating', 0))
+
+                   
+                    st.write(f"- **Teaching**: {review.get('Teaching ', 'N/A')} | **Leniency**: {review.get('Leniency ', 'N/A')} | **Correction**: {review.get('Correction ', 'N/A')} | **DA/Quiz**: {review.get('DA/Quiz ', 'N/A')}")
+
+                
+                if overall_ratings:
+                    avg_overall_rating = sum(overall_ratings) / len(overall_ratings)
+                    avg_overall_rating = min(avg_overall_rating, 10)  
+                else:
+                    avg_overall_rating = 0
+
+              
+                num_reviews = len(reviews)
+                st.write(f"### Overall Rating: {avg_overall_rating:.2f} / 10 ({num_reviews} reviews)")
+            else:
+                st.write("No reviews submitted yet for this teacher.")
+
+          
             st.markdown("### **Rate the Teacher**")
-            teaching = st.slider("Teaching:", 0, 10)
-            leniency = st.slider("Leniency:", 0, 10)
-            correction = st.slider("Correction:", 0, 10)
-            da_quiz = st.slider("DA/Quiz:", 0, 10)
+            teaching = st.slider("Teaching", 0, 10, key=f"teaching_{idx}")
+            leniency = st.slider("Leniency", 0, 10, key=f"leniency_{idx}")
+            correction = st.slider("Correction", 0, 10, key=f"correction_{idx}")
+            da_quiz = st.slider("DA/Quiz", 0, 10, key=f"da_quiz_{idx}")
 
-            # Display the teacher's image in a smaller size
+   
+            overall_rating_input = calculate_overall_rating([teaching, leniency, correction, da_quiz])
+            st.write(f"**Overall Rating**: {overall_rating_input:.2f} / 10")
+            
             with col2:
                 try:
                     st.image(image_url, caption=f"{teacher}'s Picture", width=150)
                 except Exception as e:
                     st.error(f"Error displaying image: {e}")
 
-            # Submit button to save the review
-            submit_button = st.button("Submit Review")
-            
+         
+            submit_button = st.button(f"Submit Review for {teacher}", key=f"submit_{idx}")
+
             if submit_button:
-                # Save the ratings in session state
-                st.session_state.reviews[teacher]['ratings'].append((teaching, leniency, correction, da_quiz))
                 
-                # Calculate the overall rating
-                overall_rating = calculate_overall_rating(st.session_state.reviews[teacher]['ratings'])
-                st.session_state.reviews[teacher]['overall'] = overall_rating
-                
-                # Save the updated reviews to the CSV file
-                save_reviews()
-                
-                # Display success message
-                st.success("Review submitted successfully!")
+                if teacher not in st.session_state.get('submitted_reviews', []):  
+                    
+                    data_to_insert = [teacher, teaching, leniency, correction, da_quiz, overall_rating_input]
 
-        # Section 2: Overall Rating and Previous Reviews
-        st.markdown("---")
-        st.markdown("### **Overall Rating**")
-        
-        # Calculate average overall rating (without approximating)
-        overall_rating = st.session_state.reviews[teacher]['overall']
-        
-        # Display the overall rating in the overall rating box
-        st.markdown(f"**Overall Rating (based on {len(st.session_state.reviews[teacher]['ratings'])} reviews):**")
-        st.markdown(f"{overall_rating:.2f} / 10", unsafe_allow_html=True)  # Display on 10-point scale
-        
-        # Display reviews and their individual ratings
-        st.markdown("### **REVIEWS**")
-        if not st.session_state.reviews[teacher]['ratings']:
-            st.write("No reviews available.")
-        else:
-            for idx, rating in enumerate(st.session_state.reviews[teacher]['ratings']):
-                st.write(f"**Review {idx + 1}:**")
-                st.write(f"Teaching: {rating[0]}/10, Leniency: {rating[1]}/10, Correction: {rating[2]}/10, DA/Quiz: {rating[3]}/10")
+                    try:
+                        
+                        sheet = get_google_sheet()  
+                        if sheet:
+                            sheet.append_row(data_to_insert)
+                            st.success(f"Review for {teacher} submitted successfully!")
 
+                            
+                            if 'submitted_reviews' not in st.session_state:
+                                st.session_state.submitted_reviews = []
+                            st.session_state.submitted_reviews.append(teacher)
+                    except Exception as e:
+                        st.error(f"Failed to submit review: {e}")
+                else:
+                    st.warning(f"Review for {teacher} has already been submitted. You can only submit one review per teacher.")
 else:
     st.write("No teachers found.")
 
-# Footer message
+records = get_all_reviews()
+total_reviews = len(records)
+
+
 st.markdown(
-    """
+    f"""
     <hr style="margin-top: 3rem;">
-    <div style="text-align: center; color: grey; font-size: 3.0rem;">
-        Please contribute with reviews
+    <div style="text-align: center; color: grey; font-size: 1.2rem;">
+        Please contribute with reviews | <a href="https://forms.gle/YFLkZi3UxRtGyxdA9" target="_blank" style="color: #8f8f8f; text-decoration: none; font-weight: bold;">Contact Me</a>
+    </div>
+    <div style="text-align: center; color: #4CAF50; font-size: 1.5rem; margin-top: 1rem;">
+        Total number of reviews: {total_reviews}
     </div>
     """,
     unsafe_allow_html=True
