@@ -65,7 +65,7 @@ def get_teacher_reviews(records, teacher_name):
     return reviews
 
 
-teachers = load_teachers('vitv.txt')
+teachers = load_teachers('SCOPE.txt')
 teachers_cleaned = [clean_name(teacher[0]) for teacher in teachers]
 
 
