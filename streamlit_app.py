@@ -143,7 +143,7 @@ if matches:
             
             with col2:
                 try:
-                    st.image(image_url, caption=f"{teacher}'s Picture", width=150)
+                    st.image(image_url, caption=f"{teacher}", width=150)
                 except Exception as e:
                     st.error(f"Error displaying image: {e}")
 
