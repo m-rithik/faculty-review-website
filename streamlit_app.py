@@ -3,113 +3,15 @@ import re
 import gspread
 from google.oauth2.service_account import Credentials
 
-# Add custom CSS styles
 st.markdown(
     """
-    <style>
-        /* General Page Styling */
-        body {
-            background-color: #f4f7fc;
-            font-family: 'Roboto', sans-serif;
-            color: #333;
-        }
-
-        /* Title and Header Styling */
-        h1, h2, h3 {
-            color: #2c3e50;
-            font-weight: 700;
-        }
-
-        /* Teacher Section Styling */
-        .teacher-container {
-            border: 1px solid #dcdcdc;
-            background: white;
-            border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .teacher-image {
-            border-radius: 50%;
-            margin: 10px 0;
-        }
-
-        /* Review Section Styling */
-        .reviews-container {
-            padding: 10px;
-            background: #f9f9f9;
-            border-radius: 6px;
-            border: 1px solid #ddd;
-        }
-
-        .review-item {
-            margin-bottom: 15px;
-        }
-
-        .rating-inputs {
-            margin: 15px 0;
-        }
-
-        /* Buttons Styling */
-        button[kind="primary"] {
-            background: #4CAF50;
-            color: white;
-            font-weight: bold;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        button[kind="primary"]:hover {
-            background: #45a049;
-        }
-
-        /* Footer Styling */
-        .footer {
-            margin-top: 3rem;
-            text-align: center;
-            color: grey;
-            font-size: 1rem;
-        }
-
-        .footer a {
-            color: #8f8f8f;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .footer a:hover {
-            color: #333;
-            text-decoration: underline;
-        }
-
-        .footer-total {
-            color: #4CAF50;
-            font-size: 1.5rem;
-            margin-top: 1rem;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .teacher-container {
-                padding: 15px;
-            }
-
-            .reviews-container {
-                padding: 8px;
-            }
-
-            .footer {
-                font-size: 0.9rem;
-            }
-        }
-    </style>
+    <div class="test-css" style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+        <h3 style="color: #4CAF50;">This is a test block</h3>
+        <p>If you see this styled block, your CSS works!</p>
+    </div>
     """,
-    unsafe_allow_html=True
+    unsafe_allow_html=True,
 )
-
 
 def get_google_sheet():
     try:
