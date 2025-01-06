@@ -3,7 +3,8 @@ import re
 import gspread
 from google.oauth2.service_account import Credentials
 
-
+# Caching the Google Sheet connection
+@st.cache_resource
 def get_google_sheet():
     try:
         credentials = Credentials.from_service_account_info(
@@ -17,7 +18,7 @@ def get_google_sheet():
         st.error(f"Failed to connect to Google Sheets: {str(e)}")
         return None
 
-
+# Caching teacher data with reduced ttl for faster updates
 @st.cache_data(ttl=65)
 def load_teachers(file):
     teachers = []
@@ -35,17 +36,17 @@ def load_teachers(file):
                     teacher_name, image_url = None, None
     return teachers
 
-
+# Cleaning the teacher's name for comparison
 def clean_name(name):
     return re.sub(r'^(dr|mr|ms)\s+', '', name.strip().lower())
 
-
+# Calculate overall rating for the teacher
 def calculate_overall_rating(reviews):
     if reviews:
         return sum(reviews) / len(reviews)
     return 0
 
-
+# Fetching all reviews with a reduced ttl for quicker data updates
 @st.cache_data(ttl=65)
 def get_all_reviews():
     sheet = get_google_sheet()
@@ -53,16 +54,16 @@ def get_all_reviews():
         return sheet.get_all_records()
     return []
 
-
+# Filter reviews based on teacher's name
 def get_teacher_reviews(records, teacher_name):
     cleaned_teacher_name = clean_name(teacher_name)
     reviews = [record for record in records if clean_name(record.get('Teacher ', '').strip()) == cleaned_teacher_name]
     return reviews
 
-
 teachers = load_teachers('SCOPE.txt')
 teachers_cleaned = [clean_name(teacher[0]) for teacher in teachers]
 
+# Streamlit UI
 st.title("VIT Vellore Teacher Review")
 st.header("Search for a Teacher")
 
