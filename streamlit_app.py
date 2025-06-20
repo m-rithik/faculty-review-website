@@ -2,87 +2,103 @@ import streamlit as st
 import re
 import gspread
 from google.oauth2.service_account import Credentials
-import time 
-
-
 def show_share_dialog():
-    # Get current URL
-    share_link = st.get_url() if hasattr(st, "get_url") else "https://vitvfacultyreview.streamlit.app"
+    share_link = "https://vitvfacultyreview.streamlit.app"
 
-    # Create HTML & JS for modal
-    st.markdown("""
-        <style>
-        .modal {
-            display: block;
-            position: fixed;
-            z-index: 1000;
-            padding-top: 100px;
-            left: 0;
-            top: 0;
-            width: 100%%;
-            height: 100%%;
-            overflow: auto;
-            background-color: rgba(0,0,0,0.4);
-        }
+    st.markdown(f"""
+    <style>
+    /* Modal container */
+    #shareModal {{
+        position: fixed;
+        z-index: 9999;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }}
 
-        .modal-content {
-            background-color: #fefefe;
-            margin: auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 300px;
-            text-align: center;
-            position: relative;
-            border-radius: 10px;
-        }
+    /* Modal content box */
+    .modal-content {{
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 300px;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.25);
+    }}
 
-        #closeBtn {
-            color: #aaa;
-            font-size: 28px;
-            font-weight: bold;
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            cursor: pointer;
-            display: none;
-        }
+    /* Close button hidden initially */
+    #closeBtn {{
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #888;
+        display: none;
+        cursor: pointer;
+    }}
 
-        #copyBtn {
-            margin-top: 10px;
-            padding: 8px 15px;
-            cursor: pointer;
-        }
-        </style>
+    /* Copy button style */
+    #copyBtn {{
+        margin-top: 10px;
+        padding: 8px 15px;
+        font-size: 14px;
+        cursor: pointer;
+        border: none;
+        background-color: #0366d6;
+        color: white;
+        border-radius: 5px;
+    }}
 
-        <div id="shareModal" class="modal">
-            <div class="modal-content">
-                <span id="closeBtn">&times;</span>
-                <h4>Share this app</h4>
-                <input type="text" value="%s" id="shareInput" readonly style="width:100%%;padding:5px;">
-                <button id="copyBtn">Copy Link</button>
-            </div>
+    input#shareInput {{
+        width: 100%;
+        padding: 6px;
+        margin-top: 10px;
+    }}
+    </style>
+
+    <div id="shareModal">
+        <div class="modal-content">
+            <span id="closeBtn">&times;</span>
+            <h4>Share this app</h4>
+            <input type="text" value="{share_link}" id="shareInput" readonly>
+            <button id="copyBtn">Copy Link</button>
         </div>
+    </div>
 
-        <script>
-        setTimeout(() => {
-            document.getElementById('closeBtn').style.display = 'block';
-        }, 5000);
+    <script>
+    const closeBtn = document.getElementById("closeBtn");
+    const copyBtn = document.getElementById("copyBtn");
 
-        document.getElementById('copyBtn').onclick = function() {
-            var copyText = document.getElementById("shareInput");
-            copyText.select();
-            copyText.setSelectionRange(0, 99999); // For mobile
-            document.execCommand("copy");
-            alert("Link copied to clipboard!");
-        };
+    // Show close button after 5 seconds
+    setTimeout(() => {{
+        closeBtn.style.display = "block";
+    }}, 5000);
 
-        document.getElementById('closeBtn').onclick = function() {
-            document.getElementById('shareModal').style.display = "none";
-        };
-        </script>
-    """ % st.request.url, unsafe_allow_html=True)
+    // Copy link to clipboard
+    copyBtn.onclick = function() {{
+        const input = document.getElementById("shareInput");
+        input.select();
+        input.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        alert("Link copied to clipboard!");
+    }}
 
-# Run modal once when the app starts
+    // Close modal
+    closeBtn.onclick = function() {{
+        document.getElementById("shareModal").style.display = "none";
+    }}
+    </script>
+    """, unsafe_allow_html=True)
+
+# Show once per session
 if "dialog_shown" not in st.session_state:
     st.session_state.dialog_shown = True
     show_share_dialog()
