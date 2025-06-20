@@ -2,41 +2,6 @@ import streamlit as st
 import re
 import gspread
 from google.oauth2.service_account import Credentials
-import time
-from streamlit_modal import Modal        #  [oai_citation:0‡pypi.org](https://pypi.org/project/streamlit-modal/?utm_source=chatgpt.com)
-from st_copy_to_clipboard import st_copy_to_clipboard  #  [oai_citation:1‡pypi.org](https://pypi.org/project/st-copy-to-clipboard/?utm_source=chatgpt.com)
-
-share_link = "https://vitvfacultyreview.streamlit.app"
-
-# — Initialize modal —
-modal = Modal(key="share-modal", title="Share the website", padding=20, max_width=500)
-
-# Always open on page load
-modal.open()
-
-# Track when the modal first opened
-if "modal_start" not in st.session_state:
-    st.session_state.modal_start = time.time()
-
-# — Render modal if open —
-if modal.is_open():
-    with modal.container():
-        st.write("## 📢 Share the website")
-        # Display the link in a disabled text input
-        st.text_input("Your link:", share_link, disabled=True, key="share-link-input")
-
-        # Copy-and-close button
-        # When clicked, this component copies to clipboard _and_ returns True
-        if st_copy_to_clipboard(share_link):
-            modal.close()               # close immediately on copy
-
-        # After 3 seconds, show a manual close button
-        elapsed = time.time() - st.session_state.modal_start
-        if elapsed > 3:
-            if st.button("❌ Close"):
-                modal.close()
-
-
 
 
 
