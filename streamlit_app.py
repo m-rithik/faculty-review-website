@@ -129,9 +129,9 @@ if matches:
             st.write(f"**Overall Rating**: {overall_rating_input:.2f} / 10")
 
             # Comment section with live character count
-            max_comment_length = 40
+            max_comment_length = 60
             comment = st.text_area(
-                "Leave a comment (optional, max 40 characters):",
+                "Leave a comment (optional, max 60 characters):",
                 key=f"comment_{idx}",
                 max_chars=max_comment_length,
                 placeholder="Type your comment here..."
