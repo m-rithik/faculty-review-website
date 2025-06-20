@@ -2,6 +2,36 @@ import streamlit as st
 import re
 import gspread
 from google.oauth2.service_account import Credentials
+import pyperclip
+import time
+
+# Config
+share_link = "https://vitvfacultyreview.streamlit.app"
+
+# Session states
+if "dialog_shown" not in st.session_state:
+    st.session_state.dialog_shown = True
+    st.session_state.show_popup = True
+    st.session_state.allow_close = False
+    st.session_state.start_time = time.time()
+
+# Countdown for close button
+if st.session_state.dialog_shown and st.session_state.show_popup:
+    if time.time() - st.session_state.start_time > 5:
+        st.session_state.allow_close = True
+
+    with st.container(border=True):
+        st.markdown("### 📢 Share this App")
+        st.text_input("Copy this link", share_link, key="share_link", disabled=True)
+        if st.button("Copy Link"):
+            pyperclip.copy(share_link)
+            st.success("Copied to clipboard!")
+
+        if st.session_state.allow_close:
+            if st.button("❌ Close"):
+                st.session_state.show_popup = False
+        else:
+            st.caption("Close button will appear in a few seconds...")
 
 
 
