@@ -2,6 +2,92 @@ import streamlit as st
 import re
 import gspread
 from google.oauth2.service_account import Credentials
+import time 
+
+
+def show_share_dialog():
+    # Get current URL
+    share_link = st.get_url() if hasattr(st, "get_url") else "https://vitvfacultyreview.streamlit.app"
+
+    # Create HTML & JS for modal
+    st.markdown("""
+        <style>
+        .modal {
+            display: block;
+            position: fixed;
+            z-index: 1000;
+            padding-top: 100px;
+            left: 0;
+            top: 0;
+            width: 100%%;
+            height: 100%%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 300px;
+            text-align: center;
+            position: relative;
+            border-radius: 10px;
+        }
+
+        #closeBtn {
+            color: #aaa;
+            font-size: 28px;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            cursor: pointer;
+            display: none;
+        }
+
+        #copyBtn {
+            margin-top: 10px;
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+        </style>
+
+        <div id="shareModal" class="modal">
+            <div class="modal-content">
+                <span id="closeBtn">&times;</span>
+                <h4>Share this app</h4>
+                <input type="text" value="%s" id="shareInput" readonly style="width:100%%;padding:5px;">
+                <button id="copyBtn">Copy Link</button>
+            </div>
+        </div>
+
+        <script>
+        setTimeout(() => {
+            document.getElementById('closeBtn').style.display = 'block';
+        }, 5000);
+
+        document.getElementById('copyBtn').onclick = function() {
+            var copyText = document.getElementById("shareInput");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile
+            document.execCommand("copy");
+            alert("Link copied to clipboard!");
+        };
+
+        document.getElementById('closeBtn').onclick = function() {
+            document.getElementById('shareModal').style.display = "none";
+        };
+        </script>
+    """ % st.request.url, unsafe_allow_html=True)
+
+# Run modal once when the app starts
+if "dialog_shown" not in st.session_state:
+    st.session_state.dialog_shown = True
+    show_share_dialog()
+
+
 
 
 @st.cache_resource
