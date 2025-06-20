@@ -7,40 +7,41 @@ import streamlit.components.v1 as components
 import time
 
 SHARE_LINK = "https://vitvfacultyreview.streamlit.app"
-Dialog     = getattr(st, "dialog", None) or getattr(st, "experimental_dialog")
 
-# show on every reload
+# pick the dialog constructor that exists in this Streamlit build
+Dialog = getattr(st, "dialog", None) or getattr(st, "experimental_dialog")
+
+# show the popup on every page-load
 if "popup_open" not in st.session_state:
     st.session_state.popup_open  = True
     st.session_state.popup_start = time.time()
 
 if st.session_state.popup_open:
-    # open modal
-    with Dialog("📢  Share the website", key="share") as dlg:
-        st.text_input("Link", SHARE_LINK, disabled=True)
+    # this returns a *context manager* in every supported version
+    with Dialog("📢  Share the website", closable=False):
+        st.text_input("Link (read-only)", SHARE_LINK, disabled=True)
 
         col_copy, col_x = st.columns([4, 1])
 
-        # ── COPY LINK ───────────────────────────────────────────
+        # —— COPY button —— #
         with col_copy:
             if st.button("Copy Link 📋", use_container_width=True):
-                # JS clipboard write
+                # browser-side clipboard write
                 components.html(
                     f"<script>navigator.clipboard.writeText('{SHARE_LINK}');</script>",
                     height=0, width=0,
                 )
                 st.toast("Copied ✔️")
-                st.session_state.popup_open = False
-                dlg.close()
+                st.session_state.popup_open = False     # close immediately
 
-        # ── tiny ✕ after 3 s ───────────────────────────────────
+        # —— tiny ✕ after 3 s —— #
         with col_x:
             if time.time() - st.session_state.popup_start >= 3:
-                if st.button("✕", help="Close"):
+                if st.button("✕", help="Close popup"):
                     st.session_state.popup_open = False
-                    dlg.close()
             else:
-                st.empty()          # keeps layout neat
+                st.empty()      # layout placeholder
+# keeps layout neat
 
 
 @st.cache_resource
