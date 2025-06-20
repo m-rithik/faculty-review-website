@@ -7,41 +7,38 @@ import streamlit.components.v1 as components
 import time
 
 SHARE_LINK = "https://vitvfacultyreview.streamlit.app"
+Dialog     = getattr(st, "dialog", None) or getattr(st, "experimental_dialog")
 
-# pick the dialog constructor that exists in this Streamlit build
-Dialog = getattr(st, "dialog", None) or getattr(st, "experimental_dialog")
-
-# show the popup on every page-load
-if "popup_open" not in st.session_state:
-    st.session_state.popup_open  = True
+# show on every page-load
+if "show_popup" not in st.session_state:
+    st.session_state.show_popup  = True
     st.session_state.popup_start = time.time()
 
-if st.session_state.popup_open:
-    # this returns a *context manager* in every supported version
-    with Dialog("📢  Share the website", closable=False):
-        st.text_input("Link (read-only)", SHARE_LINK, disabled=True)
+if st.session_state.show_popup:
+    # every Streamlit ≥ 1.23 returns a context-manager here
+    with Dialog("📢  Share the website"):
+        st.text_input("Link", SHARE_LINK, disabled=True)
 
         col_copy, col_x = st.columns([4, 1])
 
-        # —— COPY button —— #
+        # copy → clipboard → close
         with col_copy:
             if st.button("Copy Link 📋", use_container_width=True):
-                # browser-side clipboard write
                 components.html(
                     f"<script>navigator.clipboard.writeText('{SHARE_LINK}');</script>",
                     height=0, width=0,
                 )
                 st.toast("Copied ✔️")
-                st.session_state.popup_open = False     # close immediately
+                st.session_state.show_popup = False
 
-        # —— tiny ✕ after 3 s —— #
+        # tiny ✕ after 3 s
         with col_x:
             if time.time() - st.session_state.popup_start >= 3:
                 if st.button("✕", help="Close popup"):
-                    st.session_state.popup_open = False
+                    st.session_state.show_popup = False
             else:
-                st.empty()      # layout placeholder
-# keeps layout neat
+                st.empty()          # keeps layout neat
+
 
 
 @st.cache_resource
