@@ -3,43 +3,7 @@ import re
 import gspread
 from google.oauth2.service_account import Credentials
 
-import streamlit.components.v1 as components
 
-SHARE_LINK = "https://vitvfacultyreview.streamlit.app"
-
-# ─── one‐time popup flag ────────────────────────────────────────
-if "show_popup" not in st.session_state:
-    st.session_state.show_popup = True
-
-# ─── render the dialog if still open ───────────────────────────
-if st.session_state.show_popup:
-
-    @st.dialog("📢 Share the website")
-    def share_dialog():
-        # tiny HTML snippet: hidden input + Copy button + JS alert
-        components.html(f"""
-        <div style="text-align:center;">
-          <input id="hiddenLink" type="text" value="{SHARE_LINK}" readonly
-                 style="opacity:0; position:absolute; left:-9999px;"/>
-          <button
-            onclick="
-              navigator.clipboard.writeText(document.getElementById('hiddenLink').value);
-              alert('Copied to clipboard!');"
-            style="
-              padding:8px 16px;
-              font-size:14px;
-              border:none;
-              border-radius:4px;
-              background:#0066ff;
-              color:#fff;
-              cursor:pointer;
-            ">
-            Copy Link 📋
-          </button>
-        </div>
-        """, height=70)
-
-    share_dialog()  # actually pop it up
 
 
 @st.cache_resource
