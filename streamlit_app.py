@@ -3,42 +3,6 @@ import re
 import gspread
 from google.oauth2.service_account import Credentials
 
-import streamlit.components.v1 as components
-import time
-
-SHARE_LINK = "https://vitvfacultyreview.streamlit.app"
-Dialog     = getattr(st, "dialog", None) or getattr(st, "experimental_dialog")
-
-# show on every page-load
-if "show_popup" not in st.session_state:
-    st.session_state.show_popup  = True
-    st.session_state.popup_start = time.time()
-
-if st.session_state.show_popup:
-    # every Streamlit ≥ 1.23 returns a context-manager here
-    with Dialog("📢  Share the website"):
-        st.text_input("Link", SHARE_LINK, disabled=True)
-
-        col_copy, col_x = st.columns([4, 1])
-
-        # copy → clipboard → close
-        with col_copy:
-            if st.button("Copy Link 📋", use_container_width=True):
-                components.html(
-                    f"<script>navigator.clipboard.writeText('{SHARE_LINK}');</script>",
-                    height=0, width=0,
-                )
-                st.toast("Copied ✔️")
-                st.session_state.show_popup = False
-
-        # tiny ✕ after 3 s
-        with col_x:
-            if time.time() - st.session_state.popup_start >= 3:
-                if st.button("✕", help="Close popup"):
-                    st.session_state.show_popup = False
-            else:
-                st.empty()          # keeps layout neat
-
 
 
 @st.cache_resource
