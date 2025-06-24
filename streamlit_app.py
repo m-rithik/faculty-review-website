@@ -172,6 +172,26 @@ else:
 records = get_all_reviews()
 total_reviews = len(records)
 
+hide_github_icon = """
+<style>
+/* Hide GitHub corner icon and other Streamlit branding */
+.css-1dp5vir, /* GitHub icon container */
+.viewerBadge_container__1QSob, .styles_viewerBadge__1yB5_,
+.viewerBadge_link__1S137, .viewerBadge_text__1JaDK,
+.css-1jc7ptx, .e1ewe7hr3 {
+    display: none;
+}
+
+/* Hide main menu (three dots), footer, and header if needed */
+#MainMenu { visibility: hidden; }
+footer { visibility: hidden; }
+header { visibility: hidden; }
+</style>
+"""
+
+
+st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 st.markdown(
     f"""
     <hr style="margin-top: 3rem;">
