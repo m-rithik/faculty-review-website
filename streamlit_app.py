@@ -131,9 +131,9 @@ if matches:
             st.write(f"**Overall Rating**: {overall_rating_input:.2f} / 10")
 
             # Comment section with live character count
-            max_comment_length = 60
+            max_comment_length = 100
             comment = st.text_area(
-                "Leave a comment (optional, max 60 characters):",
+                "Leave a comment (optional, max 100 characters):",
                 key=f"comment_{idx}",
                 max_chars=max_comment_length,
                 placeholder="Type your comment here..."
@@ -178,11 +178,9 @@ st.markdown(
     <div style="text-align: center; color: grey; font-size: 1 rem;">
         Please contribute with reviews, all the old reviews were deleted due to database problems | <a href="https://forms.gle/YFLkZi3UxRtGyxdA9" target="_blank" style="color: #8f8f8f; text-decoration: none; font-weight: bold;">Contact Me</a>
     </div>
-    <!--
     <div style="text-align: center; color: #4CAF50; font-size: 1.5rem; margin-top: 1rem;">
         Total number of reviews: {total_reviews}
     </div>
-    -->
     """,
     unsafe_allow_html=True
 )
