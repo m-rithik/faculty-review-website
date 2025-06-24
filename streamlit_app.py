@@ -173,20 +173,22 @@ records = get_all_reviews()
 total_reviews = len(records)
 
 hide_github_icon = """
-<style>
-/* Hide GitHub corner icon and other Streamlit branding */
-.css-1dp5vir, /* GitHub icon container */
-.viewerBadge_container__1QSob, .styles_viewerBadge__1yB5_,
-.viewerBadge_link__1S137, .viewerBadge_text__1JaDK,
-.css-1jc7ptx, .e1ewe7hr3 {
-    display: none;
-}
+    <style>
+    /* Hide GitHub icon and viewer badge */
+    .css-1jc7ptx, .e1ewe7hr3,
+    .viewerBadge_container__1QSob,
+    .styles_viewerBadge__1yB5_,
+    .viewerBadge_link__1S137,
+    .viewerBadge_text__1JaDK,
+    .css-1dp5vir { /* GitHub icon container */
+        display: none;
+    }
 
-/* Hide main menu (three dots), footer, and header if needed */
-#MainMenu { visibility: hidden; }
-footer { visibility: hidden; }
-header { visibility: hidden; }
-</style>
+    /* Optional: Hide Streamlit Main Menu, Footer, and Header */
+    #MainMenu { visibility: hidden; }
+    footer { visibility: hidden; }
+    header { visibility: hidden; }
+    </style>
 """
 
 
