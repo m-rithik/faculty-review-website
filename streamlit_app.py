@@ -172,9 +172,7 @@ else:
 records = get_all_reviews()
 total_reviews = len(records)
 
-#MainMenu {
-  visibility: hidden;
-}
+
 
 st.markdown(
     f"""
